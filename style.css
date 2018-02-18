@@ -3,6 +3,28 @@ body, p, h1,h2,h3,h4, a, span, strong, b, li {
 	font-family: 'Lato', sans-serif;
 }
 
+h2 {
+    color: #2a0340;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+    margin: 10px 0 20px;
+}
+
+.page section p {
+	font-size: 20px;
+}
+
+.page .entry-content > section {
+	padding: 50px 5vw;
+}
+
+/*removendo margin do conteudo em relacao ao header*/
+body .entry-content {
+    margin: 0 auto;
+}
+
+
 a.btn {
     background-color: #ffd215;
     color: #461701;
@@ -13,6 +35,8 @@ a.btn {
     border-radius: 5px;
     border-bottom: 4px solid #c6a002;
     font-size: 16px;
+    display: inline-block;
+    margin: 20px 0;
 }
 
 /*separador de titulo*/
@@ -20,17 +44,10 @@ a.btn {
 	margin-bottom: 0;
 }
 .sep + hr {
-    margin: 0;
+    margin: 10px 0 30px;
     width: 50px;
     height: 4px;
     background: #883db3;
-}
-/*h2 com separador*/
-h2 {
-    color: #2a0340;
-    font-size: 48px;
-    font-weight: bold;
-    margin: 0;
 }
 
 /*header*/
@@ -80,13 +97,8 @@ ul#primary-menu {
 }
 
 
-/*removendo margin do conteudo em relacao ao header*/
-body .entry-content {
-    margin: 0 auto;
-}
-
 /*primeira secao da home*/
-.home .entry-content section:first-child {
+.home .entry-content section:nth-of-type(1) {
     background: url(https://2018.floripa.wordcamp.org/files/2018/02/bg-home-1.png);
     background-size: cover;
     display: flex;
@@ -100,12 +112,27 @@ body .entry-content {
     font-size: 42px;
     color: #ffffff;
     text-shadow: 0px 11px 19px rgba(0, 0, 0, 0.36);
-    margin: 10px 0 80px;
+    margin: 10px 0;
 }
 
 .home .entry-content section:first-child img {
     height: auto;
     max-width: 100%;
     width: 32vw;
-    margin: 45px 0 0;
+    margin: 0 auto;
+}
+
+/*home segunda secao*/
+
+.home .entry-content section:nth-of-type(2) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home .entry-content section:nth-of-type(2) > div {
+    margin-left: 40px;
+	max-width: 510px;
+}
+.home .entry-content section:nth-of-type(2) > div img {
+	max-width: 450px;
 }
