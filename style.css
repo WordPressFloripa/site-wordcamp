@@ -1,3 +1,47 @@
+
+
+
+/*header*/
 .home header.entry-header {
 	display: none;
+}
+li#menu-item-203 a {
+    background: url(https://2018.floripa.wordcamp.org/files/2018/02/vector-smart-object.png);
+    width: 90px;
+    height: 70px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 20px 0px;
+    color: transparent;
+}
+nav#site-navigation {
+    background: #530580;
+}
+body .page-navigation-container ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.page-navigation-container a {
+    color: #fff;
+	font-size: 23px;
+}
+li#menu-item-203 {
+    margin-right: 80px;
+}
+li#menu-item-204 a {
+    background: #ffd215;
+    padding: 18px 20px;
+    border-radius: 5px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+ul#primary-menu {
+    max-width: 90vw;
+    margin: 0 auto;
 }
