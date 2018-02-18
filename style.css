@@ -213,14 +213,14 @@ ul#primary-menu {
 	padding: 0 20px;
 }
 
-/*home se04*/
-.home .entry-content section:nth-of-type(4) {
+/*home se05 -sobre floripa*/
+.home .entry-content section:nth-of-type(5) {
 	background-image: url(/files/2018/02/flp-bg.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	color: #fff;
 }
-.home .entry-content section:nth-of-type(4) h2 {
+.home .entry-content section:nth-of-type(5) h2 {
 	color: #fff;
 }
