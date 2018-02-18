@@ -1,5 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body, p, h1,h2,h3,h4, a, span, strong, b, li {
+	font-family: 'Lato', sans-serif;
+}
 
 
+*.sep {
+	margin-bottom: 0;
+}
+.sep + hr {
+    margin: 0;
+    width: 50px;
+    height: 4px;
+    background: #883db3;
+}
+/*h2 com separador*/
+h2 {
+    color: #2a0340;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
 
 /*header*/
 .home header.entry-header {
@@ -57,7 +78,6 @@ body .entry-content {
 .home .entry-content section:first-child {
     background: url(https://2018.floripa.wordcamp.org/files/2018/02/bg-home-1.png);
     background-size: cover;
-    min-height: calc(100vh - 100px);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -72,7 +92,7 @@ body .entry-content {
     margin: 10px 0 80px;
 }
 
-img {
+.home .entry-content section:first-child img {
     height: auto;
     max-width: 100%;
     width: 32vw;
