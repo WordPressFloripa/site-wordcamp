@@ -47,10 +47,9 @@ div.flex {
     max-width: calc(25% - 30px);
     width: 100%;
 }
-@media (max-height: 767px) {
+@media (max-width: 767px) {
 	.flex .quarter {
 		min-width: 100%;
-		max-width: auto;
 		margin-bottom: 30px;
 	}
 }
