@@ -17,6 +17,11 @@ h2 {
     margin: 0;
     margin: 10px 0 20px;
 }
+h4 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
 
 .page section p {
 	font-size: 20px;
@@ -46,6 +51,10 @@ div.flex {
 .flex > .half {
     max-width: calc(50% - 30px);
     width: 100%;
+}
+.flex > .third {
+	max-width: calc(100%/3 - 30px);
+	width: 100%;
 }
 .flex > .quarter {
     max-width: calc(25% - 30px);
