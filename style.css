@@ -40,8 +40,12 @@ div.flex {
     flex-wrap: wrap;
     width: 100%;
     margin: 0 auto;
-    align-items: baseline;
+    align-items: flex-start;
     justify-content: space-between;
+}
+.flex > .half {
+    max-width: calc(50% - 30px);
+    width: 100%;
 }
 .flex > .quarter {
     max-width: calc(25% - 30px);
@@ -207,4 +211,16 @@ ul#primary-menu {
 }
 .home .entry-content section:nth-of-type(3) div.quarter {
 	padding: 0 20px;
+}
+
+/*home se04*/
+.home .entry-content section:nth-of-type(4) {
+	background-image: url(/files/2018/02/flp-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+.home .entry-content section:nth-of-type(4) h2 {
+	color: #fff;
 }
