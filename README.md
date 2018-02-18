@@ -1,2 +1,1 @@
-"site-wordcamp" 
 "# site-wordcamp" 
