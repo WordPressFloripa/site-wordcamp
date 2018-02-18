@@ -240,3 +240,8 @@ ul#primary-menu {
 .home .entry-content section:nth-of-type(5) h2 {
 	color: #fff;
 }
+
+.home .blog .third {
+	padding: 0 20px;
+}
+.home .blog .third  a.btn { margin-bottom: 0; }
