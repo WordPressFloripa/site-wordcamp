@@ -22,11 +22,37 @@ h2 {
 	font-size: 20px;
 }
 
+.center {
+	text-align: center;
+}
+
 /*
 secoes
 */
 .page .entry-content > section {
 	padding: 50px 5vw;
+}
+/*
+grind
+*/
+div.flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.flex .quarter {
+    max-width: calc(25% - 30px);
+    width: 100%;
+}
+@media (max-height: 767px) {
+	.flex .quarter {
+		min-width: 100%;
+		max-width: auto;
+		margin-bottom: 30px;
+	}
 }
 
 /*
@@ -64,6 +90,10 @@ separador de titulo
     width: 50px;
     height: 4px;
     background: #883db3;
+}
+
+.sep.center + hr {
+    margin: 0 auto 30px;
 }
 
 /*header*/
@@ -155,7 +185,20 @@ ul#primary-menu {
 
 /*home terceira secao*/
 .home .entry-content section:nth-of-type(3) {
-
+	background: url(/files/2018/02/bg_programacao.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #fff;
 }
 
-https://2018.floripa.wordcamp.org/files/2018/02/bg_programacao.png
+.home .entry-content section:nth-of-type(3) h2 {
+	color: #ffffff;
+}
+
+.home .entry-content section:nth-of-type(3) img {
+	border-radius: 50%;
+}
+.home .entry-content section:nth-of-type(3) strong {
+	font-size: 22px;
+}
