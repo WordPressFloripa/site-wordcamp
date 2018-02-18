@@ -43,15 +43,18 @@ div.flex {
     align-items: baseline;
     justify-content: space-between;
 }
-.flex .quarter {
+.flex > .quarter {
     max-width: calc(25% - 30px);
     width: 100%;
 }
+.flex > .fifth {
+    max-width: calc(100%/5 - 30px);
+}
 @media (max-width: 767px) {
-	.flex .quarter {
+	.flex > div {
 		min-width: 100%;
-		margin-bottom: 30px;
 	}
+	
 }
 
 /*
@@ -189,6 +192,7 @@ ul#primary-menu {
 	background-position: center;
 	background-repeat: no-repeat;
 	color: #fff;
+	text-align: center;
 }
 
 .home .entry-content section:nth-of-type(3) h2 {
@@ -200,4 +204,7 @@ ul#primary-menu {
 }
 .home .entry-content section:nth-of-type(3) strong {
 	font-size: 22px;
+}
+.home .entry-content section:nth-of-type(3) div.quarter {
+	padding: 0 20px;
 }
