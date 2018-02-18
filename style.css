@@ -25,7 +25,8 @@ body .page-navigation-container ul {
 }
 .page-navigation-container a {
     color: #fff;
-	font-size: 23px;
+    font-size: 18px;
+    font-weight: bold;
 }
 li#menu-item-203 {
     margin-right: 80px;
@@ -45,3 +46,25 @@ ul#primary-menu {
     max-width: 90vw;
     margin: 0 auto;
 }
+
+
+/*removendo margin do conteudo em relacao ao header*/
+body .entry-content {
+    margin: 0 auto;
+}
+
+/*primeira secao da home*/
+.home .entry-content section:first-child {
+    background: url(https://2018.floripa.wordcamp.org/files/2018/02/bg-home-1.png);
+    background-size: cover;
+    min-height: calc(100vh - 100px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+https://2018.floripa.wordcamp.org/files/2018/02/bg-home-1.png
+
