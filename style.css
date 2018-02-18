@@ -53,8 +53,8 @@ div.flex {
     width: 100%;
 }
 .flex > .third {
-	max-width: calc(100%/3 - 30px);
-	width: 100%;
+    max-width: calc(100%/3 - 30px);
+    width: 100%;
 }
 .flex > .quarter {
     max-width: calc(25% - 30px);
