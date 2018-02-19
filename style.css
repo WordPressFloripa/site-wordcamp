@@ -103,6 +103,19 @@ a.btn {
     margin: 20px 0;
 }
 
+/*botao default todo site*/
+button, input[type="button"], input[type="reset"], input[type="submit"]{
+	background: #ffd215;
+    padding: 18px 20px;
+    border-radius: 5px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-left: 20px;
+    font-size: 15px;
+}
+/*botao default todo site*/
+
 /*
 separador de titulo
 */
@@ -247,6 +260,22 @@ ul#primary-menu {
 	padding: 0 20px;
 }
 .home .blog .third  a.btn { margin-top: 0; }
+
+/*classes default para todas as pages*/
+.page-template-default .site-content {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 5vw;
+}
+
+/*classes default para todas as pages*/
+
+/*page contact*/
+
+
+
+/*page contact*/
 
 
 /*footer*/
