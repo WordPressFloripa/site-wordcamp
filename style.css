@@ -261,23 +261,19 @@ ul#primary-menu {
 }
 .home .blog .third  a.btn { margin-top: 0; }
 
-/*classes default para todas as pages*/
-.page-template-default .site-content main article {
-	display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 50px 5vw;
+/*page contact*/
+article.post-17 {
+	text-align: center;
 }
 
-/*classes default para todas as pages*/
-
-/*page contact*/
-.entry-content input, .entry-content select {
-    margin: 0 0 0 0;
+.contact-form input[type=text] {
     width: 100%;
     height: 45px;
 }
 
+.contact-form textarea {
+	width: 100%;
+}
 /*page contact*/
 
 
