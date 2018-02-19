@@ -274,7 +274,7 @@ article.post-17 h1 {
     margin: 10px 0 20px;
 }
 
-.contact-form-17 {
+#contact-form-17 {
 	width: 50%;
 	margin: 0 auto;
 }
@@ -283,12 +283,8 @@ article.post-17 h1 {
     height: 45px;
 }
 
-.contact-form-17 input, .contact-form-17 select {
+#contact-form-17 input, #contact-form-17 textarea {
 	width: 100% !important;
-}
-
-.contact-form textarea {
-	width: 100%;
 }
 /*page contact*/
 
