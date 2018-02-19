@@ -111,7 +111,6 @@ button, input[type="button"], input[type="reset"], input[type="submit"]{
     color: #444;
     text-transform: uppercase;
     font-weight: bolder;
-    margin-left: 20px;
     font-size: 15px;
 }
 /*botao default todo site*/
@@ -281,6 +280,7 @@ article.post-17 h1 {
 
 .contact-form input[type=email], .contact-form input[type=text], .contact-form input[type=url] {
     height: 45px;
+    float: left;
 }
 
 #contact-form-17 input, #contact-form-17 textarea {
