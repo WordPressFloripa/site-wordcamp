@@ -83,7 +83,9 @@ removendo margin do conteudo em relacao ao header
 body .entry-content {
     margin: 0 auto;
 }
-
+footer.entry-footer {
+	display: none;
+}
 /*
 botao
 */
@@ -245,3 +247,20 @@ ul#primary-menu {
 	padding: 0 20px;
 }
 .home .blog .third  a.btn { margin-top: 0; }
+
+
+/*footer*/
+footer {
+	background-color: #530580;
+}
+
+div#footer-widgets {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer ul.menu, footer ul.menu li {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
