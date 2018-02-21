@@ -320,6 +320,36 @@ article.post-10 .wcorg-sponsor h3 {
 }
 /*page patrocinadores*/
 
+/*page organizadores*/
+article.post-12 {
+    padding: 50px 20vw;
+}
+
+article.post-12 h1 {
+    color: #2a0340;
+    font-size: 4rem;
+    font-weight: 900;
+    margin: 0;
+    margin: 10px 0 20px;
+    text-align: center;
+}
+
+article.post-12 h2 {
+    color: #2a0340;
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 60px 0;
+    text-align: center;
+}
+
+.wcorg-organizer-description img {
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+/*page organizadores*/
+
 /*footer*/
 footer {
 	background-color: #530580;
