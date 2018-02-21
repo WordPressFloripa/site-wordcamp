@@ -76,7 +76,6 @@ div.flex {
 	}
 	
 }
-
 /*
 removendo margin do conteudo em relacao ao header
 */
@@ -260,7 +259,7 @@ ul#primary-menu {
 }
 .home .blog .third  a.btn { margin-top: 0; }
 
-/*page contact*/
+/*page contato*/
 article.post-17 {
 	text-align: center;
 }
@@ -285,9 +284,9 @@ article.post-17 h1 {
 
 #contact-form-17 input, #contact-form-17 textarea {
 	width: 100% !important;
+    max-width: 100%;
 }
-/*page contact*/
-
+/*page contato*/
 
 /*footer*/
 footer {
