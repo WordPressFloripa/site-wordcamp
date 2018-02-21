@@ -290,7 +290,7 @@ article.post-17 h1 {
 
 /*page patrocinadores*/
 article.post-10 {
-    padding: 50px 5vw;
+    padding: 50px 20vw;
 }
 
 article.post-10 h1 {
@@ -301,12 +301,20 @@ article.post-10 h1 {
     margin: 10px 0 20px;
 }
 
-article.post-10 h1 {
+article.post-10 h2 {
     color: #2a0340;
     font-size: 3rem;
     font-weight: 900;
     margin: 0;
     margin: 10px 0 20px;
+}
+
+article.post-10 .wcorg-sponsor h3 {
+    display: none;
+}
+
+.wcorg-sponsor-description img {
+    text-align: center;
 }
 /*page patrocinadores*/
 
