@@ -299,14 +299,15 @@ article.post-10 h1 {
     font-weight: 900;
     margin: 0;
     margin: 10px 0 20px;
+    text-align: center;
 }
 
 article.post-10 h2 {
     color: #2a0340;
     font-size: 3rem;
     font-weight: 900;
-    margin: 0;
-    margin: 10px 0 20px;
+    margin: 60px 0;
+    text-align: center;
 }
 
 article.post-10 .wcorg-sponsor h3 {
@@ -314,7 +315,8 @@ article.post-10 .wcorg-sponsor h3 {
 }
 
 .wcorg-sponsor-description img {
-    text-align: center;
+    margin: 50px auto;
+    display: block;
 }
 /*page patrocinadores*/
 
