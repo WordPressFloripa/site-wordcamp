@@ -259,20 +259,23 @@ ul#primary-menu {
 }
 .home .blog .third  a.btn { margin-top: 0; }
 
-/*page contato*/
-article.post-17 {
-	text-align: center;
+/*default pages */
+article {
     padding: 50px 20vw;
 }
 
-article.post-17 h1 {
-	color: #2a0340;
+article h1 {
+    color: #2a0340;
     font-size: 4rem;
     font-weight: 900;
     margin: 0;
     margin: 10px 0 20px;
+    text-align: center;
 }
 
+/*default pages */
+
+/*page contato*/
 .contact-form input[type=email], .contact-form input[type=text], .contact-form input[type=url] {
     height: 45px;
     float: left;
@@ -285,19 +288,6 @@ article.post-17 h1 {
 /*page contato*/
 
 /*page patrocinadores*/
-article.post-10 {
-    padding: 50px 20vw;
-}
-
-article.post-10 h1 {
-    color: #2a0340;
-    font-size: 4rem;
-    font-weight: 900;
-    margin: 0;
-    margin: 10px 0 20px;
-    text-align: center;
-}
-
 article.post-10 h2 {
     color: #2a0340;
     font-size: 3rem;
@@ -317,19 +307,6 @@ article.post-10 .wcorg-sponsor h3 {
 /*page patrocinadores*/
 
 /*page organizadores*/
-article.post-12 {
-    padding: 50px 20vw;
-}
-
-article.post-12 h1 {
-    color: #2a0340;
-    font-size: 4rem;
-    font-weight: 900;
-    margin: 0;
-    margin: 10px 0 20px;
-    text-align: center;
-}
-
 article.post-12 h2 {
     color: #2a0340;
     font-size: 1.5rem;
@@ -359,52 +336,6 @@ article.post-12 h2 {
     text-align: center;
 }
 /*page organizadores*/
-
-/*page codigo de conduta*/
-article.post-19 {
-    padding: 50px 20vw;
-}
-
-article.post-19 h1 {
-    color: #2a0340;
-    font-size: 4rem;
-    font-weight: 900;
-    margin: 0;
-    margin: 10px 0 20px;
-    text-align: center;
-}
-/*page codigo de conduta*/
-
-/*page localizacao*/
-article.post-11 {
-    padding: 50px 20vw;
-}
-
-article.post-11 h1 {
-    color: #2a0340;
-    font-size: 4rem;
-    font-weight: 900;
-    margin: 0;
-    margin: 10px 0 20px;
-    text-align: center;
-}
-/*page localizacao*/
-
-/*page guia*/
-article.post-329 {
-    padding: 50px 20vw;
-}
-
-article.post-329 h1 {
-    color: #2a0340;
-    font-size: 4rem;
-    font-weight: 900;
-    margin: 0;
-    margin: 10px 0 20px;
-    text-align: center;
-}
-/*page guia*/
-
 
 /*footer*/
 footer {
