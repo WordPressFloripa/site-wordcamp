@@ -358,6 +358,17 @@ article.post-8 h2 {
 }
 /*page palestrantes*/
 
+/*page programacao*/
+table.wcpt-schedule {
+    border: 1px solid #eee;
+}
+
+table.wcpt-schedule tr {
+    border-bottom: 0;
+}
+
+/*page programacao*/
+
 /*footer*/
 footer {
 	background-color: #530580;
