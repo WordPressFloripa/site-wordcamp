@@ -358,7 +358,6 @@ article.post-12 h2 {
     align-items: center;
     text-align: center;
 }
-
 /*page organizadores*/
 
 /*page codigo de conduta*/
@@ -374,8 +373,22 @@ article.post-19 h1 {
     margin: 10px 0 20px;
     text-align: center;
 }
-
 /*page codigo de conduta*/
+
+/*page localizacao*/
+article.post-11 {
+    padding: 50px 20vw;
+}
+
+article.post-11 h1 {
+    color: #2a0340;
+    font-size: 4rem;
+    font-weight: 900;
+    margin: 0;
+    margin: 10px 0 20px;
+    text-align: center;
+}
+/*page localizacao*/
 
 /*footer*/
 footer {
