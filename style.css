@@ -342,6 +342,22 @@ article.post-12 h2 {
 }
 /*page organizadores*/
 
+/*page palestrantes*/
+article.post-8 h2 {
+    color: #2a0340;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin: 50px 0 14px 0;
+    text-align: center;
+}
+
+.wcorg-speaker-description img {
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+/*page palestrantes*/
+
 /*footer*/
 footer {
 	background-color: #530580;
