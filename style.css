@@ -272,6 +272,12 @@ article h1 {
     margin: 10px 0 20px;
     text-align: center;
 }
+@media (max-width: 767px) {
+    article {
+        padding: 10px 6vw;
+    }
+    
+}
 /*default pages */
 
 /* page home */
