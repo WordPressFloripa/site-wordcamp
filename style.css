@@ -390,6 +390,22 @@ article.post-11 h1 {
 }
 /*page localizacao*/
 
+/*page guia*/
+article.post-329 {
+    padding: 50px 20vw;
+}
+
+article.post-329 h1 {
+    color: #2a0340;
+    font-size: 4rem;
+    font-weight: 900;
+    margin: 0;
+    margin: 10px 0 20px;
+    text-align: center;
+}
+/*page guia*/
+
+
 /*footer*/
 footer {
 	background-color: #530580;
