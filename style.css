@@ -367,6 +367,11 @@ table.wcpt-schedule tr {
     border-bottom: 0;
 }
 
+table.wcpt-schedule tr th, table.wcpt-schedule tr td {
+    border: 1px solid #eee;
+    padding: 5px;
+}
+
 /*page programacao*/
 
 /*footer*/
