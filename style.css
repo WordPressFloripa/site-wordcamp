@@ -6,7 +6,7 @@ body, p, h1,h2,h3,h4, a, span, strong, b, li {
 }
 html {font-size: 16px; }
 @media (max-width: 767px) {
-	html { font-size: 12px;	}
+	html { font-size: 14px;	}
 }
 
 p {	font-size: 1rem; }
@@ -345,6 +345,15 @@ article.post-12 h2 {
     flex: 0 0 48%;
     align-items: center;
     text-align: center;
+}
+@media (max-width: 767px) {
+    .wcorg-organizer {
+        -webkit-flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        align-items: center;
+        text-align: center;
+    }    
 }
 /*page organizadores*/
 
