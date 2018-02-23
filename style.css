@@ -415,11 +415,11 @@ footer li.menu-item a {
 	font-size: 16px;
 }
 
-footer .menu-footer-1 li {
+footer #menu-footer-1 li a {
 	font-weight: bold;
 }
 
-footer .menu-footer-1 .sub-menu li {
+footer #menu-footer-1 .sub-menu li a {
 	font-weight: normal;
 }
 
