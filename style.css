@@ -415,6 +415,14 @@ footer li.menu-item a {
 	font-size: 16px;
 }
 
+footer .menu-footer-1 li {
+	font-weight: bold;
+}
+
+footer .menu-footer-1 .sub-menu li {
+	font-weight: normal;
+}
+
 footer .site-info {
 	background-color: #2a0340;
     text-align: center;
