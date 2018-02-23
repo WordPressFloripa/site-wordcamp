@@ -276,7 +276,7 @@ article h1 {
 	article {
 		padding: 10px 6vw;
 	}
-	
+
 }
 /*default pages */
 
@@ -451,7 +451,7 @@ footer .site-info a, footer .site-info a:hover {
 	height: 37px;
 	background-color: #ffd215;
 	text-align: center;
-	display: inline-block;
+	display: inline-block !important;
 }
 
 .widget_wpcom_social_media_icons_widget ul li a {
