@@ -414,3 +414,15 @@ footer li.menu-item a {
 	color: #fff;
 	font-size: 16px;
 }
+
+footer .site-info {
+	background-color: #2a0340;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer .site-info a, footer .site-info a:hover {
+	color: white;
+	text-decoration: none;
+	margin: 0 50px;
+}
