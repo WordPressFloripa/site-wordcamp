@@ -454,12 +454,12 @@ footer .site-info a, footer .site-info a:hover {
 		display: block !important;
 		float: none;
 	}
-	/*.menu-toggle {
+	.menu-toggle {
 		position: absolute;
 	    right: 20px;
 	    top: 30px;
 	    z-index: 999;
-	}*/
+	}
 	.menu-toggle {
 	 	color: #ffd215;
 	}
