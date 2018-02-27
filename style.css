@@ -449,7 +449,7 @@ footer .site-info a, footer .site-info a:hover {
 
 	/* page home */
 	h2 {
-		font-size: 3.5rem;
+		font-size: 3rem;
 	}
 
 	.home .entry-content section:first-child img {
@@ -464,6 +464,9 @@ footer .site-info a, footer .site-info a:hover {
 	.home .entry-content section:nth-of-type(2) {
 	    flex-flow: row;
     	flex-wrap: wrap;
+	}
+	.page section p {
+	    font-size: 18px;
 	}
 	/* page home */
 	
@@ -482,4 +485,17 @@ footer .site-info a, footer .site-info a:hover {
 		text-align: center;
 	}    
 	/* page organizadores */
+
+	/* footer */
+	div#footer-widgets > div {
+	    max-width: 100%;
+	    width: 100%;
+	}
+	footer .site-info a, footer .site-info a:hover {
+	    color: white;
+	    text-decoration: none;
+	    margin: 10px 0;
+	    display: block;
+	}
+	/* footer */
 }
