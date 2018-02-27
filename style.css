@@ -463,8 +463,9 @@ footer .site-info a, footer .site-info a:hover {
 	.menu-toggle {
 	 	color: #ffd215;
 	}
-	button.menu-toggle:after {
-	    content: 'MENU';
+	button.menu-toggle::after {
+	    content: '\f0c9';
+    	font-family: FontAwesome;
 	    color: #333;
 	    position: absolute;
 	    left: 0;
