@@ -173,7 +173,6 @@ ul#primary-menu {
 	margin: 0 auto;
 }
 
-
 /*primeira secao da home*/
 .home .entry-content section:nth-of-type(1) {
 	background: url(https://2018.floripa.wordcamp.org/files/2018/02/bg-home-1.png);
@@ -449,11 +448,19 @@ footer .site-info a, footer .site-info a:hover {
 	}
 	.page-navigation-container ul li#menu-item-203 { 
 		display: block !important;
+		margin-right: 0;
+		margin-left: 20px;
+	}
+	.page-navigation-container.toggled-on ul li {
+		display: block !important;
+		float: none;
+	}
+	.menu-toggle {
+		float: right;
+	    margin-top: 25px;
+	    margin-right: 20px;
 	}
 
-	.page-navigation-container.toggled-on ul  li {
-		display: block !important;
-	}
 	/* menu */
 
 	/*grid */
