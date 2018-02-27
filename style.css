@@ -142,10 +142,14 @@ li#menu-item-203 a {
 nav#site-navigation {
 	background: #530580;
 }
+@media (min-width: 768px) {
+	body .page-navigation-container ul {
+		justify-content: space-around;
+		align-items: center;
+	}	
+}
 body .page-navigation-container ul {
 	display: flex;
-	justify-content: space-around;
-	align-items: center;
 }
 .page-navigation-container a {
 	color: #fff;
@@ -441,6 +445,18 @@ footer .site-info a, footer .site-info a:hover {
 }
 
 @media (max-width: 767px) {
+	/* menu */
+	#primary-menu li {
+		display: none;
+	}
+
+	#menu-item-203 {
+		display: block;
+	}
+
+
+	/* menu */
+
 	/*grid */
 	.flex > div {
 		min-width: 100%;
@@ -475,7 +491,7 @@ footer .site-info a, footer .site-info a:hover {
 		padding: 10px 6vw;
 	}
 	article h1 {
-	    font-size: 3.4rem;
+	    font-size: 3.2rem;
 	}
 	/*default pages */
 
