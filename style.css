@@ -474,6 +474,9 @@ footer .site-info a, footer .site-info a:hover {
 	article {
 		padding: 10px 6vw;
 	}
+	article h1 {
+	    font-size: 3.4rem;
+	}
 	/*default pages */
 
 	/* page organizadores */
