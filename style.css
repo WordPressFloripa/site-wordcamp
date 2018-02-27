@@ -448,11 +448,22 @@ footer .site-info a, footer .site-info a:hover {
 	/*grid */
 
 	/* page home */
+	h2 {
+		font-size: 3.5rem;
+	}
+
 	.home .entry-content section:first-child img {
 		width: 100%;
 	}
 	.page .entry-content > section {
 	    padding: 30px 5vw;
+	}
+	.home .entry-content section:first-child h1 {
+		font-size: 38px;
+	}
+	.home .entry-content section:nth-of-type(2) {
+	    flex-flow: row;
+    	flex-wrap: wrap;
 	}
 	/* page home */
 	
