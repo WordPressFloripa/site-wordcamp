@@ -463,9 +463,9 @@ footer .site-info a, footer .site-info a:hover {
 	.menu-toggle {
 	 	color: #ffd215;
 	}
-	.menu-toggle:after {
+	button.menu-toggle:after {
 	    content: 'MENU';
-	    COLOR: #333;
+	    color: #333;
 	    position: absolute;
 	    left: 0;
 	    text-align: center;
