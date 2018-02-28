@@ -325,6 +325,10 @@ article.post-180 {
     height: 45px;
     width: 100%;
 }
+
+#contact-form-424 input[type=checkbox] {
+    width: 10% !important;
+}
 /*page envie sua palestra*/
 
 /*page patrocinadores*/
