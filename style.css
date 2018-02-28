@@ -286,6 +286,22 @@ article.post-180 {
 }
 /*page contato*/
 
+/*page envie sua palestra*/
+#contact-form-424 input, #contact-form-424 textarea {
+	width: 100% !important;
+	max-width: 100%;
+}
+
+#contact-form-424 select {
+	color: #666;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 3px;
+    height: 45px;
+    width: 100%;
+}
+/*page envie sua palestra*/
+
 /*page patrocinadores*/
 article.post-10 h2 {
 	color: #2a0340;
