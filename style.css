@@ -267,6 +267,15 @@ ul#primary-menu {
 section.error-404 {
 	padding: 50px 20vw;
 }
+
+section.error-404 h1 {
+	color: #2a0340;
+	font-size: 4rem;
+	font-weight: 900;
+	margin: 0;
+	margin: 10px 0 20px;
+	text-align: center;
+}
 /*page 404 */
 
 /*default pages */
