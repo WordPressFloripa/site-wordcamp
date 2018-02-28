@@ -263,6 +263,12 @@ ul#primary-menu {
 }
 .home .blog .third  a.btn { margin-top: 0; }
 
+/*page 404 */
+section.error-404 {
+	padding: 50px 20vw;
+}
+/*page 404 */
+
 /*default pages */
 article {
 	padding: 50px 20vw;
