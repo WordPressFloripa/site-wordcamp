@@ -167,6 +167,16 @@ li#menu-item-204 a {
 	margin-left: 20px;
 	font-size: 15px;
 }
+li#menu-item-495 a {
+	background: #ffd215;
+	padding: 18px 20px;
+	border-radius: 5px;
+	color: #444;
+	text-transform: uppercase;
+	font-weight: bolder;
+	margin-left: 20px;
+	font-size: 15px;
+}
 
 ul#primary-menu {
 	max-width: 90vw;
