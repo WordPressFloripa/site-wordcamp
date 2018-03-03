@@ -483,6 +483,10 @@ footer .site-info a, footer .site-info a:hover {
 	vertical-align: -moz-middle-with-baseline;
 	color: #461701;
 }
+
+.wcorg-sponsor-description img {
+	max-width: 35%;
+}
 @media (max-width: 767px) {
 	/* menu */
 	.page-navigation-container ul {
@@ -573,6 +577,12 @@ footer .site-info a, footer .site-info a:hover {
 		text-align: center;
 	}    
 	/* page organizadores */
+
+	/* page patrocinadores */
+	.wcorg-sponsor-description img {
+		max-width: 70%;
+	}
+	/* page patrocinadores */
 
 	/* footer */
 	div#footer-widgets > div {
