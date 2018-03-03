@@ -480,6 +480,7 @@ footer .site-info a, footer .site-info a:hover {
 
 .widget_wpcom_social_media_icons_widget ul li a {
 	vertical-align: -webkit-baseline-middle;
+	vertical-align: -moz-middle-with-baseline;
 	color: #461701;
 }
 @media (max-width: 767px) {
