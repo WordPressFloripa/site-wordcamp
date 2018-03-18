@@ -297,6 +297,17 @@ article h1 {
 article.post-180 {
 	padding: 0;
 }
+
+/*patrocinadores*/
+.list-patrocinadores-home h3 {
+	color: #2a0340;
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 60px 0;
+    text-align: center;
+}
+
+/*patrocinadores*/
 /* page home */
 
 /*page contato*/
