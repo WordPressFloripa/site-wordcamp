@@ -689,13 +689,13 @@ select[name="tix_payment_method"] {
     display: none;
 }
 
-.tix-js * {
+.tix-js:not(.tix-has-dynamic-receipts) * {
     text-align: center;
 }
-.tix-js th {
+.tix-js:not(.tix-has-dynamic-receipts) th {
     font-size: 22px;
 }
-html body .tix-js th.tix-column-description,
-.tix-js td.tix-column-description {
+html body .tix-js:not(.tix-has-dynamic-receipts) th.tix-column-description,
+.tix-js:not(.tix-has-dynamic-receipts) td.tix-column-description {
     text-align: left;
 }
