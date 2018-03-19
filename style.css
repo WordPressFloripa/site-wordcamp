@@ -689,4 +689,13 @@ select[name="tix_payment_method"] {
     display: none;
 }
 
-
+div#tix * {
+    text-align: center;
+}
+div#tix th {
+    font-size: 22px;
+}
+html body div#tix th.tix-column-description,
+div#tix td.tix-column-description {
+    text-align: left;
+}
