@@ -608,3 +608,85 @@ footer .site-info a, footer .site-info a:hover {
 	}
 	/* footer */
 }
+
+
+
+/*css que estava no tema*/
+.home .entry-content section:nth-of-type(1) {
+    min-height: calc(100vh - 143px);
+}
+
+body ul#primary-menu {
+    max-width: 1210px !important;
+}
+
+.wcorg-organizer {
+    padding: 0 40px;
+}
+
+div#contact-form-433 input {
+    width: 100%;
+    max-width: 100%;
+}
+
+.contact-form select {
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+}
+
+body hr {
+    margin: 50px auto;
+}
+
+table.tix_tickets_table.tix-order-summary * {
+    text-align: left;
+    line-height: 2;
+}
+tr.tix-row-total {
+    border-top: 1px solid #eee;
+}
+
+table.tix_tickets_table.tix-attendee-form tr {
+    line-height: 40px;
+}
+
+td.tix-right {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100% !important;
+}
+
+td.tix-right br {
+    display: none !important;
+}
+td.tix-right label {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    min-width: calc(50% - 30px);
+}
+
+td.tix-right label input {
+    margin-right: 5px;
+}
+
+body table.tix_tickets_table.tix-attendee-form tr:first-of-type th {
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+table.tix_tickets_table.tix-attendee-form input[type="text"], table.tix_tickets_table.tix-attendee-form input[type="email"] {
+    width: 100% !important;
+    border-radius: 0;
+}
+
+article#post-13 h2 {
+    text-align: center !important;
+}
+select[name="tix_payment_method"] {
+    display: none;
+}
+
+
