@@ -448,11 +448,11 @@ table.wcpt-schedule tr th {
 /*page programacao*/
 
 /*page palestra interna*/
-article.post-693 h1 {
+wcb_session-template-default .post-693 h1 {
 	font-size: 3rem;
 }
 
-article.post-693 h2 {
+.wcb_session-template-default article h2 {
 	font-size: 2rem;
 }
 
@@ -467,7 +467,7 @@ article.post-693 h2 {
     font-size: 1.6rem;
 }
 
-.post-navigation {
+.post-navigation, .session-categories-links {
 	display: none;
 }
 
