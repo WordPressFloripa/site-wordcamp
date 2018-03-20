@@ -503,9 +503,27 @@ article.post-13 table.tix_tickets_table.tix-attendee-form {
 
 article.post-13 table.tix_tickets_table.tix-attendee-form tr th, article.post-13 table.tix_tickets_table.tix-attendee-form tr td {
     border: 0;
-    padding: 8px 10px;
+    padding: 5px 10px;
     vertical-align: inherit;
 }
+
+article.post-13 table.tix_tickets_table.tix-attendee-form tr .tix-left {
+    width: 100%;
+    font-weight: bold;
+    display: block;
+    font-size: 1.1rem;
+}
+
+article.post-13 table.tix_tickets_table.tix-attendee-form tr .tix-right {
+	width: 100%;
+    display: block;
+}
+
+article.post-13 table.tix_tickets_table.tix-attendee-form tr .tix-right input[type="text"] {
+	border-radius: 5px;
+    height: 40px;	
+}
+
 /*page ticktes*/
 
 /*footer*/
