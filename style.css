@@ -445,8 +445,33 @@ table.wcpt-schedule tr th {
 	color: #757575;
 	text-decoration: none;
 }
-
 /*page programacao*/
+
+/*page palestra interna*/
+article.post-693 h1 {
+	font-size: 3rem;
+}
+
+article.post-693 h2 {
+	font-size: 2rem;
+}
+
+#speaker-session-names {
+    padding: 0;
+}
+
+#speaker-session-names li a, #speaker-session-names li a:hover {
+    color: #404040;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+article.post-693 .post-navigation {
+	display: none;
+}
+
+/*page palestra interna*/
 
 /*footer*/
 footer {
