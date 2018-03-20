@@ -417,9 +417,20 @@ table.wcpt-schedule tr {
 	border-bottom: 0;
 }
 
+table.wcpt-schedule tr:nth-child(2n+1) {
+	background-color: #ededed;
+}
+
 table.wcpt-schedule tr th, table.wcpt-schedule tr td {
-	border: 1px solid #eee;
-	padding: 5px;
+	border: 1px solid #cccccc;
+	padding: 14px 10px;
+}
+
+.wcb-session-cell-content .wcpt-session-title, .wcb-session-cell-content .wcpt-session-title:hover {
+	font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
 }
 
 /*page programacao*/
