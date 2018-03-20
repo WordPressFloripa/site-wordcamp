@@ -474,17 +474,17 @@ wcb_session-template-default .post-693 h1 {
 /*page palestra interna*/
 
 /*page ticktes*/
-table.tix_tickets_table {
+article.post-13 table.tix_tickets_table {
 	border: 1px solid #eee;
 }
 
-table.tix_tickets_table tr th, table.tix_tickets_table tr td {
+article.post-13 table.tix_tickets_table tr th, article.post-13 table.tix_tickets_table tr td {
     border: 1px solid #cccccc;
     padding: 14px 10px;
     vertical-align: inherit;
 }
 
-table.tix_tickets_table tr th {
+article.post-13 table.tix_tickets_table tr th {
 	background-color: #ededed;
 }
 
