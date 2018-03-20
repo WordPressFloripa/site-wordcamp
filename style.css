@@ -484,7 +484,7 @@ table.tix_tickets_table tr th, table.tix_tickets_table tr td {
     vertical-align: inherit;
 }
 
-table.tix_tickets_table tr td {
+table.tix_tickets_table tr th {
 	background-color: #ededed;
 }
 
