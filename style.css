@@ -460,14 +460,14 @@ article.post-693 h2 {
     padding: 0;
 }
 
-#speaker-session-names li a, #speaker-session-names li a:hover {
+#session-speaker-names li a, #session-speaker-names li a:hover {
     color: #404040;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.6rem;
 }
 
-article.post-693 .post-navigation {
+.post-693 .post-navigation {
 	display: none;
 }
 
