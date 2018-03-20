@@ -424,6 +424,7 @@ table.wcpt-schedule tr:nth-child(2n+1) {
 table.wcpt-schedule tr th, table.wcpt-schedule tr td {
 	border: 1px solid #cccccc;
 	padding: 14px 10px;
+	vertical-align: inherit;
 }
 
 .wcb-session-cell-content .wcpt-session-title, .wcb-session-cell-content .wcpt-session-title:hover {
@@ -431,6 +432,12 @@ table.wcpt-schedule tr th, table.wcpt-schedule tr td {
     font-weight: bold;
     text-decoration: none;
     display: block;
+    color: #404040;
+}
+
+.wcb-session-cell-content .wcpt-session-speakers, .wcb-session-cell-content .wcpt-session-speakers:hover {
+	color: #757575;
+	text-decoration: none;
 }
 
 /*page programacao*/
