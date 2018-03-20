@@ -474,6 +474,10 @@ wcb_session-template-default .post-693 h1 {
 /*page palestra interna*/
 
 /*page ticktes*/
+article.post-13 h2 {
+	font-size: 3rem;
+}
+
 article.post-13 table.tix_tickets_table {
 	border: 1px solid #eee;
 }
@@ -491,6 +495,16 @@ article.post-13 table.tix_tickets_table tr th {
 .tix-column-quantity select {
 	border-radius: 5px;
     padding: 5px;
+}
+
+article.post-13 table.tix_tickets_table.tix-attendee-form {
+	border: none;
+}
+
+article.post-13 table.tix_tickets_table.tix-attendee-form tr th, article.post-13 table.tix_tickets_table.tix-attendee-form tr td {
+    border: 0;
+    padding: 8px 10px;
+    vertical-align: inherit;
 }
 /*page ticktes*/
 
