@@ -427,6 +427,12 @@ table.wcpt-schedule tr th, table.wcpt-schedule tr td {
 	vertical-align: inherit;
 }
 
+table.wcpt-schedule tr th {
+	background: #bbbbbb;
+	color: white;
+	font-size: 20px;
+}
+
 .wcb-session-cell-content .wcpt-session-title, .wcb-session-cell-content .wcpt-session-title:hover {
 	font-size: 18px;
     font-weight: bold;
@@ -435,7 +441,7 @@ table.wcpt-schedule tr th, table.wcpt-schedule tr td {
     color: #404040;
 }
 
-.wcb-session-cell-content .wcpt-session-speakers, .wcb-session-cell-content .wcpt-session-speakers:hover {
+.wcb-session-cell-content .wcpt-session-speakers a, .wcb-session-cell-content .wcpt-session-speakers a:hover {
 	color: #757575;
 	text-decoration: none;
 }
