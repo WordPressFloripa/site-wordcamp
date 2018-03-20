@@ -519,7 +519,7 @@ article.post-13 table.tix_tickets_table.tix-attendee-form tr .tix-right {
     display: block;
 }
 
-article.post-13 table.tix_tickets_table.tix-attendee-form tr .tix-right input[type="text"] {
+article.post-13 table.tix_tickets_table.tix-attendee-form tr .tix-right input[type="text"], article.post-13 table.tix_tickets_table.tix-attendee-form tr .tix-right input[type="email"] {
 	border-radius: 5px;
     height: 40px;	
 }
