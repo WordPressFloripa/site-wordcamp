@@ -473,6 +473,23 @@ wcb_session-template-default .post-693 h1 {
 
 /*page palestra interna*/
 
+/*page ticktes*/
+table.tix_tickets_table {
+	border: 1px solid #eee;
+}
+
+table.tix_tickets_table tr th, table.tix_tickets_table tr td {
+    border: 1px solid #cccccc;
+    padding: 14px 10px;
+    vertical-align: inherit;
+}
+
+.tix-column-quantity select {
+	border-radius: 5px;
+    padding: 5px;
+}
+/*page ticktes*/
+
 /*footer*/
 footer {
 	background-color: #530580;
