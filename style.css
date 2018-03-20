@@ -484,6 +484,10 @@ table.tix_tickets_table tr th, table.tix_tickets_table tr td {
     vertical-align: inherit;
 }
 
+table.tix_tickets_table tr td {
+	background-color: #ededed;
+}
+
 .tix-column-quantity select {
 	border-radius: 5px;
     padding: 5px;
