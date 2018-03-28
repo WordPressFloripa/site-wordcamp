@@ -801,3 +801,7 @@ html body .tix-js:not(.tix-has-dynamic-receipts) th.tix-column-description,
 .tix-js:not(.tix-has-dynamic-receipts) td.tix-column-description {
     text-align: left;
 }
+
+th.tix-column-remaining, td.tix-column-remaining {
+	display: none;
+}
