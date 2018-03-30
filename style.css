@@ -298,13 +298,13 @@ article.post-180 {
 	padding: 0;
 }
 
-.patrocinador-ribeirao .quarter {
+.patrocinador-ribeirao .quarter, .patrocinador-trindade .quarter {
 	margin: auto;
     text-align: center;
 }
 
-.patrocinador-trindade {
-
+.patrocinador-trindade .quarter p img {
+	max-width: 85%;
 }
 
 .patrocinador-santo-antonio {
