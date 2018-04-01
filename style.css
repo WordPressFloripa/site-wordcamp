@@ -222,8 +222,16 @@ ul#primary-menu {
 	max-width: 450px;
 }
 
-/*home terceira secao*/
+/*wordcana*/
 .home .entry-content section:nth-of-type(3) {
+	background: #FFFFFF;
+	color: #fff;
+	text-align: center;
+}
+/*wordcana*/
+
+/*home terceira secao*/
+.home .entry-content section:nth-of-type(4) {
 	background: url(/files/2018/02/bg_programacao.png);
 	background-size: cover;
 	background-position: center;
@@ -232,29 +240,29 @@ ul#primary-menu {
 	text-align: center;
 }
 
-.home .entry-content section:nth-of-type(3) h2 {
+.home .entry-content section:nth-of-type(4) h2 {
 	color: #ffffff;
 }
 
-.home .entry-content section:nth-of-type(3) img {
+.home .entry-content section:nth-of-type(4) img {
 	border-radius: 50%;
 }
-.home .entry-content section:nth-of-type(3) strong {
+.home .entry-content section:nth-of-type(4) strong {
 	font-size: 22px;
 }
-.home .entry-content section:nth-of-type(3) div.quarter {
+.home .entry-content section:nth-of-type(4) div.quarter {
 	padding: 0 20px;
 }
 
 /*home se05 -sobre floripa*/
-.home .entry-content section:nth-of-type(5) {
+.home .entry-content section:nth-of-type(6) {
 	background-image: url(/files/2018/02/flp-bg.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	color: #fff;
 }
-.home .entry-content section:nth-of-type(5) h2 {
+.home .entry-content section:nth-of-type(6) h2 {
 	color: #fff;
 }
 
