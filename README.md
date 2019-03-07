@@ -1,3 +1,3 @@
-# Worcamp Floripa 2017
+# Worcamp Floripa 2018
 
 Arquivo de estilo para o site do evento.
