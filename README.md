@@ -1,3 +1,3 @@
-# Worcamp Floripa 2018
+# WordCamps Floripa
 
-Arquivo de estilo para o site do evento.
+Arquivos de estilo para os sites dos eventos.
