@@ -232,7 +232,7 @@ ul#primary-menu {
 
 /*home terceira secao*/
 .home .entry-content section:nth-of-type(4) {
-	background: url(/files/2018/02/bg_programacao.png);
+	background: url(/files/2019/03/bg_programacao.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -256,7 +256,7 @@ ul#primary-menu {
 
 /*home se05 -sobre floripa*/
 .home .entry-content section:nth-of-type(6) {
-	background-image: url(/files/2018/02/flp-bg.jpg);
+	background-image: url(/files/2019/03/flp-bg.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -287,10 +287,6 @@ section.error-404 h1 {
 /*page 404 */
 
 /*default pages */
-article {
-	padding: 50px 20vw;
-}
-
 article h1 {
 	color: #2a0340;
 	font-size: 4rem;
