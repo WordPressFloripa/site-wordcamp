@@ -184,6 +184,10 @@ ul#primary-menu {
 }
 
 /*primeira secao da home*/
+.logo-wordcamp-2019 {
+	max-width: 437px;
+}
+
 .home .entry-content section:nth-of-type(1) {
 	background: url(https://2018.floripa.wordcamp.org/files/2018/02/bg-home-1.png);
 	background-size: cover;
