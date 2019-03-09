@@ -189,6 +189,8 @@ ul#primary-menu {
 	background-size: cover;
 	height: 100vh;
 	max-height: 912px;
+	display: flex;
+    align-items: center;
 }
 
 .featured-home {
@@ -203,7 +205,7 @@ ul#primary-menu {
 }
 
 .featured-home p {
-	margin-top: 0;
+	margin: 0;
 }
 
 .featured-home-slogan {
@@ -212,6 +214,15 @@ ul#primary-menu {
 	line-height: 43.8px;
 	line-height: 10px;
 	margin-left: 75px;
+	font-weight: 500;
+}
+
+.featured-home-button {
+	border: 2px solid #FFFFFF;
+	padding: 8px 16px;
+	font-weight: 700;
+	font-size: 24px;
+	text-decoration: none;
 }
 
 .featured-home-city {
