@@ -190,6 +190,15 @@ ul#primary-menu {
 }
 
 /*primeira secao da home*/
+.home nav#site-navigation {
+    position: absolute;
+    background-color: transparent;
+}
+
+.home nav#site-navigation ul li a {
+	color: #FFFFFF;
+}
+
 .home .entry-content section:nth-of-type(1) {
 	background: url(https://2019.floripa.wordcamp.org/files/2019/03/fundo-header-home.png);
 	background-size: cover;
@@ -208,6 +217,7 @@ ul#primary-menu {
 	align-items: center;
 	flex-direction: column;
 	margin: 0 auto;
+	padding-top: 100px;
 }
 
 .featured-home p {
@@ -232,6 +242,7 @@ ul#primary-menu {
 }
 
 .featured-home-button, .featured-home-button:hover, .featured-home-button:focus, .featured-home-button:visited {
+	display: inline-block;
 	margin-top: 60px;
 	border: 2px solid #FFFFFF;
 	color: #FFFFFF;
