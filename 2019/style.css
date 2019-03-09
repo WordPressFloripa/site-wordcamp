@@ -267,7 +267,6 @@ ul#primary-menu {
 	width: 100%;
 	max-width: 1100px;
 	flex-wrap: wrap;
-	padding: 100px 0;
 }
 
 .about-home-title {
@@ -282,10 +281,15 @@ ul#primary-menu {
 	color: #600283;
 	font-size: 25px;
 	font-weight: 700;
+	margin-bottom: 40px;
+}
+
+.about-home-item:not(.mln) {
+	text-align: center;
 }
 
 .about-home-item img {
-	margin-bottom: 20px;
+	margin-bottom: 14px;
 }
 
 /*secção home wordcana*/
