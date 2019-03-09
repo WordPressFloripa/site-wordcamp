@@ -189,7 +189,6 @@ ul#primary-menu {
 	background-size: cover;
 	height: 100vh;
 	max-height: 912px;
-	margin: 0 auto;
 }
 
 .featured-home {
@@ -200,19 +199,28 @@ ul#primary-menu {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	margin: 0 auto;
+}
+
+.featured-home p {
+	margin-top: 0;
 }
 
 .featured-home-slogan {
-	display: block;
 	color: #FFFFFF;
 	font-size: 26px;
 	line-height: 43.8px;
+	line-height: 10px;
+	margin-left: 75px;
 }
 
 .featured-home-city {
 	display: block;
-	color: #FFFFFF;
-	font-size: 40px;
+    color: #FFFFFF;
+    font-size: 40px;
+    line-height: 35px;
+    font-weight: 700;
+    margin-left: auto;
 }
 
 .home .entry-content section:first-child h1 {
