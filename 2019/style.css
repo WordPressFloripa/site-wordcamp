@@ -185,13 +185,15 @@ ul#primary-menu {
 
 /*primeira secao da home*/
 .home .entry-content section:nth-of-type(1) {
-	background: url(https://2018.floripa.wordcamp.org/files/2018/02/bg-home-1.png);
+	background: url(https://2019.floripa.wordcamp.org/files/2019/03/fundo-header-home.png);
 	background-size: cover;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	height: 100vh;
+	max-height: 912px;
 }
 
 .home .entry-content section:first-child h1 {
