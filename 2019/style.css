@@ -232,11 +232,11 @@ ul#primary-menu {
 
 /*home terceira secao*/
 .home .entry-content section:nth-of-type(4) {
-	background: url(/files/2019/03/bg_programacao.png);
+	background-image: linear-gradient(279deg, #28dfec, #600283);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	color: #fff;
+	color: #FFFFFF;
 	text-align: center;
 }
 
