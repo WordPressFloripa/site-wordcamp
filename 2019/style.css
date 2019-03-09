@@ -136,11 +136,17 @@ li#menu-item-1054 a {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	margin: 30px 0px;
 	color: transparent;
+}
+li#menu-item-1056 a {
+	border: 1px solid #600283;
+	font-weight: 700;
+	padding: 8px 16px;
+	text-transform: uppercase;
 }
 nav#site-navigation {
 	background: #FFFFFF;
+	padding: 16px;
 }
 @media (min-width: 768px) {
 	body .page-navigation-container ul {
@@ -219,19 +225,19 @@ ul#primary-menu {
 
 .featured-home-city {
     color: #FFFFFF;
-    font-size: 55px;
-    line-height: 55px;
+    font-size: 71px;
+    line-height: 72px;
     font-weight: 700;
     margin-left: auto;
 }
 
-.featured-home-button, .featured-home-button:hover, .featured-home-button:focus {
+.featured-home-button, .featured-home-button:hover, .featured-home-button:focus, .featured-home-button:visited {
 	margin-top: 60px;
 	border: 2px solid #FFFFFF;
 	color: #FFFFFF;
 	padding: 8px 16px;
 	font-weight: 700;
-	font-size: 24px;
+	font-size: 22px;
 	text-decoration: none;
 }
 
