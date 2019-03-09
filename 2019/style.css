@@ -144,6 +144,12 @@ li#menu-item-1056 a {
 	padding: 8px 16px;
 	text-transform: uppercase;
 }
+.home li#menu-item-1056 a {
+	border: 1px solid #FFFFFF;
+	font-weight: 700;
+	padding: 8px 16px;
+	text-transform: uppercase;
+}
 nav#site-navigation {
 	background: #FFFFFF;
 	padding: 16px;
@@ -216,7 +222,7 @@ ul#primary-menu {
 	align-items: center;
 	flex-direction: column;
 	margin: 0 auto;
-	padding-top: 160px;
+	padding-top: 100px;
 }
 
 .featured-home p {
