@@ -187,13 +187,32 @@ ul#primary-menu {
 .home .entry-content section:nth-of-type(1) {
 	background: url(https://2019.floripa.wordcamp.org/files/2019/03/fundo-header-home.png);
 	background-size: cover;
+	height: 100vh;
+	max-height: 912px;
+	margin: 0 auto;
+}
+
+.featured-home {
+	width: 100%;
+	max-width: 929px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	height: 100vh;
-	max-height: 912px;
+}
+
+.featured-home-slogan {
+	display: block;
+	color: #FFFFFF;
+	font-size: 26px;
+	line-height: 43.8px;
+}
+
+.featured-home-city {
+	display: block;
+	color: #FFFFFF;
+	font-size: 40px;
 }
 
 .home .entry-content section:first-child h1 {
@@ -206,7 +225,6 @@ ul#primary-menu {
 .home .entry-content section:first-child img {
 	height: auto;
 	max-width: 100%;
-	width: 32vw;
 	margin: 0 auto;
 }
 /*home segunda secao*/
