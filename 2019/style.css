@@ -284,24 +284,12 @@ ul#primary-menu {
 	margin-bottom: 40px;
 }
 
-.about-home-item:not(.mln) {
-	text-align: center;
-}
-
 .about-home-item img {
 	margin-bottom: 14px;
 }
 
-/*secção home wordcana*/
-.home .entry-content section:nth-of-type(3) {
-	background: #FFFFFF;
-	color: #404040;
-	text-align: center;
-}
-/*secção home wordcana*/
-
 /*home terceira secao*/
-.home .entry-content section:nth-of-type(4) {
+.home .entry-content section:nth-of-type(3) {
 	background-image: linear-gradient(279deg, #28dfec, #600283);
 	background-size: cover;
 	background-position: center;
