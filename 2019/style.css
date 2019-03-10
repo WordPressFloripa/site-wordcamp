@@ -325,6 +325,14 @@ ul#primary-menu {
 	justify-content: space-between;
 }
 
+.which-is-wordcamp-left {
+	flex: 1 56%;
+}
+
+.which-is-wordcamp-right {
+	flex: 1 40%;
+}
+
 .which-is-wordcamp-title {
 	font-size: 35px;
 	font-weight: 700;
@@ -352,16 +360,69 @@ ul#primary-menu {
 	padding: 0 20px;
 }
 
-/*home se05 -sobre floripa*/
-.home .entry-content section:nth-of-type(6) {
-	background-image: url(/files/2019/03/flp-bg.jpg);
+/*home se05 */
+.date-event {
+	background: url(https://2019.floripa.wordcamp.org/files/2019/03/background-ingressos.png);
 	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	color: #fff;
+	height: 600px;
+	padding-top: 100px;
+	padding-bottom: 150px;
 }
-.home .entry-content section:nth-of-type(6) h2 {
-	color: #fff;
+
+.date-event-container {
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.date-event-container div {
+	flex: 1 50%;
+}
+
+.date-event-title {
+	font-size: 75px;
+	color: #FFFFFF;
+	font-weight: 700;
+	text-align: left;
+	margin-bottom: 36px;
+}
+
+.date-event-subtitle {
+	font-size: 45px;
+	color: #FFFFFF;
+	font-weight: 700;
+	text-align: left;
+}
+
+.date-event-day {
+	font-size: 80px;
+	color: #FFFFFF;
+	font-weight: 700;
+	text-align: right;
+	margin-bottom: 27px;
+}
+
+.date-event-hour {
+	font-size: 39px;
+	color: #FFFFFF;
+	font-weight: 700;
+	margin-bottom: 12px;
+	text-align: right;
+}
+
+.date-event-h4 {
+	font-size: 30px;
+	color: #FFFFFF;
+	margin-bottom: 12px;
+	text-align: right;
+}
+
+.date-event-h5 {
+	font-size: 25px;
+	color: #FFFFFF;
+	text-align: right;
 }
 
 .home .blog .third {
