@@ -154,6 +154,18 @@ nav#site-navigation {
 	background: #FFFFFF;
 	padding: 16px;
 }
+.home nav#site-navigation {
+    position: absolute;
+    background-color: transparent;
+}
+
+.home nav#site-navigation ul li a {
+	color: #FFFFFF;
+}
+
+.home nav#site-navigation ul li#menu-item-1054 a {
+	color: transparent;
+}
 @media (min-width: 768px) {
 	body .page-navigation-container ul {
 		display: flex;
@@ -196,15 +208,6 @@ ul#primary-menu {
 }
 
 /*primeira secao da home*/
-.home nav#site-navigation {
-    position: absolute;
-    background-color: transparent;
-}
-
-.home nav#site-navigation ul li a {
-	color: #FFFFFF;
-}
-
 .home .entry-content section:nth-of-type(1) {
 	background: url(https://2019.floripa.wordcamp.org/files/2019/03/fundo-header-home.png);
 	background-size: cover;
@@ -387,6 +390,7 @@ ul#primary-menu {
 	font-weight: 700;
 	text-align: left;
 	margin-bottom: 36px;
+	line-height: 75px;
 }
 
 .date-event-subtitle {
@@ -394,6 +398,8 @@ ul#primary-menu {
 	color: #FFFFFF;
 	font-weight: 700;
 	text-align: left;
+	line-height: 50px;
+	margin: 0;
 }
 
 .date-event-day {
@@ -402,6 +408,7 @@ ul#primary-menu {
 	font-weight: 700;
 	text-align: right;
 	margin-bottom: 27px;
+	line-height: 90px;
 }
 
 .date-event-hour {
@@ -415,13 +422,17 @@ ul#primary-menu {
 .date-event-h4 {
 	font-size: 30px;
 	color: #FFFFFF;
-	margin-bottom: 12px;
 	text-align: right;
+	margin: 0 0 12px 0;
 }
 
 .date-event-h5 {
 	font-size: 25px;
 	color: #FFFFFF;
+	text-align: right;
+}
+
+.date-event div p {
 	text-align: right;
 }
 
