@@ -260,6 +260,28 @@ ul#primary-menu {
 	text-decoration: none;
 }
 
+@media (max-width: 767px) {
+	.home .entry-content section:nth-of-type(1) {
+		height: auto;
+	}
+	
+	.featured-home-slogan {
+		text-align: center;
+		margin-left: 0;
+		line-height: 1;
+		margin-bottom: 20px;
+	}
+
+	.featured-home-city {
+		font-size: 40px;
+		line-height: 40px;
+	}
+
+	.featured-home-button, .featured-home-button:hover, .featured-home-button:focus, .featured-home-button:visited {
+		font-size: 18px;
+	}
+}
+
 .home .entry-content section:first-child img {
 	height: auto;
 	max-width: 100%;
@@ -303,6 +325,20 @@ ul#primary-menu {
 
 .about-home-item img {
 	margin-bottom: 14px;
+}
+
+@media (max-width: 767px) {
+	.about-home-item {
+		font-size: 26px;
+	}
+	
+	.about-home-item {
+		width: 100%;
+	}
+
+	.about-home-box {
+		margin: 0 auto;
+	}
 }
 
 /*home terceira secao --- OBS descomentar quando tiver programacao*/
@@ -906,15 +942,6 @@ footer .site-info a, footer .site-info a:hover {
 	    font-size: 18px;
 	}
 	/* page home */
-	
-	/*default pages */
-	article {
-		padding: 10px 6vw;
-	}
-	article h1 {
-	    font-size: 3.2rem;
-	}
-	/*default pages */
 
 	/* page organizadores */
 	.wcorg-organizer {
