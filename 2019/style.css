@@ -328,7 +328,7 @@ ul#primary-menu {
 }
 
 @media (max-width: 767px) {
-	.about-home-item {
+	.about-home-title {
 		font-size: 26px;
 	}
 	
@@ -389,10 +389,21 @@ ul#primary-menu {
 	margin-bottom: 50px;
 }
 
-.which-is-wordcamp-text {
+.which-is-wordcamp p, .which-is-wordcamp-text {
 	color: #2a0340;
 	font-size: 18px;
 	line-height: 35px;
+}
+
+@media (max-width: 767px) {
+	.which-is-wordcamp-title {
+		font-size: 26px;
+	}
+
+	.which-is-wordcamp {
+		align-items: center;
+		flex-direction: column;
+	}
 }
 
 .home .entry-content section:nth-of-type(4) h2 {
