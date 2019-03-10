@@ -519,6 +519,13 @@ article.post-180 {
 	justify-content: center;
 }
 
+.botao-patrocinadores, .botao-patrocinadores:hover, .botao-patrocinadores:focus, .botao-patrocinadores:visited {
+	border: solid 1px #600283;
+	color: #600283;
+	font-weight: 700;
+	font-size: 22px;
+}
+
 /*patrocinadores*/
 /* page home */
 
