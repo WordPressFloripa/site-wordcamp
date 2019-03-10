@@ -151,15 +151,6 @@ li#menu-item-1056 a {
 	text-transform: uppercase;
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
-	.home li#menu-item-1056 a {
-		padding: 8px;
-	}
-
-	.page-navigation-container a {
-		font-size: 14px;
-	}
-}
 nav#site-navigation {
 	background: #FFFFFF;
 	padding: 16px;
@@ -628,6 +619,10 @@ article.post-180 {
 
 	.list-patrocinadores-home h3 {
 		font-size: 28px;
+	}
+
+	.list-patrocinadores-home .quarter img {
+		margin-bottom: 16px;
 	}
 }
 
@@ -1143,4 +1138,32 @@ html body .tix-js:not(.tix-has-dynamic-receipts) th.tix-column-description,
 
 th.tix-column-remaining, td.tix-column-remaining {
 	display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	.home li#menu-item-1056 a {
+		padding: 8px;
+	}
+
+	.page-navigation-container a {
+		font-size: 14px;
+	}
+}
+
+
+@media (max-width: 767px) {
+	div#footer-widgets ul.jetpack-social-widget-list {
+		display: grid;
+		grid-template-columns: 50px 50px 50px;
+		grid-template-rows: 50px;
+		grid-column-gap: 20px;
+		justify-content: center;
+		padding-top: 15px;
+	}
+	
+	div#footer-widgets .jetpack_widget_social_icons ul.size-medium a {
+		height: 30px;
+		width: 30px;
+		color: #fff;
+	}
 }
