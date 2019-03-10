@@ -150,6 +150,16 @@ li#menu-item-1056 a {
 	padding: 8px 16px;
 	text-transform: uppercase;
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	.home li#menu-item-1056 a {
+		padding: 8px;
+	}
+
+	.page-navigation-container a {
+		font-size: 14px;
+	}
+}
 nav#site-navigation {
 	background: #FFFFFF;
 	padding: 16px;
@@ -409,6 +419,12 @@ ul#primary-menu {
 	.which-is-wordcamp-right, .which-is-wordcamp-left {
 		width: 100%;
 		text-align: left;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1199px) { 
+	.which-is-wordcamp {
+		padding: 0 16px;
 	}
 }
 
