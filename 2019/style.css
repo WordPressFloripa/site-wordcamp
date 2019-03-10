@@ -294,14 +294,48 @@ ul#primary-menu {
 	margin-bottom: 14px;
 }
 
-/*home terceira secao*/
-.home .entry-content section:nth-of-type(3) {
+/*home terceira secao --- OBS descomentar quando tiver programacao*/
+/*.home .entry-content section:nth-of-type(3) {
 	background-image: linear-gradient(279deg, #28dfec, #600283);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	color: #FFFFFF;
 	text-align: center;
+}
+
+.schedule-title {
+	font-size: 55px;
+	color: white;
+	text-align: left;
+	font-weight: 700;
+	margin-bottom: 60px;
+}*/
+
+.home .entry-content section:nth-of-type(3) {
+	background-color: #FFFFFF;
+	padding: 100px 0;
+}
+
+.which-is-wordcamp {
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.which-is-wordcamp-title {
+	font-size: 35px;
+	font-weight: 700;
+	color: #600283;
+	margin-bottom: 50px;
+}
+
+.which-is-wordcamp-text {
+	color: #2a0340;
+	font-size: 18px;
+	line-height: 35px;
 }
 
 .home .entry-content section:nth-of-type(4) h2 {
