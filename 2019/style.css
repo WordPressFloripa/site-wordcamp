@@ -1154,16 +1154,15 @@ th.tix-column-remaining, td.tix-column-remaining {
 @media (max-width: 767px) {
 	div#footer-widgets ul.jetpack-social-widget-list {
 		display: grid;
-		grid-template-columns: 50px 50px 50px;
-		grid-template-rows: 50px;
-		grid-column-gap: 20px;
+		grid-template-columns: 50px 50px 50px !important;
+		grid-template-rows: 50px !important;
+		grid-column-gap: 20px !important;
 		justify-content: center;
 		padding-top: 15px;
 	}
 	
 	div#footer-widgets .jetpack_widget_social_icons ul.size-medium a {
-		height: 30px;
-		width: 30px;
-		color: #fff;
+		height: 30px !important;
+		width: 30px !important;
 	}
 }
