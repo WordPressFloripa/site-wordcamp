@@ -283,6 +283,7 @@ ul#primary-menu {
 	font-size: 35px;
 	text-align: left;
 	width: 100%;
+	margin-bottom: 60px;
 }
 
 .about-home-item {
@@ -324,7 +325,7 @@ ul#primary-menu {
 
 .home .entry-content section:nth-of-type(3) {
 	background-color: #FFFFFF;
-	padding: 100px 0;
+	padding: 50px 0;
 }
 
 .which-is-wordcamp {
@@ -508,10 +509,16 @@ article.post-180 {
 }
 
 /*patrocinadores*/
+.list-patrocinadores-home h2 {
+	font-size: 55px;
+	font-weight: 700;
+	text-align: left;
+}
+
 .list-patrocinadores-home h3 {
 	color: #2a0340;
     font-size: 3rem;
-    font-weight: 900;
+    font-weight: 700;
     margin: 60px 0;
     text-align: center;
 }
