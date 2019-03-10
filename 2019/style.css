@@ -498,6 +498,35 @@ ul#primary-menu {
 	margin-top: 40px;
 }
 
+@media (max-width: 767px) {
+	.date-event-container {
+		flex-direction: column;
+	}
+
+	.date-event-title {
+		font-size: 50px;
+    	line-height: 50px;
+	}
+
+	.date-event-subtitle {
+		font-size: 30px;
+		line-height: 40px;
+	}
+
+	.date-event-day {
+		font-size: 70px;
+		line-height: 70px;
+	}
+
+	.date-event-h4 {
+		font-size: 25px;
+	}
+
+	.date-event-h5 {
+		font-size: 20px;
+	}
+}
+
 .home .blog .third {
 	padding: 0 20px;
 }
@@ -560,6 +589,16 @@ article.post-180 {
 	font-size: 55px;
 	font-weight: 700;
 	text-align: left;
+}
+
+@media (max-width: 767px) {
+	.list-patrocinadores-home h2 {
+		font-size: 35px;
+	}
+
+	.list-patrocinadores-home h3 {
+		font-size: 28px;
+	}
 }
 
 .list-patrocinadores-home h3 {
@@ -890,7 +929,7 @@ footer .site-info a, footer .site-info a:hover {
 	.page-navigation-container ul li { 
 		display: none;
 	}
-	.page-navigation-container ul li#menu-item-203 { 
+	.page-navigation-container ul li#menu-item-1054 { 
 		display: block !important;
 		margin-right: 0;
 		margin-left: 20px;
