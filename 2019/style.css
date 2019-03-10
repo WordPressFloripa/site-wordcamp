@@ -932,20 +932,22 @@ footer .site-info a, footer .site-info a:hover {
 	.page-navigation-container ul li#menu-item-1054 { 
 		display: block !important;
 		margin-right: 0;
-		margin-left: 20px;
+		background: transparent !important;
+		margin-bottom: 20px;
 	}
 	.page-navigation-container.toggled-on ul li {
 		display: block !important;
 		float: none;
+		background-color: rgba(0,0,0,.3);
 	}
 	.menu-toggle {
 		position: absolute;
-	    right: 20px;
-	    top: 25px;
-	    z-index: 999;
-	}
-	.menu-toggle {
-	 	color: #ffd215;
+		right: 20px;
+		top: 40px;
+		z-index: 999;
+		width: 70px;
+		height: 50px;
+		color: transparent;
 	}
 	button.menu-toggle::after {
 	    content: '\f0c9';
