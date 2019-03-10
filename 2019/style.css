@@ -403,6 +403,12 @@ ul#primary-menu {
 	.which-is-wordcamp {
 		align-items: center;
 		flex-direction: column;
+		padding: 0 16px;
+	}
+
+	.which-is-wordcamp-right, .which-is-wordcamp-left {
+		width: 100%;
+		text-align: left;
 	}
 }
 
@@ -591,6 +597,14 @@ article.post-180 {
 	text-align: left;
 }
 
+.list-patrocinadores-home h3 {
+	color: #2a0340;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 60px 0;
+    text-align: center;
+}
+
 @media (max-width: 767px) {
 	.list-patrocinadores-home h2 {
 		font-size: 35px;
@@ -599,14 +613,6 @@ article.post-180 {
 	.list-patrocinadores-home h3 {
 		font-size: 28px;
 	}
-}
-
-.list-patrocinadores-home h3 {
-	color: #2a0340;
-    font-size: 3rem;
-    font-weight: 700;
-    margin: 60px 0;
-    text-align: center;
 }
 
 .list-patrocinadores-home img {
@@ -934,11 +940,13 @@ footer .site-info a, footer .site-info a:hover {
 		margin-right: 0;
 		background: transparent !important;
 		margin-bottom: 20px;
+		padding: 0 !important;
 	}
 	.page-navigation-container.toggled-on ul li {
 		display: block !important;
 		float: none;
-		background-color: rgba(0,0,0,.3);
+		background-color: rgba(0,0,0,.7);
+		padding: 10px;
 	}
 	.menu-toggle {
 		position: absolute;
@@ -948,6 +956,7 @@ footer .site-info a, footer .site-info a:hover {
 		width: 70px;
 		height: 50px;
 		color: transparent;
+		outline: none;
 	}
 	button.menu-toggle::after {
 	    content: '\f0c9';
