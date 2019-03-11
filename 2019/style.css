@@ -226,7 +226,7 @@ ul#primary-menu {
 	align-items: center;
 	flex-direction: column;
 	margin: 0 auto;
-	padding-top: 130px;
+	padding-top: 80px;
 }
 
 .featured-home p {
@@ -247,12 +247,13 @@ ul#primary-menu {
     font-size: 42px;
     line-height: 1.1;
     font-weight: 700;
-    margin-left: auto;
+	margin-left: auto;
+	margin-right: 70px;
 }
 
 .featured-home-button, .featured-home-button:hover, .featured-home-button:focus, .featured-home-button:visited {
 	display: inline-block;
-	margin-top: 60px;
+	margin-top: 20px;
 	border: 2px solid #FFFFFF;
 	color: #FFFFFF;
 	padding: 8px 16px;
@@ -1167,3 +1168,10 @@ th.tix-column-remaining, td.tix-column-remaining {
 	}
 }
 
+section.list-patrocinadores-home {
+    display: none;
+}
+
+article#post-207 {
+    margin-bottom: 0;
+}
