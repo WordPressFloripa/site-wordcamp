@@ -253,7 +253,7 @@ ul#primary-menu {
 
 .featured-home-button, .featured-home-button:hover, .featured-home-button:focus, .featured-home-button:visited {
 	display: inline-block;
-	margin-top: 20px;
+	margin-top: 20px !important;
 	border: 2px solid #FFFFFF;
 	color: #FFFFFF;
 	padding: 8px 16px;
@@ -1380,4 +1380,9 @@ body .tix-notice {
 
 body select, body select * {
     color: #333 !important;
+}
+
+body input[type=submit],
+body a:hover {
+	opacity: 0.8;
 }
