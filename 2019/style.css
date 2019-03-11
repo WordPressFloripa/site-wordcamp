@@ -918,7 +918,7 @@ footer .site-info {
 footer .site-info a, footer .site-info a:hover {
 	color: white;
 	text-decoration: none;
-	margin: 0 50px;
+	margin: 0;
 }
 
 .widget_wpcom_social_media_icons_widget ul li {
@@ -1360,10 +1360,24 @@ article#post-433 h2 {
 }
 
 body footer .site-info {
-	background-color: transparent;
-	text-align: center;
-	padding: 15px 0;
-	font-size: 12px;
-	justify-content: space-between;
-	display: flex;
+    background-color: transparent;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 12px;
+    justify-content: space-between;
+    display: flex;
+    max-width: 1210px;
+    margin: 0 auto;
+}
+
+footer span[role=separator] {
+    display: none !important;
+}
+
+body .tix-notice {
+    color: #333 !important;
+}
+
+body select, body select * {
+    color: #333 !important;
 }
