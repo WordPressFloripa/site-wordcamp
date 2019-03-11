@@ -1194,3 +1194,176 @@ article#post-207 {
     grid-column-start: 1;
     margin-bottom: 30px;
 }
+
+/*css que estava no tema*/
+body:not(.home) article.page.type-page {
+	padding: 0 50px;
+	max-width: 1210px;
+	margin: 0 auto;
+}
+
+h1.entry-title {
+	font-size: 36px;
+}
+
+aside#secondary {
+	display: none;
+}
+
+body:not(.home) {
+	background: url('https://2019.floripa.wordcamp.org/files/2019/03/fundo-header-home.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+body:not(.home) p,
+body:not(.home) h1,
+body:not(.home) li a {
+	color: #fff;
+}
+
+body:not(.home) .entry-content {
+	background-color: rgba(0,0,0,.5);
+	padding: 3% 5%;
+	border-radius: 30px;
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+body li#menu-item-1056 a {
+	border-color: #fff;
+}
+
+body nav#site-navigation {
+	background-color: transparent;
+}
+
+#footer-widgets h2 {
+	color: #fff;
+	margin: 10px 0 20px;
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 1.2;
+	text-align: center;
+}
+
+body div#footer-widgets > div {
+	max-width: 100%;
+}
+
+div#footer-widgets ul.jetpack-social-widget-list {
+	display: grid;
+	grid-template-columns: 100px 100px 100px;
+	grid-template-rows: 100px;
+	grid-column-gap: 100px;
+	justify-content: center;
+	padding-top: 15px;
+}
+
+div#footer-widgets li.jetpack-social-widget-item {
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center;
+}
+
+div#footer-widgets li.jetpack-social-widget-item {
+	display: flex !important;
+	justify-content: center !important;
+	border: 3px solid #fff !important;
+	align-items: center;
+	border-radius: 50%;
+}
+
+div#footer-widgets .jetpack_widget_social_icons ul.size-medium a {
+	height: 40px;
+	width: 40px;
+	color: #fff;
+}
+
+body:not(.home) article.page.type-page * {
+	color: #fff;
+}
+
+label.grunion-field-label {
+	text-align: left;
+}
+
+form.contact-form.commentsblock {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 30px;
+	position: relative;
+}
+
+p.contact-submit {
+	margin: 0;
+	float: right !important;
+	text-align: right;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+form.contact-form.commentsblock {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 30px;
+	position: relative;
+	padding-bottom: 25px;
+}
+
+.grunion-field-wrap.grunion-field-checkbox-wrap {
+	grid-column-end: 3;
+	grid-column-start: 1;
+}
+
+.grunion-field-wrap.grunion-field-checkbox-wrap label {
+	width: 100%;
+}
+
+body button.pushbutton-wide {
+	background-color: transparent;
+	border-width: 2px;
+}
+
+body #contact-form-424 input[type=checkbox] {
+	width: 20px !important;
+}
+
+article#post-433 h2 {
+	font-size: 35px;
+}
+
+.card-grid > div {
+	border: 1px solid;
+	border-radius: 30px;
+	padding: 14px 0;
+}
+
+.card-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 30px;
+	grid-row-gap: 30px;
+	margin-bottom: 70px;
+	border-bottom: 1px solid;
+	padding-bottom: 70px;
+}
+
+.card-grid ul li {
+	list-style: none;
+}
+
+.card-grid ul {
+	margin: 0;
+	padding: 0;
+}
+
+body footer .site-info {
+	background-color: transparent;
+	text-align: center;
+	padding: 15px 0;
+	font-size: 12px;
+	justify-content: space-between;
+	display: flex;
+}
