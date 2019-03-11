@@ -1175,3 +1175,22 @@ section.list-patrocinadores-home {
 article#post-207 {
     margin-bottom: 0;
 }
+
+.contact-form input[type=email], .contact-form input[type=text], .contact-form input[type=url] {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-bottom: 13px;
+}
+
+.contact-form textarea {
+    height: 200px;
+    min-width: 100%;
+    float: none;
+    margin-bottom: 13px;
+}
+
+.page-id-204 .grunion-field-wrap.grunion-field-textarea-wrap {
+    grid-column-end: 3;
+    grid-column-start: 1;
+    margin-bottom: 30px;
+}
