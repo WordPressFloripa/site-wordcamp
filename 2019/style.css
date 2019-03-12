@@ -210,7 +210,7 @@ ul#primary-menu {
 
 /*primeira secao da home*/
 .home .entry-content section:nth-of-type(1) {
-	background: url(https://2019.floripa.wordcamp.org/files/2019/03/fundo-header-home.png);
+	background: url(https://2019.floripa.wordcamp.org/files/2019/03/fundo-header-home.jpg);
 	background-size: cover;
 	height: 100vh;
 	display: flex;
@@ -1211,7 +1211,7 @@ aside#secondary {
 }
 
 body:not(.home) {
-	background: url('https://2019.floripa.wordcamp.org/files/2019/03/fundo-header-home.png');
+	background: url('https://2019.floripa.wordcamp.org/files/2019/03/fundo-header-home.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -1290,11 +1290,29 @@ label.grunion-field-label {
 
 form.contact-form.commentsblock {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-column-gap: 30px;
 	position: relative;
 }
-
+@media(min-width: 768px) {
+	form.contact-form.commentsblock {
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 30px;
+	}	
+	form.contact-form.commentsblock {
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 30px;
+	}
+	.grunion-field-wrap.grunion-field-checkbox-wrap {
+		grid-column-end: 3;
+		grid-column-start: 1;
+	}
+	.card-grid {
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 30px;
+		grid-row-gap: 30px;
+		margin-bottom: 70px;
+		padding-bottom: 70px;
+	}
+}
 p.contact-submit {
 	margin: 0;
 	float: right !important;
@@ -1306,16 +1324,10 @@ p.contact-submit {
 
 form.contact-form.commentsblock {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-column-gap: 30px;
 	position: relative;
 	padding-bottom: 25px;
 }
 
-.grunion-field-wrap.grunion-field-checkbox-wrap {
-	grid-column-end: 3;
-	grid-column-start: 1;
-}
 
 .grunion-field-wrap.grunion-field-checkbox-wrap label {
 	width: 100%;
@@ -1342,12 +1354,9 @@ article#post-433 h2 {
 
 .card-grid {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-column-gap: 30px;
-	grid-row-gap: 30px;
-	margin-bottom: 70px;
+	margin-bottom: 50px;
 	border-bottom: 1px solid;
-	padding-bottom: 70px;
+	padding-bottom: 50px;
 }
 
 .card-grid ul li {
