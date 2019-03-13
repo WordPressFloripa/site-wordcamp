@@ -1475,7 +1475,7 @@ body:not(.home) article.page.type-page * {
 	color: #2a0340;
 }
 
-body.page-id-433 .entry-content .card h3 {
+body.page-id-433 .entry-content .card h3, body.page-id-433 .entry-content h3, body.page-id-433 .entry-content .card h2 {
 	color: #600283 !important;
 }
 
@@ -1538,6 +1538,7 @@ body:not(.home) .entry-content .contact-submit button {
 	border: 1px solid #600283;
 	padding: 10px 20px;
 	border-radius: 0;
+	color: #FFFFFF;
 }
 
 body:not(.home) .entry-content .grunion-field-label.checkbox {
