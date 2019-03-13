@@ -1387,8 +1387,8 @@ body select, body select * {
     color: #333 !important;
 }
 
-.home li#menu-item-1056 a, 
-a.featured-home-button {
+.home li#menu-item-1056 a:hover, 
+a.featured-home-button:hover {
     opacity: 1;
     background-color: #fff;
     border-color: #fefefe!important;
