@@ -1457,12 +1457,36 @@ div#tix input[type="submit"] {
 
 /* paginas internas novas */
 
+/* interna palestre */
 body.page-id-424 {
 	background: url(https://2019.floripa.wordcamp.org/files/2019/03/banner-palestre.png) !important;
     background-repeat: no-repeat !important;
 	background-color: #FFFFFF !important;
 }
 
+/* interna patrocine */
+body.page-id-433 {
+	background: url(https://2019.floripa.wordcamp.org/files/2019/03/banner-patrocine.png) !important;
+    background-repeat: no-repeat !important;
+	background-color: #FFFFFF !important;
+}
+
+body.page-id-424 .card h3 {
+	color: #600283;
+}
+
+body.page-id-424 .card {
+	color: #2a0340;
+	box-shadow: 0 3px 6px 0 rgba(136, 136, 136, 0.16);
+	border: solid 1px #707070;
+	padding: 40px;
+}
+
+
+
+
+
+/* geral */
 body:not(.home) .entry-header {
 	height: 400px;
 	display: flex;
