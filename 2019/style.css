@@ -1475,11 +1475,12 @@ body.page-id-433 .entry-content .card h3 {
 	color: #600283 !important;
 }
 
-body.page-id-433 .entry-content .card {
+body.page-id-433 .entry-content .card, body.page-id-433 .entry-content .card p, body.page-id-433 .entry-content .card ul {
 	color: #2a0340 !important;
 	box-shadow: 0 3px 6px 0 rgba(136, 136, 136, 0.16) !important;
 	border: solid 1px #707070 !important;
 	padding: 40px !important;
+	border-radius: 0;
 }
 
 
