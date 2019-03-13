@@ -379,7 +379,7 @@ ul#primary-menu {
 
 .which-is-wordcamp-title {
 	font-size: 35px;
-	font-weight: 700;
+	font-weight: 900;
 	color: #600283;
 	margin-bottom: 50px;
 }
@@ -1232,12 +1232,13 @@ body nav#site-navigation {
 }
 
 #footer-widgets h2 {
-	color: #fff;
-	margin: 10px 0 20px;
-	font-size: 30px;
-	font-weight: normal;
-	line-height: 1.2;
-	text-align: center;
+    color: #fff;
+    margin: 10px 0 20px;
+    font-size: 32px;
+    line-height: 1.2;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 30px;
 }
 
 body div#footer-widgets > div {
