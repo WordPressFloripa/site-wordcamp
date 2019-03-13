@@ -1580,3 +1580,9 @@ body:not(.home) .entry-content .contact-submit button {
 body:not(.home) .entry-content .grunion-field-label.checkbox {
 	display: flex;
 }
+
+@media (max-width: 767px) {
+	body {
+		background-size: cover;
+	}	
+}
