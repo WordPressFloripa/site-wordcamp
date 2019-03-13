@@ -1509,8 +1509,24 @@ body.page-id-204 {
 	background-color: #FFFFFF !important;
 }
 
+/* interna ingressos */
+div#tix input[type="submit"] {
+	background: #600283;
+	border: 1px solid #600283 !important;
+	padding: 10px 20px;
+	border-radius: 0;
+	color: #FFFFFF !important;
+	width: auto;
+	display: inline-block;
+	height: 37px !important;
+	float: right;
+}
 
 /* geral */
+body:not(.home) {
+	background-size: contain !important;
+}
+
 body:not(.home) .entry-header {
 	height: 400px;
 	display: flex;
