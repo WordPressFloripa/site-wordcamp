@@ -1454,3 +1454,7 @@ div#tix input[type="submit"] {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+body {
+	background: #FFFFFF;
+}
