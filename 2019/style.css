@@ -1487,8 +1487,19 @@ body.page-id-433 .entry-content .card {
 	border-radius: 0;
 }
 
-
-
+/* interna organizadores */
+body.page-id-199 {
+	background: url(https://2019.floripa.wordcamp.org/files/2019/03/banner-organizadores.png) !important;
+    background-repeat: no-repeat !important;
+	background-color: #FFFFFF !important;
+}
+body.page-id-199 .entry-content .wcorg-organizer {
+	color: #2a0340 !important;
+	box-shadow: 0 3px 6px 0 rgba(136, 136, 136, 0.16) !important;
+	border: solid 1px #707070 !important;
+	padding: 40px !important;
+	border-radius: 0;
+}
 
 
 /* geral */
@@ -1502,7 +1513,7 @@ body:not(.home) .entry-title {
 	font-size: 75px;
 	text-transform: uppercase;
 	margin: auto;
-	color: #FFFFFF;
+	color: #FFFFFF !important;
 }
 
 body:not(.home) .entry-content {
