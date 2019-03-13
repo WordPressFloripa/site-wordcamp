@@ -1476,6 +1476,7 @@ body:not(.home) .entry-title {
 body:not(.home) .entry-content {
 	margin-top: 40px;
 	background: #FFFFFF !important;
+	padding-top: 0;
 }
 
 body:not(.home) .entry-content h4 {
@@ -1489,13 +1490,14 @@ body:not(.home) .entry-content label {
 	color: #2a0340 !important;
 }
 
-body:not(.home) .entry-content input {
-	color: #454443;
+body:not(.home) .entry-content input, body:not(.home) .entry-content textarea, body:not(.home) .entry-content select {
+	color: #454443 !important;
 	border: 1px solid #454443;
 	height: 30px;	
 }
 
 body:not(.home) .entry-content .contact-submit button {
 	background: #600283;
+	border: 1px solid #600283;
 	padding: 10px 20px;
 }
