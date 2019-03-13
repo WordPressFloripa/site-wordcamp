@@ -1583,6 +1583,11 @@ body:not(.home) .entry-content .grunion-field-label.checkbox {
 
 @media (max-width: 767px) {
 	body {
-		background-size: cover !important;
+		background-repeat: no-repeat !important;
+    	background-color: #FFFFFF !important;
 	}	
+
+	body:not(.home) .entry-title {
+		font-size: 50px;
+	}
 }
