@@ -1497,8 +1497,16 @@ body.page-id-199 .entry-content .wcorg-organizer {
 	color: #2a0340 !important;
 	box-shadow: 0 3px 6px 0 rgba(136, 136, 136, 0.16) !important;
 	border: solid 1px #707070 !important;
-	padding: 40px !important;
+	padding: 20px !important;
 	border-radius: 0;
+	margin: 9px;
+}
+
+/* interna contato */
+body.page-id-204 {
+	background: url(https://2019.floripa.wordcamp.org/files/2019/03/banner-contato.png) !important;
+    background-repeat: no-repeat !important;
+	background-color: #FFFFFF !important;
 }
 
 
