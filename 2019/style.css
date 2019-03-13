@@ -1583,11 +1583,20 @@ body:not(.home) .entry-content .grunion-field-label.checkbox {
 
 @media (max-width: 767px) {
 	body {
+		background-size: cover !important;
 		background-repeat: no-repeat !important;
     	background-color: #FFFFFF !important;
 	}	
 
 	body:not(.home) .entry-title {
-		font-size: 50px;
+		font-size: 40px;
+	}
+
+	body:not(.home) article.page.type-page {
+		padding: 0 !important;
+	}
+
+	body:not(.home) .entry-content .contact-submit button { 
+		margin-top: 16px;
 	}
 }
