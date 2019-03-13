@@ -2,7 +2,8 @@
 tipografia
 */
 body, p, h1,h2,h3,h4, a, span, strong, b, li {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+
 }
 html {font-size: 16px; }
 @media (max-width: 767px) {
@@ -292,14 +293,6 @@ ul#primary-menu {
 /*home segunda secao*/
 .home .entry-content section:nth-of-type(2) {
 	background-color: #FFFFFF;
-}
-
-.about-home {
-	display: flex;	
-	margin: 0 auto;
-	width: 100%;
-	max-width: 1100px;
-	flex-wrap: wrap;
 }
 
 .about-home-title {
@@ -1396,3 +1389,25 @@ body a:hover {
 	opacity: 0.8;
 }
 
+
+
+.img-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-item {
+    display: grid;
+    grid-template-rows: 130px 40px;
+    text-align: center;
+}
+.about-home {
+    display: grid;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1100px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-row-gap: 30px;
+    padding: 30px 0;
+}
