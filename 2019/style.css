@@ -1524,7 +1524,7 @@ div#tix input[type="submit"] {
 
 /* geral */
 body:not(.home) {
-	background-size: contain !important;
+	background-size: contain;
 }
 
 body:not(.home) .entry-header {
