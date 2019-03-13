@@ -1462,11 +1462,40 @@ body.page-id-424 {
 }
 
 body:not(.home) .entry-header {
-	height: 430px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
 }
 
 body:not(.home) .entry-title {
 	font-size: 75px;
-	margin-top: 100px;
 	text-transform: uppercase;
+	margin: auto;
+}
+
+body:not(.home) .entry-content {
+	margin-top: 40px;
+	background: #FFFFFF !important;
+}
+
+body:not(.home) .entry-content h4 {
+	color: #600283 !important;
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+body:not(.home) .entry-content label {
+	color: #2a0340 !important;
+}
+
+body:not(.home) .entry-content input {
+	color: #454443;
+	border: 1px solid #454443;
+	height: 30px;	
+}
+
+body:not(.home) .entry-content .contact-submit button {
+	background: #600283;
+	padding: 10px 20px;
 }
