@@ -1455,6 +1455,8 @@ div#tix input[type="submit"] {
     margin-bottom: 15px;
 }
 
+/* paginas internas novas */
+
 body.page-id-424 {
 	background: url(https://2019.floripa.wordcamp.org/files/2019/03/banner-palestre.png) !important;
     background-repeat: no-repeat !important;
@@ -1490,10 +1492,15 @@ body:not(.home) .entry-content label {
 	color: #2a0340 !important;
 }
 
-body:not(.home) .entry-content input, body:not(.home) .entry-content textarea, body:not(.home) .entry-content select {
+body:not(.home) .entry-content input, body:not(.home) .entry-content select {
+	color: #454443 !important;
+	border: 1px solid #454443 !important;
+	height: 30px !important; 	
+}
+
+body:not(.home) .entry-content textarea {
 	color: #454443 !important;
 	border: 1px solid #454443;
-	height: 30px;	
 }
 
 body:not(.home) .entry-content .contact-submit button {
