@@ -1502,6 +1502,7 @@ body:not(.home) .entry-title {
 	font-size: 75px;
 	text-transform: uppercase;
 	margin: auto;
+	color: #FFFFFF;
 }
 
 body:not(.home) .entry-content {
