@@ -1387,12 +1387,13 @@ body select, body select * {
     color: #333 !important;
 }
 
-body input[type=submit],
-body a:hover {
-	opacity: 0.8;
-	background-color: #fff;
-	border-color: #fff;
-	color: #600283;
+.home li#menu-item-1056 a, 
+a.featured-home-button {
+    opacity: 1;
+    background-color: #fff;
+    border-color: #fefefe!important;
+    color: #600283 !important;
+    transition: 1s ease all;
 }
 
 
