@@ -2,7 +2,8 @@
 tipografia
 */
 body, p, h1,h2,h3,h4, a, span, strong, b, li {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+
 }
 html {font-size: 16px; }
 @media (max-width: 767px) {
@@ -390,7 +391,7 @@ ul#primary-menu {
 
 .which-is-wordcamp-title {
 	font-size: 35px;
-	font-weight: 700;
+	font-weight: 900;
 	color: #600283;
 	margin-bottom: 50px;
 }
@@ -1244,11 +1245,12 @@ body nav#site-navigation {
 
 #footer-widgets h2 {
 	color: #fff;
-	margin: 10px 0 20px;
-	font-size: 30px;
-	font-weight: normal;
-	line-height: 1.2;
-	text-align: center;
+    margin: 10px 0 20px;
+    font-size: 32px;
+    line-height: 1.2;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 30px;
 }
 
 body div#footer-widgets > div {
@@ -1276,6 +1278,8 @@ div#footer-widgets li.jetpack-social-widget-item {
 	border: 3px solid #fff !important;
 	align-items: center;
 	border-radius: 50%;
+	overflow: hidden;
+	position: relative;
 }
 
 div#footer-widgets .jetpack_widget_social_icons ul.size-medium a {
@@ -1400,3 +1404,65 @@ body a:hover {
 	opacity: 0.8;
 }
 
+
+
+
+
+
+/*saves do git*/
+div#footer-widgets .jetpack_widget_social_icons ul.size-medium a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+li.jetpack-social-widget-item:hover, li.jetpack-social-widget-item:hover * {
+    background: #fff;
+    color: #600283 !important;
+}
+div#tix thead {
+    border-bottom: 1px solid #fff;
+}
+
+div#tix td {
+    padding: 10px 5px;
+}
+div#tix input[type="submit"] {
+    border-radius: 0;
+    background-color: transparent;
+    border: 2px solid #fff;
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+} 
+div#tix input[type="submit"]:hover,
+.home li#menu-item-1056 a:hover, 
+a.featured-home-button:hover {
+	opacity: 1;
+    background-color: #fff;
+    border-color: #fefefe!important;
+}
+
+.img-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-item {
+    display: grid;
+    grid-template-rows: 130px 40px;
+    text-align: center;
+}
+.about-home {
+    display: grid;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1100px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-row-gap: 30px;
+    padding: 30px 0;
+} 
