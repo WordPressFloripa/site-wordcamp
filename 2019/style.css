@@ -1455,6 +1455,8 @@ div#tix input[type="submit"] {
     margin-bottom: 15px;
 }
 
-body {
-	background: #FFFFFF;
+body.page-id-424 {
+	background: url(https://2019.floripa.wordcamp.org/files/2019/03/banner-palestre.png) !important;
+    background-repeat: no-repeat !important;
+	background-color: #FFFFFF !important;
 }
