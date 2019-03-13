@@ -252,7 +252,9 @@ ul#primary-menu {
 	margin-right: 70px;
 }
 
-.featured-home-button, .featured-home-button:hover, .featured-home-button:focus, .featured-home-button:visited {
+.featured-home-button, 
+.featured-home-button:hover, 
+.featured-home-button:focus, .featured-home-button:visited {
 	display: inline-block;
 	margin-top: 20px !important;
 	border: 2px solid #FFFFFF;
@@ -1388,6 +1390,9 @@ body select, body select * {
 body input[type=submit],
 body a:hover {
 	opacity: 0.8;
+	background-color: #fff;
+	border-color: #fff;
+	color: #600283;
 }
 
 
