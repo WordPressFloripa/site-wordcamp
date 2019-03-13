@@ -1472,14 +1472,14 @@ body.page-id-433 {
 }
 
 body.page-id-424 .card h3 {
-	color: #600283;
+	color: #600283 !important;
 }
 
 body.page-id-424 .card {
-	color: #2a0340;
-	box-shadow: 0 3px 6px 0 rgba(136, 136, 136, 0.16);
-	border: solid 1px #707070;
-	padding: 40px;
+	color: #2a0340 !important;
+	box-shadow: 0 3px 6px 0 rgba(136, 136, 136, 0.16) !important;
+	border: solid 1px #707070 !important;
+	padding: 40px !important;
 }
 
 
