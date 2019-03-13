@@ -1513,5 +1513,4 @@ body:not(.home) .entry-content .contact-submit button {
 
 body:not(.home) .entry-content .grunion-field-label.checkbox {
 	display: flex;
-	align-items: center;
 }
