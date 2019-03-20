@@ -1624,4 +1624,13 @@ body:not(.home) .entry-content .grunion-field-label.checkbox {
 	body:not(.home) .entry-content .contact-submit button { 
 		margin-top: 16px;
 	}
+
+	body:not(.home) .type-post .entry-title {
+		font-size: 20px;
+    	width: 90%;
+	}
+
+	body:not(.home) .type-post .entry-content h2 {
+		font-size: 22px;
+	}
 }
