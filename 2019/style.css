@@ -1557,6 +1557,14 @@ body:not(.home) .type-post .entry-meta a:focus, body:not(.home) .type-post .entr
 	color: #FFFFFF;
 }
 
+body:not(.home) .type-post .entry-content p {
+	color: #2a0340;
+}
+
+body:not(.home) .type-post #comments {
+	display: none;
+}
+
 body:not(.home) .entry-content {
 	margin-top: 40px;
 	background: #FFFFFF !important;
