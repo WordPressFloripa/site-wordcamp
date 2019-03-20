@@ -1542,6 +1542,21 @@ body:not(.home) .entry-title {
 	color: #FFFFFF !important;
 }
 
+body:not(.home) .type-post .entry-title {
+	font-size: 35px;
+    width: 80%;
+}
+
+body:not(.home) .type-post .entry-meta {
+	color: #FFFFFF;
+	text-align: center;
+}
+
+body:not(.home) .type-post .entry-meta a, body:not(.home) .type-post .entry-meta a:hover, 
+body:not(.home) .type-post .entry-meta a:focus, body:not(.home) .type-post .entry-meta a:visited {
+	color: #FFFFFF;
+}
+
 body:not(.home) .entry-content {
 	margin-top: 40px;
 	background: #FFFFFF !important;
