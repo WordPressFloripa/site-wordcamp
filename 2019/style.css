@@ -1561,7 +1561,7 @@ body:not(.home) .type-post .entry-content p {
 	color: #2a0340;
 }
 
-body:not(.home) .type-post #comments {
+body:not(.home) #comments {
 	display: none;
 }
 
