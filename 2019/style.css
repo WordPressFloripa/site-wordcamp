@@ -1650,4 +1650,8 @@ body:not(.home) .entry-content .grunion-field-label.checkbox {
 		display: flex !important;
 		flex-direction: column !important;
 	}
+	
+	p.contact-submit {
+		position: relative !important;
+	}
 }
