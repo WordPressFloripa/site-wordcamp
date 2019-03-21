@@ -232,6 +232,8 @@ ul#primary-menu {
 
 .featured-home-imgs {
 	display: flex;
+	align-items: flex-end;
+	max-width: 600px;
 }
 
 .featured-home p {
@@ -240,20 +242,17 @@ ul#primary-menu {
 
 .featured-home-slogan {
 	color: #FFFFFF;
-	font-size: 26px;
+	font-size: 21px;
 	line-height: 43.8px;
 	line-height: 10px;
-	margin-left: 75px;
 	font-weight: 500;
 }
 
 .featured-home-city {
     color: #FFFFFF;
-    font-size: 42px;
+    font-size: 32px;
     line-height: 1.1;
     font-weight: 700;
-	margin-left: auto;
-	margin-right: 70px;
 }
 
 .featured-home-button, 
