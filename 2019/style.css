@@ -130,7 +130,7 @@ separador de titulo
 .home header.entry-header {
 	display: none;
 }
-li#menu-item-1054 a {
+li#menu-item-1467 a {
 	background: url(https://2019.floripa.wordcamp.org/files/2019/03/logo-wordcamp-floripa.png);
 	width: 162px;
 	height: 84px;
@@ -165,7 +165,7 @@ nav#site-navigation {
 	color: #FFFFFF;
 }
 
-.home nav#site-navigation ul li#menu-item-1054 a {
+.home nav#site-navigation ul li#menu-item-1467 a {
 	color: transparent;
 }
 @media (min-width: 768px) {
@@ -944,7 +944,7 @@ footer .site-info a, footer .site-info a:hover {
 	.page-navigation-container ul li { 
 		display: none;
 	}
-	.page-navigation-container ul li#menu-item-1054 { 
+	.page-navigation-container ul li#menu-item-1467 { 
 		display: block !important;
 		margin-right: 0;
 		background: transparent !important;
@@ -1604,6 +1604,10 @@ body:not(.home) .entry-content .contact-submit button {
 
 body:not(.home) .entry-content .grunion-field-label.checkbox {
 	display: flex;
+}
+
+#post-354 .entry-content {
+	max-width: 800px;
 }
 
 @media (max-width: 767px) {
