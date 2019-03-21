@@ -230,6 +230,10 @@ ul#primary-menu {
 	padding-top: 80px;
 }
 
+.featured-home-imgs {
+	display: flex;
+}
+
 .featured-home p {
 	margin: 0;
 }
