@@ -287,6 +287,7 @@ ul#primary-menu {
 		margin-top: 20px;
 		font-size: 30px;
 		line-height: 35px;
+		text-align: center;
 	}
 
 	.featured-home-button, .featured-home-button:hover, .featured-home-button:focus, .featured-home-button:visited {
@@ -1643,5 +1644,10 @@ body:not(.home) .entry-content .grunion-field-label.checkbox {
 
 	body:not(.home) .type-post .entry-content h2 {
 		font-size: 22px;
+	}
+
+	form.contact-form.commentsblock {
+		display: flex !important;
+		flex-direction: column !important;
 	}
 }
