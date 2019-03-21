@@ -970,7 +970,7 @@ footer .site-info a, footer .site-info a:hover {
 	button.menu-toggle::after {
 	    content: '\f0c9';
     	font-family: FontAwesome;
-	    color: #333;
+	    color: #FFFFFF;
 	    position: absolute;
 	    left: 0;
 	    text-align: center;
