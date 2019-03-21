@@ -1474,24 +1474,26 @@ div#tix input[type="submit"] {
 }
 
 .programacao-sec h2 {
-	font-size: 32px;
+	font-size: 42px;
 	color: #FFFFFF;
-	font-weight: 700;
+	font-weight: 900;
+	margin-bottom: 30px;
 }
 
 .programacao-sec h3 {
-	font-size: 28px;
+	font-size: 30px;
 	color: #28dfec;
 }
 
 .programacao-sec h4 {
 	color: #FFFFFF;
-	font-size: 28px;
+	font-size: 30px;
+	line-height: 36px;
 }
 
 .programacao-sec h4 span {
-	font-size: 32px;
-	font-weight: 700;
+	font-size: 42px;
+	font-weight: 900;
 }
 
 /* interna palestre */
