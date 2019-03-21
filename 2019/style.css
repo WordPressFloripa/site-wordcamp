@@ -279,12 +279,14 @@ ul#primary-menu {
 		text-align: center;
 		margin-left: 0;
 		line-height: 1;
-		margin-bottom: 20px;
+		font-size: 24px;
+		margin-bottom: 10px;
 	}
 
 	.featured-home-city {
-		font-size: 40px;
-		line-height: 40px;
+		margin-top: 20px;
+		font-size: 30px;
+		line-height: 35px;
 	}
 
 	.featured-home-button, .featured-home-button:hover, .featured-home-button:focus, .featured-home-button:visited {
