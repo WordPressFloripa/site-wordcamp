@@ -1654,4 +1654,8 @@ body:not(.home) .entry-content .grunion-field-label.checkbox {
 	p.contact-submit {
 		position: relative !important;
 	}
+
+	body.page-id-433 .entry-content .card {
+		margin-bottom: 30px;
+	}
 }
