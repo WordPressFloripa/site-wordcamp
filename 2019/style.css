@@ -1606,7 +1606,7 @@ body:not(.home) .entry-content .grunion-field-label.checkbox {
 	display: flex;
 }
 
-#post-354 .entry-content {
+#post-354 .entry-content, #post-194 .entry-content {
 	max-width: 800px;
 }
 
