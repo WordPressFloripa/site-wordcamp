@@ -1666,18 +1666,24 @@ body.page-slug-blog h1.page-title {
 	-webkit-clip-path: none;
 }
 
+.screen-reader-text {
+	clip-path: inset(0) !important;
+	-webkit-clip-path: inset(0) !important;	
+}
+
 body.page-slug-blog .entry-title {
 	font-size: 26px !important;
+	margin-bottom: 16px !important;
 }
 
 body.page-slug-blog .entry-title a {
 	color: #2a0340 !important;
 	text-decoration: none !important;
-	margin-bottom: 16px !important;
 }
 
 body.page-slug-blog .entry-meta, body.page-slug-blog .entry-meta a {
 	color: #2a0340 !important;
+	text-align: left;
 }
 
 body.page-slug-blog .entry-content {
