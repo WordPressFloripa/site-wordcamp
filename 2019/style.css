@@ -1667,6 +1667,10 @@ body.page-slug-blog main > header::before {
     font-weight: 700;
 }
 
+body.page-slug-blog article header {
+	height: auto !important;
+}
+
 body.page-slug-blog h1.page-title {
 	font-size: 75px;
     text-transform: uppercase;
