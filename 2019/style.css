@@ -1760,26 +1760,3 @@ body.page-slug-blog .entry-content {
 	}
 }
 
-
-body header li.current-menu-item a:before,
-body header li.menu-item a:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  bottom: 26px;
-  left: 0;
-  background-color: #000;
-  visibility: hidden;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
-}
-
-body header li.current-menu-item a:before,
-body header li.menu-item a:hover:before {
-  visibility: visible;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
-}
