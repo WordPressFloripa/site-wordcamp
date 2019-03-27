@@ -1661,6 +1661,21 @@ body.page-slug-blog .page-title {
 	position: relative !important;
 	width: auto !important;
 	height: auto !important;
+	clip: auto !important;
+    clip-path: none !important;
+}
+
+body.page-slug-blog .entry-title {
+	color: #2a0340;
+	text-decoration: none;
+}
+
+body.page-slug-blog .entry-meta {
+	color: #2a0340;
+}
+
+body.page-slug-blog .entry-content {
+	display: none;
 }
 
 @media (max-width: 767px) {
