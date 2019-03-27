@@ -1580,8 +1580,9 @@ body:not(.home) .entry-title {
 }
 
 body:not(.home) .type-post .entry-title {
-	font-size: 35px;
+	font-size: 30px !important;
     width: 80%;
+    margin: 16px auto !important;
 }
 
 body:not(.home) .type-post .entry-meta {
@@ -1661,7 +1662,9 @@ body.page-slug-blog main header::before {
     margin: auto;
 	color: #FFFFFF !important;
 	position: absolute;
-	left: 0;
+	left: 50%;
+    transform: translate(-50%, 0);
+    font-weight: 700;
 }
 
 body.page-slug-blog h1.page-title {
@@ -1690,6 +1693,11 @@ body.page-slug-blog .entry-title {
 body.page-slug-blog .entry-title a {
 	color: #2a0340 !important;
 	text-decoration: none !important;
+}
+
+body.page-slug-blog .entry-meta {
+	width: 80%;
+	margin: 0 auto;
 }
 
 body.page-slug-blog .entry-meta, body.page-slug-blog .entry-meta a {
