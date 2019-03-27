@@ -1653,6 +1653,17 @@ body.page-slug-blog main header {
     flex-direction: column;
 }
 
+body.page-slug-blog main header::before {
+	content: "BLOG";
+	display: block;
+	font-size: 75px;
+    text-transform: uppercase;
+    margin: auto;
+	color: #FFFFFF !important;
+	position: absolute;
+	left: 0;
+}
+
 body.page-slug-blog h1.page-title {
 	font-size: 75px;
     text-transform: uppercase;
@@ -1683,7 +1694,7 @@ body.page-slug-blog .entry-title a {
 
 body.page-slug-blog .entry-meta, body.page-slug-blog .entry-meta a {
 	color: #2a0340 !important;
-	text-align: left;
+	text-align: left !important;
 }
 
 body.page-slug-blog .entry-content {
