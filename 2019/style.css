@@ -1653,7 +1653,7 @@ body.page-slug-blog main header {
     flex-direction: column;
 }
 
-body.page-slug-blog .page-title {
+body.page-slug-blog h1.page-title {
 	font-size: 75px;
     text-transform: uppercase;
     margin: auto;
@@ -1661,8 +1661,9 @@ body.page-slug-blog .page-title {
 	position: relative !important;
 	width: auto !important;
 	height: auto !important;
-	clip-path: inset(0%) !important;
-	-webkit-clip-path: inset(0%) !important;
+	clip: auto;
+	clip-path: none;
+	-webkit-clip-path: none;
 }
 
 body.page-slug-blog .page-title::before {
