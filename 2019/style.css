@@ -1665,6 +1665,15 @@ body.page-slug-blog .page-title {
 	-webkit-clip-path: inset(0%) !important;
 }
 
+body.page-slug-blog .page-title::before {
+	content: "BLOG";
+	display: block;
+	font-size: 75px;
+    text-transform: uppercase;
+    margin: auto;
+	color: #FFFFFF !important;
+}
+
 body.page-slug-blog .entry-title {
 	color: #2a0340 !important;
 	text-decoration: none !important;
