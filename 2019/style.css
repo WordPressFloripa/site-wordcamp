@@ -1667,7 +1667,7 @@ body.page-slug-blog main > header::before {
     font-weight: 700;
 }
 
-body.page-slug-blog article header {
+body.page-slug-blog article header.entry-header {
 	height: auto !important;
 }
 
