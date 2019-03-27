@@ -1733,8 +1733,9 @@ body.page-slug-blog .entry-content {
 	}
 
 	body:not(.home) .type-post .entry-title {
-		font-size: 20px;
-    	width: 90%;
+		font-size: 20px !important;
+		width: 90%;
+		margin: 0 auto 8px auto !important;
 	}
 
 	body:not(.home) .type-post .entry-content h2 {
@@ -1752,5 +1753,9 @@ body.page-slug-blog .entry-content {
 
 	body.page-id-433 .entry-content .card {
 		margin-bottom: 30px;
+	}
+
+	body.page-slug-blog .entry-title {
+		font-size: 20px !important;
 	}
 }
