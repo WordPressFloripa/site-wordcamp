@@ -1647,7 +1647,7 @@ body:not(.home) .entry-content .grunion-field-label.checkbox {
 	max-width: 800px;
 }
 
-body.page-slug-blog header {
+body.page-slug-blog main header {
 	height: 190px;
 	display: flex;
     flex-direction: column;
@@ -1657,7 +1657,10 @@ body.page-slug-blog .page-title {
 	font-size: 75px;
     text-transform: uppercase;
     margin: auto;
-    color: #FFFFFF !important;
+	color: #FFFFFF !important;
+	position: relative !important;
+	width: auto !important;
+	height: auto !important;
 }
 
 @media (max-width: 767px) {
