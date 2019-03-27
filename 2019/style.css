@@ -1666,22 +1666,17 @@ body.page-slug-blog h1.page-title {
 	-webkit-clip-path: none;
 }
 
-body.page-slug-blog .page-title::before {
-	content: "BLOG";
-	display: block;
-	font-size: 75px;
-    text-transform: uppercase;
-    margin: auto;
-	color: #FFFFFF !important;
+body.page-slug-blog .entry-title {
+	font-size: 26px !important;
 }
 
-body.page-slug-blog .entry-title {
+body.page-slug-blog .entry-title a {
 	color: #2a0340 !important;
 	text-decoration: none !important;
 	margin-bottom: 16px !important;
 }
 
-body.page-slug-blog .entry-meta {
+body.page-slug-blog .entry-meta, body.page-slug-blog .entry-meta a {
 	color: #2a0340 !important;
 }
 
