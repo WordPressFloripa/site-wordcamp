@@ -702,6 +702,7 @@ article.post-10 .wcorg-sponsor h3 {
 .wcorg-sponsor-description img {
 	margin: 50px auto;
 	display: block;
+	max-width: 250px;
 }
 /*page patrocinadores*/
 
