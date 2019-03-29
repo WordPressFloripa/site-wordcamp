@@ -1900,9 +1900,7 @@ body:not(.home) .entry-content .contact-submit button {
 	}
 }
 
-.featured-home-imgs div:first-child img.logo-wordcamp-2019 {
-	animation: float 6s ease-in-out infinite;
-}
+
 
 html .home .entry-content section:nth-of-type(4) img {
 	border-radius: 0;
@@ -2066,3 +2064,8 @@ html #post-194 .entry-content td {
 	display: none;
 }
 
+@media(max-width: 767px) {
+	.featured-home-imgs div:first-child img.logo-wordcamp-2019 {
+		animation: float 6s ease-in-out infinite;
+	}
+}
