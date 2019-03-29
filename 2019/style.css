@@ -2069,3 +2069,6 @@ html #post-194 .entry-content td {
 		grid-column-end: 12;
 	}
 }
+[class^=wcorg-sponsor-level-] h2 {
+	font-size: 22px;
+}
