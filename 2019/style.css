@@ -1764,16 +1764,6 @@ h2.sep.center {
 	color: #600283 !important;
 	margin-bottom: 50px;
 }
-[class^=wcorg-sponsor-level-] {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-    align-items: center;
-    justify-content: center;
-}
-[class^=wcorg-sponsor-level-] h2 {
-    grid-column-start: 1;
-    grid-column-end: 12;
-}
 
 
 body *, body {
@@ -2067,5 +2057,15 @@ html #post-194 .entry-content td {
 @media(min-width: 768px) {
 	.featured-home-imgs div:first-child img.logo-wordcamp-2019 {
 		animation: float 6s ease-in-out infinite;
+	}
+	[class^=wcorg-sponsor-level-] {
+		display: grid;
+		grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+		align-items: center;
+		justify-content: center;
+	}
+	[class^=wcorg-sponsor-level-] h2 {
+		grid-column-start: 1;
+		grid-column-end: 12;
 	}
 }
