@@ -941,9 +941,7 @@ footer .site-info a, footer .site-info a:hover {
 	color: #461701;
 }
 
-.wcorg-sponsor-description img {
-	max-width: 35%;
-}
+
 @media (max-width: 767px) {
 	/* menu */
 	.page-navigation-container ul {
