@@ -1774,3 +1774,295 @@ h2.sep.center {
     grid-column-start: 1;
     grid-column-end: 12;
 }
+
+
+body *, body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+section#pages-2 ul li {
+	margin: 2px 7px;
+}
+
+section#pages-2 ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	max-width: 1210px;
+	margin: 0 auto;
+}
+
+section#pages-2 h2 {
+	margin-top: 50px;
+}
+
+section#pages-2 a {
+	color: #fff !important;
+}
+
+.home .entry-content > p:first-of-type {
+	position: absolute;
+	top: -100vh;
+}
+
+button.menu-toggle {
+	background-color: transparent;
+	border: none;
+	font-size: 40px;
+	top: 15px;
+}
+
+.home .img-wrapper img {
+	max-width: 100px;
+}
+
+html body:not(.home) article.page.type-page * {
+	color: #2a0340;
+}
+
+html body:not(.home) {
+	background-size: 100% 300px !important;
+}
+
+html body:not(.home) .entry-header {
+	height: 190px !important;
+}
+
+html li#menu-item-1056 a:hover {
+	opacity: 1;
+}
+
+html li#menu-item-1056 a,
+html div#tix input[type="submit"], 
+html .home li#menu-item-1056 a, 
+html a.featured-home-button {
+	background-color: #fff;
+	border-color: #fefefe !important;
+	color: #600283 !important;
+	transition: 1s ease all;
+	opacity: .85;
+}
+
+footer section#pages-2 {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+strong.tix-ticket-title {
+	display: none;
+}
+
+span.tix-ticket-excerpt {
+	position: relative;
+	top: -15px;
+}
+
+html body div#tix input[type="submit"] {
+	background-color: #600283 !important;
+	color: #fff !important;
+	padding: 15px 35px !important;
+	height: auto !important;
+}
+
+html body div#tix input[type="submit"]:hover {
+	color: #fff !important;
+	background-color: #3f0056 !important;
+}
+
+html #tix thead {
+	border-bottom: 1px solid #3f0056 !important;
+}
+
+div#contact-form-204 {
+	margin-top: 30px;
+}
+
+body:not(.home) .entry-content div#contact-form-204 button {
+	color: #fff !important;
+}
+
+body:not(.home) .entry-content .contact-submit button {
+	color: #fff !important;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	
+	50% {
+		transform: translatey(-20px);
+	}
+	
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+.featured-home-imgs div:first-child img.logo-wordcamp-2019 {
+	animation: float 6s ease-in-out infinite;
+}
+
+html .home .entry-content section:nth-of-type(4) img {
+	border-radius: 0;
+}
+
+/* NAVIGATION */
+.menu-principal-container ul li a,
+.menu-principal-container ul li a:after,
+.menu-principal-container ul li a:before {
+	transition: all .5s;
+}
+
+.menu-principal-container ul li a:hover {
+	color: #555;
+}
+
+/* stroke */
+.menu-principal-container ul li a,
+.menu-principal-container ul li a {
+	position: relative;
+}
+
+.menu-principal-container ul li a:after,
+.menu-principal-container ul li a:after {
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 0;
+	content: '.';
+	color: transparent;
+	background: #fff;
+	height: 3px;
+}
+
+.menu-principal-container ul li a:hover:after {
+	width: 100%;
+}
+
+.menu-principal-container ul li a {
+	transition: all 2s;
+}
+
+.menu-principal-container ul li a:after {
+	text-align: left;
+	content: '.';
+	margin: 0;
+	opacity: 0;
+}
+
+.menu-principal-container ul li a:hover {
+	color: #fff;
+	z-index: 1;
+}
+
+.menu-principal-container ul li a:hover:after {
+	z-index: -10;
+	animation: fill 1s forwards;
+	-webkit-animation: fill 1s forwards;
+	-moz-animation: fill 1s forwards;
+	opacity: 1;
+}
+
+li#menu-item-1056 a:after, li#menu-item-1467 a:after {
+	display: none !important;
+}
+
+table {
+	width: 100%;
+	table-layout: fixed;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.tbl-header {
+	background-color: rgba(255,255,255,0.3);
+}
+
+.tbl-content {
+	height: 300px;
+	overflow-x: auto;
+	margin-top: 0;
+	border: 1px solid rgba(255,255,255,0.3);
+}
+
+th {
+	padding: 20px 15px;
+	text-align: left;
+	font-weight: normal;
+	font-size: 16px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+td {
+	padding: 15px;
+	text-align: left;
+	vertical-align: middle;
+	font-weight: normal;
+	font-size: 12px;
+	color: #fff;
+	border-bottom: solid 1px rgba(255,255,255,0.1);
+	letter-spacing: 1px;
+}
+
+tbody tr td:first-child {
+	width: 10%;
+}
+
+tbody tr td:nth-child(2) {
+	width: 70%;
+}
+
+tbody tr td:last-child {
+	width: 20%;
+}
+
+tr.head td {
+	font-weight: 900;
+	font-size: 16px;
+}
+
+@media(max-width: 767px) {
+	tbody tr td:first-child {
+		width: 10%;
+		width: 50px;
+	}
+	
+	tbody tr td:last-child {
+		width: 10%;
+		width: 120px;
+	}
+	
+	.widget.widget_eu_cookie_law_widget {
+		max-width: 300px;
+	}
+	
+	html.js.svg.background-fixed * {
+		overflow-x: hidden;
+	}
+}
+
+html #post-194 .entry-content {
+	max-width: 1200px;
+}
+
+html #post-194 .entry-content td {
+	border-bottom: solid 1px rgba(0,0,0,0.1);
+	letter-spacing: 1px;
+}
+.wcorg-sponsor h3 {
+    display: none;
+}
+
+.wcorg-sponsor-description p {
+    display: none;
+}
+.wcorg-sponsor-description ul,
+.wcorg-sponsor-description p {
+	display: none;
+}
+
