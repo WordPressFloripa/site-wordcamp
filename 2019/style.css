@@ -1027,7 +1027,11 @@ footer .site-info a, footer .site-info a:hover {
 		flex: 0 0 94%;
 		align-items: center;
 		text-align: center;
-	}    
+  }
+  
+  .wcorg-speaker h2 {
+    font-size: 2.2rem !important;
+  }
 	/* page organizadores */
 
 	/* page patrocinadores */
