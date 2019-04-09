@@ -1020,11 +1020,11 @@ footer .site-info a, footer .site-info a:hover {
 	}
 	/* page home */
 
-	/* page organizadores */
-	.wcorg-organizer {
-		-webkit-flex: 0 0 100%;
-		-ms-flex: 0 0 100%;
-		flex: 0 0 100%;
+	/* page organizadores e palestrantes */
+	.wcorg-organizer, .wcorg-speaker {
+		-webkit-flex: 0 0 94%;
+		-ms-flex: 0 0 94%;
+		flex: 0 0 94%;
 		align-items: center;
 		text-align: center;
 	}    
@@ -2071,4 +2071,14 @@ html #post-194 .entry-content td {
 }
 [class^=wcorg-sponsor-level-] h2 {
 	font-size: 22px;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .wcorg-organizer, .wcorg-speaker {
+		-webkit-flex: 0 0 47%;
+    -ms-flex: 0 0 47%;
+    flex: 0 0 47%;
+    align-items: center;
+    text-align: center;
+	}
 }
