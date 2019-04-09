@@ -721,14 +721,14 @@ article.post-12 h2 {
 	display: block;
 }
 
-.wcorg-organizers {
+.wcorg-organizers, .wcorg-speakers {
 	display: -webkit-flex;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 }
 
-.wcorg-organizer {
+.wcorg-organizer, .wcorg-speaker {
 	-webkit-flex: 0 0 48%;
 	-ms-flex: 0 0 48%;
 	flex: 0 0 48%;
@@ -1525,13 +1525,13 @@ body.page-id-433 .entry-content .card {
 	border-radius: 0;
 }
 
-/* interna organizadores */
+/* interna organizadores e palestrantes */
 body.page-id-199 {
 	background: url(https://2019.floripa.wordcamp.org/files/2019/03/banner-organizadores.png) !important;
     background-repeat: no-repeat !important;
 	background-color: #FFFFFF !important;
 }
-body.page-id-199 .entry-content .wcorg-organizer {
+body.page-id-199 .entry-content .wcorg-organizer, body.page-id-195 .entry-content .wcorg-speaker {
 	color: #2a0340 !important;
 	box-shadow: 0 3px 6px 0 rgba(136, 136, 136, 0.16) !important;
 	border: solid 1px #707070 !important;
