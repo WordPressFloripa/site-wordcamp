@@ -1,0 +1,2088 @@
+/*
+tipografia
+*/
+body, p, h1,h2,h3,h4, a, span, strong, b, li {
+	font-family: 'Open Sans', sans-serif;
+
+}
+html {font-size: 16px; }
+@media (max-width: 767px) {
+	html { font-size: 14px;	}
+}
+
+p {	font-size: 1rem; }
+h2 {
+	color: #2a0340;
+	font-size: 32px;
+	font-weight: 900;
+	margin: 0;
+	margin: 10px 0 20px;
+}
+h3 {
+	font-size: 24px;
+	font-weight: 900;
+	color: #2a0340;
+	line-height: 1;
+	margin: 10px 20px;
+}
+h4 {
+	font-size: 20px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+
+.page section p {
+	font-size: 20px;
+}
+
+.center {
+	text-align: center;
+}
+
+/*
+secoes
+*/
+.page .entry-content > section {
+	padding: 50px 5vw;
+}
+/*
+grind
+*/
+div.flex {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin: 0 auto;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.flex > .half {
+	max-width: calc(50% - 30px);
+	width: 100%;
+}
+.flex > .third {
+	max-width: calc(100%/3 - 30px);
+	width: 100%;
+}
+.flex > .quarter {
+	max-width: calc(25% - 30px);
+	width: 100%;
+}
+.flex > .fifth {
+	max-width: calc(100%/5 - 30px);
+}
+/*
+removendo margin do conteudo em relacao ao header
+*/
+body .entry-content {
+	margin: 0 auto;
+}
+footer.entry-footer {
+	display: none;
+}
+/*
+botao
+*/
+a.btn {
+	background-color: #ffd215;
+	color: #461701;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 900;
+	padding: 16px 30px;
+	border-radius: 5px;
+	border-bottom: 4px solid #c6a002;
+	font-size: 16px;
+	display: inline-block;
+	margin: 20px 0;
+}
+
+/*botao default todo site*/
+button, input[type="button"], input[type="reset"], input[type="submit"]{
+	background: #ffd215;
+	padding: 18px 20px;
+	border-radius: 5px;
+	color: #444;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 15px;
+}
+/*botao default todo site*/
+
+/*
+separador de titulo
+*/
+*.sep {
+	margin-bottom: 0;
+}
+.sep + hr {
+	margin: 10px 0 30px;
+	width: 50px;
+	height: 4px;
+	background: #883db3;
+}
+
+.sep.center + hr {
+	margin: 0 auto 30px;
+}
+
+/*header*/
+.home header.entry-header {
+	display: none;
+}
+li#menu-item-1467 a {
+	background: url(https://2019.floripa.wordcamp.org/files/2019/03/logo-wordcamp-floripa.png);
+	width: 162px;
+	height: 84px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: transparent;
+}
+li#menu-item-1056 a {
+	border: 1px solid #600283;
+	font-weight: 700;
+	padding: 8px 16px;
+	text-transform: uppercase;
+}
+.home li#menu-item-1056 a {
+	border: 1px solid #FFFFFF;
+	font-weight: 700;
+	padding: 8px 16px;
+	text-transform: uppercase;
+}
+
+nav#site-navigation {
+	background: #FFFFFF;
+	padding: 16px;
+}
+.home nav#site-navigation {
+    position: absolute;
+    background-color: transparent;
+}
+
+.home nav#site-navigation ul li a {
+	color: #FFFFFF;
+}
+
+.home nav#site-navigation ul li#menu-item-1467 a {
+	color: transparent;
+}
+@media (min-width: 768px) {
+	body .page-navigation-container ul {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	li#menu-item-662 a {
+		background: #ffd215;
+		padding: 18px 20px;
+		border-radius: 5px;
+		color: #444;
+		text-transform: uppercase;
+		font-weight: bolder;
+		margin-left: 20px;
+		font-size: 15px;
+	}	
+}
+.page-navigation-container a {
+	color: #600283;
+	font-size: 16px;
+	font-weight: 700;
+}
+li#menu-item-203 {
+	margin-right: 80px;
+}
+li#menu-item-204 a {
+	background: #ffd215;
+	padding: 18px 20px;
+	border-radius: 5px;
+	color: #444;
+	text-transform: uppercase;
+	font-weight: bolder;
+	margin-left: 20px;
+	font-size: 15px;
+}
+
+ul#primary-menu {
+	max-width: 90vw;
+	margin: 0 auto;
+}
+
+/*primeira secao da home*/
+.home .entry-content section:nth-of-type(1) {
+	background: url(https://2019.floripa.wordcamp.org/files/2019/03/fundo-header-home.jpg);
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+.featured-home {
+	width: 100%;
+	max-width: 929px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 0 auto;
+	padding-top: 80px;
+}
+
+.featured-home-imgs {
+	display: flex;
+	align-items: flex-end;
+	max-width: 600px;
+}
+
+.featured-home p {
+	margin: 0;
+}
+
+.featured-home-slogan {
+	margin-top: 20px;
+	color: #FFFFFF;
+	font-size: 21px;
+	line-height: 43.8px;
+	line-height: 10px;
+	font-weight: 500;
+}
+
+.featured-home-city {
+	margin-top: 40px;
+    color: #FFFFFF;
+    font-size: 32px;
+    line-height: 1.1;
+    font-weight: 700;
+}
+
+.featured-home-button, 
+.featured-home-button:hover, 
+.featured-home-button:focus, .featured-home-button:visited {
+	display: inline-block;
+	margin-top: 25px !important;
+	border: 2px solid #FFFFFF;
+	color: #FFFFFF;
+	padding: 8px 16px;
+	font-weight: 700;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+@media (max-width: 767px) {
+	.home .entry-content section:nth-of-type(1) {
+		height: auto;
+	}
+	
+	.featured-home-slogan {
+		text-align: center;
+		margin-left: 0;
+		line-height: 1;
+		font-size: 24px;
+		margin-bottom: 10px;
+	}
+
+	.featured-home-city {
+		margin-top: 20px;
+		font-size: 30px;
+		line-height: 35px;
+		text-align: center;
+	}
+
+	.featured-home-button, .featured-home-button:hover, .featured-home-button:focus, .featured-home-button:visited {
+		font-size: 18px;
+	}
+}
+
+.home .entry-content section:first-child img {
+	height: auto;
+	max-width: 58vw;
+	margin: 0 auto;
+}
+/*home segunda secao*/
+.home .entry-content section:nth-of-type(2) {
+	background-color: #FFFFFF;
+	max-width: 1210px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.about-home-title {
+	color: #600283;
+	font-size: 35px;
+	text-align: left;
+	width: 100%;
+	margin-bottom: 60px;
+}
+
+.about-home-item {
+	width: 25%;
+	margin-bottom: 40px;
+	text-align: left;
+}
+
+.about-home-box {
+	color: #600283;
+	font-size: 25px;
+	font-weight: 700;
+	text-align: center;
+	width: 100%;
+	max-width: 145px;
+}
+
+.about-home-item img {
+	margin-bottom: 14px;
+}
+
+@media (max-width: 767px) {
+	.about-home-title {
+		font-size: 26px;
+	}
+	
+	.about-home-item {
+		width: 100%;
+	}
+
+	.about-home-box {
+		margin: 0 auto;
+	}
+}
+
+/*home terceira secao --- OBS descomentar quando tiver programacao*/
+/*.home .entry-content section:nth-of-type(3) {
+	background-image: linear-gradient(279deg, #28dfec, #600283);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+	text-align: center;
+}
+.schedule-title {
+	font-size: 55px;
+	color: white;
+	text-align: left;
+	font-weight: 700;
+	margin-bottom: 60px;
+}*/
+
+.home .entry-content section:nth-of-type(3) {
+	background-color: #FFFFFF;
+	padding: 50px 0;
+}
+
+.which-is-wordcamp {
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.which-is-wordcamp-left {
+	width: 50%;
+}
+
+.which-is-wordcamp-right {
+	width: 50%;
+	text-align: right;
+}
+
+.which-is-wordcamp-title {
+	font-size: 35px;
+	font-weight: 900;
+	color: #600283 !important;
+	margin-bottom: 50px;
+}
+
+.which-is-wordcamp p, .which-is-wordcamp-text {
+	color: #2a0340;
+	font-size: 18px;
+	line-height: 35px;
+}
+
+@media (max-width: 767px) {
+	.which-is-wordcamp-title {
+		font-size: 26px;
+	}
+
+	.which-is-wordcamp {
+		align-items: center;
+		flex-direction: column;
+		padding: 0 16px;
+	}
+
+	.which-is-wordcamp-right, .which-is-wordcamp-left {
+		width: 100%;
+		text-align: left;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1199px) { 
+	.which-is-wordcamp {
+		padding: 0 16px;
+	}
+}
+
+.home .entry-content section:nth-of-type(4) h2 {
+	color: #ffffff;
+}
+
+.home .entry-content section:nth-of-type(4) img {
+	border-radius: 50%;
+}
+.home .entry-content section:nth-of-type(4) strong {
+	font-size: 22px;
+}
+.home .entry-content section:nth-of-type(4) div.quarter {
+	padding: 0 20px;
+}
+
+/*home se05 */
+.date-event {
+	background: url(https://2019.floripa.wordcamp.org/files/2019/03/background-ingressos.png);
+	background-size: cover;
+	padding-top: 100px;
+	padding-bottom: 150px;
+}
+
+.date-event-container {
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.date-event-container div {
+	flex: 1 50%;
+}
+
+.date-event-title {
+	font-size: 75px;
+	color: #FFFFFF;
+	font-weight: 700;
+	text-align: left;
+	margin-bottom: 36px;
+	line-height: 75px;
+}
+
+.date-event-subtitle {
+	font-size: 45px;
+	color: #FFFFFF;
+	font-weight: 700;
+	text-align: left;
+	line-height: 50px;
+	margin: 0;
+}
+
+.date-event-day {
+	font-size: 80px;
+	color: #FFFFFF;
+	font-weight: 700;
+	text-align: right;
+	margin-bottom: 27px;
+	line-height: 90px;
+}
+
+.date-event-hour {
+	font-size: 39px;
+	line-height: 40px;
+	color: #FFFFFF;
+	font-weight: 700;
+	margin: 0;
+	text-align: right;
+}
+
+.date-event-h4 {
+	font-size: 30px;
+	color: #FFFFFF;
+	text-align: right;
+	margin: 0;
+}
+
+.date-event-h5 {
+	font-size: 25px;
+	color: #FFFFFF;
+	text-align: right;
+	margin: 0;
+}
+
+.date-event div p {
+	text-align: right;
+}
+
+.date-event div p a {
+	margin-top: 40px;
+}
+
+@media (max-width: 767px) {
+	.date-event-container {
+		flex-direction: column;
+	}
+
+	.date-event-title {
+		font-size: 50px;
+    	line-height: 50px;
+	}
+
+	.date-event-subtitle {
+		font-size: 30px;
+		line-height: 40px;
+	}
+
+	.date-event-day {
+		font-size: 70px;
+		line-height: 70px;
+	}
+
+	.date-event-h4 {
+		font-size: 25px;
+	}
+
+	.date-event-h5 {
+		font-size: 20px;
+	}
+}
+
+.home .blog .third {
+	padding: 0 20px;
+}
+.home .blog .third  a.btn { margin-top: 0; }
+
+/*page 404 */
+section.error-404 {
+	padding: 50px 20vw;
+}
+
+section.error-404 h1 {
+	color: #2a0340;
+	font-size: 4rem;
+	font-weight: 900;
+	margin: 0;
+	margin: 10px 0 20px;
+	text-align: center;
+}
+/*page 404 */
+
+/*default pages */
+article h1 {
+	color: #2a0340;
+	font-size: 4rem;
+	font-weight: 900;
+	margin: 0;
+	margin: 10px 0 20px;
+	text-align: center;
+}
+/*default pages */
+
+/* page home */
+article.post-180 {
+	padding: 0;
+}
+
+.patrocinador-ribeirao .quarter, .patrocinador-trindade .quarter, .patrocinador-santo-antonio .quarter, .patrocinador-ingleses .quarter, .patrocinador-coqueiros .quarter {
+	margin: auto;
+    text-align: center;
+}
+
+.patrocinador-trindade .quarter p img {
+	max-width: 85%;
+}
+
+.patrocinador-santo-antonio .quarter img {
+	max-width: 75%;
+}
+
+.patrocinador-ingleses .quarter p img {
+	max-width: 65%;
+}
+
+.patrocinador-coqueiros .quarter p img {
+    max-width: 50%;
+}
+
+/*patrocinadores*/
+.list-patrocinadores-home h2 {
+	font-size: 55px;
+	font-weight: 700;
+	text-align: left;
+}
+
+.list-patrocinadores-home h3 {
+	color: #2a0340;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 60px 0;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+	.list-patrocinadores-home h2 {
+		font-size: 35px;
+	}
+
+	.list-patrocinadores-home h3 {
+		font-size: 28px;
+	}
+
+	.list-patrocinadores-home .quarter img {
+		margin-bottom: 16px;
+	}
+}
+
+.list-patrocinadores-home img {
+	max-height: 130px;
+}
+
+.list-patrocinadores-home .quarter {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.botao-patrocinadores, .botao-patrocinadores:hover, .botao-patrocinadores:focus, .botao-patrocinadores:visited {
+	border: solid 1px #600283;
+	color: #600283;
+	font-weight: 700;
+	font-size: 22px;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+/*patrocinadores*/
+/* page home */
+
+/*page contato*/
+.contact-form input[type=email], .contact-form input[type=text], .contact-form input[type=url] {
+	height: 45px;
+	float: left;
+}
+
+#contact-form-17 input, #contact-form-17 textarea {
+	width: 100% !important;
+	max-width: 100%;
+}
+/*page contato*/
+
+/*page envie sua palestra*/
+#contact-form-424 input, #contact-form-424 textarea {
+	width: 100% !important;
+	max-width: 100%;
+}
+
+#contact-form-424 select {
+	color: #666666;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    padding: 3px;
+    height: 45px;
+    width: 100%;
+}
+
+#contact-form-424 input[type=checkbox] {
+    width: 10% !important;
+}
+/*page envie sua palestra*/
+
+/*page patrocinadores*/
+article.post-10 h2 {
+	color: #2a0340;
+	font-size: 3rem;
+	font-weight: 900;
+	margin: 60px 0;
+	text-align: center;
+}
+
+article.post-10 .wcorg-sponsor h3 {
+	display: none;
+}
+
+.wcorg-sponsor-description img {
+	margin: 50px auto;
+	display: block;
+	max-width: 250px;
+}
+/*page patrocinadores*/
+
+/*page organizadores*/
+article.post-12 h2 {
+	color: #2a0340;
+	font-size: 1.5rem;
+	font-weight: 900;
+	margin: 50px 0 14px 0;
+	text-align: center;
+}
+
+.wcorg-organizer-description img {
+	border-radius: 50%;
+	margin: 0 auto;
+	display: block;
+}
+
+.wcorg-organizers, .wcorg-speakers {
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.wcorg-organizer, .wcorg-speaker {
+	-webkit-flex: 0 0 48%;
+	-ms-flex: 0 0 48%;
+	flex: 0 0 48%;
+	align-items: center;
+	text-align: center;
+}
+/*page organizadores*/
+
+/*page palestrantes*/
+article.post-8 h2 {
+	color: #2a0340;
+	font-size: 2rem;
+	font-weight: 900;
+	margin: 50px 0 14px 0;
+	text-align: center;
+}
+
+.wcorg-speaker-description img {
+	border-radius: 50%;
+	margin: 0 auto;
+	display: block;
+}
+/*page palestrantes*/
+
+/*page programacao*/
+table.wcpt-schedule {
+	border: 1px solid #eee;
+}
+
+table.wcpt-schedule tr {
+	border-bottom: 0;
+}
+
+table.wcpt-schedule tr:nth-child(2n+1) {
+	background-color: #ededed;
+}
+
+table.wcpt-schedule tr th, table.wcpt-schedule tr td {
+	border: 1px solid #cccccc;
+	padding: 14px 10px;
+	vertical-align: inherit;
+}
+
+table.wcpt-schedule tr th {
+	background: #bbbbbb;
+	color: white;
+	font-size: 20px;
+}
+
+.wcb-session-cell-content .wcpt-session-title, .wcb-session-cell-content .wcpt-session-title:hover {
+	font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    color: #404040;
+}
+
+.wcb-session-cell-content .wcpt-session-speakers a, .wcb-session-cell-content .wcpt-session-speakers a:hover {
+	color: #757575;
+	text-decoration: none;
+}
+/*page programacao*/
+
+/*page palestra interna*/
+wcb_session-template-default .post-693 h1 {
+	font-size: 3rem;
+}
+
+.wcb_session-template-default article h2 {
+	font-size: 2rem;
+}
+
+#session-speaker-names {
+    padding: 0;
+}
+
+#session-speaker-names li a, #session-speaker-names li a:hover {
+    color: #404040;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.post-navigation, .session-categories-links {
+	display: none;
+}
+
+/*page palestra interna*/
+
+/*page ticktes*/
+article.post-13 h2 {
+	font-size: 3rem;
+}
+
+article.post-13 table.tix_tickets_table {
+	border: 1px solid #eee;
+}
+
+article.post-13 table.tix_tickets_table tr th, article.post-13 table.tix_tickets_table tr td {
+    border: 1px solid #cccccc;
+    padding: 14px 10px;
+    vertical-align: inherit;
+}
+
+article.post-13 table.tix_tickets_table tr th {
+	background-color: #ededed;
+}
+
+.tix-column-quantity select {
+	border-radius: 5px;
+    padding: 5px;
+}
+
+article.post-13 table.tix_tickets_table.tix-attendee-form {
+	border: none;
+}
+
+article.post-13 table.tix_tickets_table.tix-attendee-form tr th, article.post-13 table.tix_tickets_table.tix-attendee-form tr td {
+    border: 0;
+    padding: 5px 10px;
+    vertical-align: inherit;
+}
+
+article.post-13 table.tix_tickets_table.tix-attendee-form tr .tix-left {
+    width: 100%;
+    font-weight: bold;
+    display: block;
+    font-size: 1.1rem;
+}
+
+article.post-13 table.tix_tickets_table.tix-attendee-form tr .tix-right {
+	width: 100%;
+    display: block;
+}
+
+article.post-13 table.tix_tickets_table.tix-attendee-form tr .tix-right input[type="text"], article.post-13 table.tix_tickets_table.tix-attendee-form tr .tix-right input[type="email"] {
+	border-radius: 5px;
+    height: 40px;	
+}
+
+/*page ticktes*/
+
+/*footer*/
+footer {
+	background-color: #530580;
+}
+
+div#footer-widgets {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 50px 5vw;
+}
+div#footer-widgets > div {
+	max-width: 33%;
+	width: 100%;
+}
+
+footer ul, footer li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+footer li.menu-item a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	padding: 3px 0;
+	display: block;
+}
+
+footer #menu-footer-1 li a {
+	font-weight: bold;
+}
+
+footer #menu-footer-1 .sub-menu li a {
+	font-weight: normal;
+}
+
+footer #menu-footer-2 li a {
+	font-weight: bold;
+}
+
+footer #menu-footer-2 .sub-menu li a {
+	font-weight: normal;
+}
+
+footer .site-info {
+	background-color: #2a0340;
+	text-align: center;
+	padding: 15px 0;
+}
+
+footer .site-info a, footer .site-info a:hover {
+	color: white;
+	text-decoration: none;
+	margin: 0;
+}
+
+.widget_wpcom_social_media_icons_widget ul li {
+	width: 37px;
+	border-radius: 50%;
+	height: 37px;
+	background-color: #ffd215;
+	text-align: center;
+	display: inline-block !important;
+}
+
+.widget_wpcom_social_media_icons_widget ul li a {
+	vertical-align: -webkit-baseline-middle;
+	vertical-align: -moz-middle-with-baseline;
+	color: #461701;
+}
+
+
+@media (max-width: 767px) {
+	/* menu */
+	.page-navigation-container ul {
+		display: block;
+	}
+	.page-navigation-container ul li { 
+		display: none;
+	}
+	.page-navigation-container ul li#menu-item-1467 { 
+		display: block !important;
+		margin-right: 0;
+		background: transparent !important;
+		margin-bottom: 20px;
+		padding: 0 !important;
+	}
+	.page-navigation-container.toggled-on ul li {
+		display: block !important;
+		float: none;
+		background-color: rgba(0,0,0,.7);
+		padding: 10px;
+	}
+	.menu-toggle {
+		position: absolute;
+		right: 20px;
+		top: 40px;
+		z-index: 999;
+		width: 70px;
+		height: 50px;
+		color: transparent;
+		outline: none;
+	}
+	button.menu-toggle::after {
+	    content: '\f0c9';
+    	font-family: FontAwesome;
+	    color: #FFFFFF;
+	    position: absolute;
+	    left: 0;
+	    text-align: center;
+	    width: 100%;
+	    top: 18px;
+	}
+	.page-navigation-container a {
+	    padding-bottom: 6px;
+	    font-size: 17px;
+	    padding-left: 20px;
+	}
+	/* menu */
+
+	/*grid */
+	.flex > div {
+		min-width: 100%;
+	}
+	/*grid */
+
+	/* page home */
+	h2 {
+		font-size: 3rem;
+	}
+
+	.home .entry-content section:first-child img {
+		width: 100%;
+	}
+	.page .entry-content > section {
+	    padding: 30px 5vw;
+	}
+	.home .entry-content section:first-child h1 {
+		font-size: 38px;
+	}
+	.home .entry-content section:nth-of-type(2) {
+	    flex-flow: row;
+    	flex-wrap: wrap;
+	}
+	.page section p {
+	    font-size: 18px;
+	}
+	/* page home */
+
+	/* page organizadores e palestrantes */
+	.wcorg-organizer, .wcorg-speaker {
+		-webkit-flex: 0 0 94%;
+		-ms-flex: 0 0 94%;
+		flex: 0 0 94%;
+		align-items: center;
+		text-align: center;
+  }
+  
+  .wcorg-speaker h2 {
+    font-size: 2.2rem !important;
+  }
+	/* page organizadores */
+
+	/* page patrocinadores */
+	.wcorg-sponsor-description img {
+		max-width: 70%;
+	}
+	/* page patrocinadores */
+
+	/* footer */
+	div#footer-widgets > div {
+	    max-width: 100%;
+	    width: 100%;
+	}
+	footer .site-info a, footer .site-info a:hover {
+	    color: white;
+	    text-decoration: none;
+	    margin: 10px 0;
+	    display: block;
+	}
+	/* footer */
+}
+
+
+
+/*css que estava no tema*/
+.home .entry-content section:nth-of-type(1) {
+    min-height: calc(100vh - 143px);
+}
+
+body ul#primary-menu {
+    max-width: 1210px !important;
+}
+
+.wcorg-organizer {
+    padding: 0 40px;
+}
+
+div#contact-form-433 input {
+    width: 100%;
+    max-width: 100%;
+}
+
+.contact-form select {
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+}
+
+body hr {
+    margin: 50px auto;
+}
+
+table.tix_tickets_table.tix-order-summary * {
+    text-align: left;
+    line-height: 2;
+}
+tr.tix-row-total {
+    border-top: 1px solid #eee;
+}
+
+table.tix_tickets_table.tix-attendee-form tr {
+    line-height: 40px;
+}
+
+td.tix-right {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100% !important;
+}
+
+td.tix-right br {
+    display: none !important;
+}
+td.tix-right label {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    min-width: calc(50% - 30px);
+}
+
+td.tix-right label input {
+    margin-right: 5px;
+}
+
+body table.tix_tickets_table.tix-attendee-form tr:first-of-type th {
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+table.tix_tickets_table.tix-attendee-form input[type="text"], table.tix_tickets_table.tix-attendee-form input[type="email"] {
+    width: 100% !important;
+    border-radius: 0;
+}
+
+article#post-13 h2 {
+    text-align: center !important;
+}
+select[name="tix_payment_method"] {
+    display: none;
+}
+
+.tix-js:not(.tix-has-dynamic-receipts) * {
+    text-align: center;
+}
+.tix-js:not(.tix-has-dynamic-receipts) th {
+    font-size: 22px;
+}
+html body .tix-js:not(.tix-has-dynamic-receipts) th.tix-column-description,
+.tix-js:not(.tix-has-dynamic-receipts) td.tix-column-description {
+    text-align: left;
+}
+
+th.tix-column-remaining, td.tix-column-remaining {
+	display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	.home li#menu-item-1056 a {
+		padding: 8px;
+	}
+
+	.page-navigation-container a {
+		font-size: 14px;
+	}
+}
+
+
+@media (max-width: 767px) {
+	div#footer-widgets ul.jetpack-social-widget-list {
+		display: grid;
+		grid-template-columns: 50px 50px 50px !important;
+		grid-template-rows: 50px !important;
+		grid-column-gap: 20px !important;
+		justify-content: center;
+		padding-top: 15px;
+	}
+	
+	div#footer-widgets .jetpack_widget_social_icons ul.size-medium a {
+		height: 30px !important;
+		width: 30px !important;
+	}
+}
+
+section.list-patrocinadores-home {
+    display: none;
+}
+
+article#post-207 {
+    margin-bottom: 0;
+}
+
+.contact-form input[type=email], .contact-form input[type=text], .contact-form input[type=url] {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-bottom: 13px;
+}
+
+.contact-form textarea {
+    height: 200px;
+    min-width: 100%;
+    float: none;
+    margin-bottom: 13px;
+}
+
+.page-id-204 .grunion-field-wrap.grunion-field-textarea-wrap {
+    grid-column-end: 3;
+    grid-column-start: 1;
+    margin-bottom: 30px;
+}
+
+/*css que estava no tema*/
+body:not(.home) article.page.type-page {
+	padding: 0 50px;
+	max-width: 1210px;
+	margin: 0 auto;
+}
+
+h1.entry-title {
+	font-size: 36px;
+}
+
+aside#secondary {
+	display: none;
+}
+
+body:not(.home) {
+	background: url('https://2019.floripa.wordcamp.org/files/2019/03/fundo-header-home.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+body:not(.home) p,
+body:not(.home) h1,
+body:not(.home) li a {
+	color: #fff;
+}
+
+body:not(.home) .entry-content {
+	background-color: rgba(0,0,0,.5);
+	padding: 3% 5%;
+	border-radius: 30px;
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+body li#menu-item-1056 a {
+	border-color: #fff;
+}
+
+body nav#site-navigation {
+	background-color: transparent;
+}
+
+#footer-widgets h2 {
+    color: #fff;
+    margin: 10px 0 20px;
+    font-size: 32px;
+    line-height: 1.2;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+body div#footer-widgets > div {
+	max-width: 100%;
+}
+
+div#footer-widgets ul.jetpack-social-widget-list {
+	display: grid;
+	grid-template-columns: 100px 100px 100px;
+	grid-template-rows: 100px;
+	grid-column-gap: 100px;
+	justify-content: center;
+	padding-top: 15px;
+}
+
+div#footer-widgets li.jetpack-social-widget-item {
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center;
+}
+
+div#footer-widgets li.jetpack-social-widget-item {
+	display: flex !important;
+	justify-content: center !important;
+	border: 3px solid #fff !important;
+	align-items: center;
+	border-radius: 50%;
+	overflow: hidden;
+	position: relative;
+}
+
+div#footer-widgets .jetpack_widget_social_icons ul.size-medium a {
+	height: 40px;
+	width: 40px;
+	color: #fff;
+}
+div#footer-widgets .jetpack_widget_social_icons ul.size-medium a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+body:not(.home) article.page.type-page * {
+	color: #fff;
+}
+
+label.grunion-field-label {
+	text-align: left;
+}
+
+form.contact-form.commentsblock {
+	display: grid;
+	position: relative;
+}
+@media(min-width: 768px) {
+	form.contact-form.commentsblock {
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 30px;
+	}	
+	form.contact-form.commentsblock {
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 30px;
+	}
+	.grunion-field-wrap.grunion-field-checkbox-wrap {
+		grid-column-end: 3;
+		grid-column-start: 1;
+	}
+	.card-grid {
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 30px;
+		grid-row-gap: 30px;
+		margin-bottom: 70px;
+		padding-bottom: 70px;
+	}
+}
+p.contact-submit {
+	margin: 0;
+	float: right !important;
+	text-align: right;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+form.contact-form.commentsblock {
+	display: grid;
+	position: relative;
+	padding-bottom: 25px;
+}
+
+
+.grunion-field-wrap.grunion-field-checkbox-wrap label {
+	width: 100%;
+}
+
+body button.pushbutton-wide {
+	background-color: transparent;
+	border-width: 2px;
+}
+
+body #contact-form-424 input[type=checkbox] {
+	width: 20px !important;
+}
+
+article#post-433 h2 {
+	font-size: 35px;
+}
+
+.card-grid > div {
+	border: 1px solid;
+	border-radius: 30px;
+	padding: 14px 0;
+}
+
+.card-grid {
+	display: grid;
+	margin-bottom: 50px;
+	border-bottom: 1px solid;
+	padding-bottom: 50px;
+}
+
+.card-grid ul li {
+	list-style: none;
+}
+
+.card-grid ul {
+	margin: 0;
+	padding: 0;
+}
+
+body footer .site-info {
+    background-color: transparent;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 12px;
+    justify-content: space-between;
+    display: flex;
+    max-width: 1210px;
+    margin: 0 auto;
+}
+
+footer span[role=separator] {
+    display: none !important;
+}
+
+body .tix-notice {
+    color: #333 !important;
+}
+
+body select, body select * {
+    color: #333 !important;
+}
+
+
+li.jetpack-social-widget-item:hover, li.jetpack-social-widget-item:hover * {
+    background: #fff;
+    color: #600283 !important;
+}
+div#tix input[type="submit"]:hover,
+.home li#menu-item-1056 a:hover, 
+a.featured-home-button:hover {
+    opacity: 1;
+    background-color: #fff;
+    border-color: #fefefe!important;
+    color: #600283 !important;
+    transition: 1s ease all;
+}
+
+
+
+.img-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-item {
+    display: grid;
+    grid-template-rows: 130px 40px;
+    text-align: center;
+}
+.about-home {
+    display: grid;
+    margin: 0 auto;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-row-gap: 30px;
+    padding: 30px 0;
+}
+
+.home h2 {
+	font-weight: 900;
+}
+
+div#tix thead {
+    border-bottom: 1px solid #fff;
+}
+
+div#tix td {
+    padding: 10px 5px;
+}
+
+div#tix input[type="submit"] {
+    border-radius: 0;
+    background-color: transparent;
+    border: 2px solid #fff;
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* paginas internas novas */
+
+.programacao-sec {
+	background-image: linear-gradient(276deg, #28dfec, #600283);
+	text-align: center;
+	padding: 60px 16px !important;
+}
+
+.programacao-sec h2 {
+	font-size: 42px;
+	color: #FFFFFF;
+	font-weight: 900;
+	margin-bottom: 50px;
+}
+
+.programacao-sec h3 {
+	font-size: 28px;
+	color: #28dfec;
+}
+
+.programacao-sec h4 {
+	color: #FFFFFF;
+	font-size: 28px;
+	line-height: 38px;
+}
+
+.programacao-sec h4 span {
+	font-size: 42px;
+	font-weight: 900;
+}
+
+/* interna palestre */
+body.page-id-424 {
+	background: url(https://2019.floripa.wordcamp.org/files/2019/03/banner-palestre.png) !important;
+    background-repeat: no-repeat !important;
+	background-color: #FFFFFF !important;
+}
+
+/* interna patrocine */
+body.page-id-433 {
+	background: url(https://2019.floripa.wordcamp.org/files/2019/03/banner-patrocine.png) !important;
+    background-repeat: no-repeat !important;
+	background-color: #FFFFFF !important;
+}
+
+body:not(.home) article.page.type-page * {
+	color: #2a0340;
+}
+
+body.page-id-433 .entry-content .card h3, body.page-id-433 .entry-content h3, body.page-id-433 .entry-content .card h2 {
+	color: #600283 !important;
+}
+
+body.page-id-433 .entry-content .card {
+	color: #2a0340 !important;
+	box-shadow: 0 3px 6px 0 rgba(136, 136, 136, 0.16) !important;
+	border: solid 1px #707070 !important;
+	padding: 40px !important;
+	border-radius: 0;
+}
+
+/* interna organizadores e palestrantes */
+body.page-id-199 {
+	background: url(https://2019.floripa.wordcamp.org/files/2019/03/banner-organizadores.png) !important;
+    background-repeat: no-repeat !important;
+	background-color: #FFFFFF !important;
+}
+body.page-id-199 .entry-content .wcorg-organizer, body.page-id-195 .entry-content .wcorg-speaker {
+	color: #2a0340 !important;
+	box-shadow: 0 3px 6px 0 rgba(136, 136, 136, 0.16) !important;
+	border: solid 1px #707070 !important;
+	padding: 20px !important;
+	border-radius: 0;
+	margin: 9px;
+}
+
+/* interna contato */
+body.page-id-204 {
+	background: url(https://2019.floripa.wordcamp.org/files/2019/03/banner-contato.png) !important;
+    background-repeat: no-repeat !important;
+	background-color: #FFFFFF !important;
+}
+
+/* interna ingressos */
+div#tix input[type="submit"] {
+	background: #600283;
+	border: 1px solid #600283 !important;
+	padding: 10px 20px;
+	border-radius: 0;
+	color: #FFFFFF !important;
+	width: auto;
+	display: inline-block;
+	height: 37px !important;
+	float: right;
+}
+
+/* geral */
+body:not(.home) {
+	background-size: contain;
+}
+
+body:not(.home) .entry-header {
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+}
+
+body:not(.home) .entry-title {
+	font-size: 75px;
+	text-transform: uppercase;
+	margin: auto;
+	color: #FFFFFF !important;
+}
+
+body:not(.home) .type-post .entry-title {
+	font-size: 30px !important;
+    width: 80%;
+    margin: 16px auto !important;
+}
+
+body:not(.home) .type-post .entry-meta {
+	color: #FFFFFF;
+	text-align: center;
+}
+
+body:not(.home) .type-post .entry-meta a, body:not(.home) .type-post .entry-meta a:hover, 
+body:not(.home) .type-post .entry-meta a:focus, body:not(.home) .type-post .entry-meta a:visited {
+	color: #FFFFFF;
+}
+
+body:not(.home) .type-post .entry-content p {
+	color: #2a0340;
+}
+
+body:not(.home) #comments {
+	display: none;
+}
+
+body:not(.home) .entry-content {
+	margin-top: 40px;
+	background: #FFFFFF !important;
+	padding-top: 0;
+}
+
+body:not(.home) .entry-content h4 {
+	color: #600283 !important;
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+body:not(.home) .entry-content label {
+	color: #2a0340 !important;
+}
+
+body:not(.home) .entry-content input, body:not(.home) .entry-content select {
+	color: #454443 !important;
+	border: 1px solid #454443 !important;
+	height: 30px !important; 	
+	background: #FFFFFF;
+}
+
+body:not(.home) .entry-content textarea {
+	color: #454443 !important;
+	border: 1px solid #454443;
+}
+
+body:not(.home) .entry-content .contact-submit button {
+	background: #600283;
+	border: 1px solid #600283;
+	padding: 10px 20px;
+	border-radius: 0;
+	color: #FFFFFF;
+}
+
+body:not(.home) .entry-content .grunion-field-label.checkbox {
+	display: flex;
+}
+
+#post-354 .entry-content, #post-194 .entry-content {
+	max-width: 800px;
+}
+
+body.page-slug-blog main > header {
+	height: 190px;
+	display: flex;
+    flex-direction: column;
+}
+
+body.page-slug-blog main > header::before {
+	content: "BLOG";
+	display: block;
+	font-size: 75px;
+    text-transform: uppercase;
+    margin: auto;
+	color: #FFFFFF !important;
+	position: absolute;
+	left: 50%;
+    transform: translate(-50%, 0);
+    font-weight: 700;
+}
+
+body.page-slug-blog article header.entry-header {
+	height: auto !important;
+}
+
+body.page-slug-blog h1.page-title {
+	font-size: 75px;
+    text-transform: uppercase;
+    margin: auto;
+	color: #FFFFFF !important;
+	position: relative !important;
+	width: auto !important;
+	height: auto !important;
+	clip: auto;
+	clip-path: none;
+	-webkit-clip-path: none;
+}
+
+.screen-reader-text {
+	clip-path: inset(0) !important;
+	-webkit-clip-path: inset(0) !important;	
+}
+
+body.page-slug-blog .entry-title {
+	font-size: 26px !important;
+	margin-bottom: 16px !important;
+}
+
+body.page-slug-blog .entry-title a {
+	color: #2a0340 !important;
+	text-decoration: none !important;
+}
+
+body.page-slug-blog .entry-meta {
+	width: 80%;
+	margin: 0 auto;
+}
+
+body.page-slug-blog .entry-meta, body.page-slug-blog .entry-meta a {
+	color: #2a0340 !important;
+	text-align: left !important;
+}
+
+body.page-slug-blog .entry-content {
+	display: none;
+}
+
+@media (max-width: 767px) {
+	body {
+		background-size: cover !important;
+		background-repeat: no-repeat !important;
+    	background-color: #FFFFFF !important;
+	}	
+
+	body:not(.home) .entry-title {
+		font-size: 40px;
+	}
+
+	body:not(.home) article.page.type-page {
+		padding: 0 !important;
+	}
+
+	body:not(.home) .entry-content .contact-submit button { 
+		margin-top: 16px;
+	}
+
+	body:not(.home) .type-post .entry-title {
+		font-size: 20px !important;
+		width: 90%;
+		margin: 0 auto 8px auto !important;
+	}
+
+	body:not(.home) .type-post .entry-content h2 {
+		font-size: 22px;
+	}
+
+	form.contact-form.commentsblock {
+		display: flex !important;
+		flex-direction: column !important;
+	}
+	
+	p.contact-submit {
+		position: relative !important;
+	}
+
+	body.page-id-433 .entry-content .card {
+		margin-bottom: 30px;
+	}
+
+	body.page-slug-blog .entry-title {
+		font-size: 20px !important;
+	}
+}
+h2.sep.center {
+	font-size: 35px;
+	font-weight: 900;
+	color: #600283 !important;
+	margin-bottom: 50px;
+}
+
+
+body *, body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+section#pages-2 ul li {
+	margin: 2px 7px;
+}
+
+section#pages-2 ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	max-width: 1210px;
+	margin: 0 auto;
+}
+
+section#pages-2 h2 {
+	margin-top: 50px;
+}
+
+section#pages-2 a {
+	color: #fff !important;
+}
+
+.home .entry-content > p:first-of-type {
+	position: absolute;
+	top: -100vh;
+}
+
+button.menu-toggle {
+	background-color: transparent;
+	border: none;
+	font-size: 40px;
+	top: 15px;
+}
+
+.home .img-wrapper img {
+	max-width: 100px;
+}
+
+html body:not(.home) article.page.type-page * {
+	color: #2a0340;
+}
+
+html body:not(.home) {
+	background-size: 100% 300px !important;
+}
+
+html body:not(.home) .entry-header {
+	height: 190px !important;
+}
+
+html li#menu-item-1056 a:hover {
+	opacity: 1;
+}
+
+html li#menu-item-1056 a,
+html div#tix input[type="submit"], 
+html .home li#menu-item-1056 a, 
+html a.featured-home-button {
+	background-color: #fff;
+	border-color: #fefefe !important;
+	color: #600283 !important;
+	transition: 1s ease all;
+	opacity: .85;
+}
+
+footer section#pages-2 {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+strong.tix-ticket-title {
+	display: none;
+}
+
+span.tix-ticket-excerpt {
+	position: relative;
+	top: -15px;
+}
+
+html body div#tix input[type="submit"] {
+	background-color: #600283 !important;
+	color: #fff !important;
+	padding: 15px 35px !important;
+	height: auto !important;
+}
+
+html body div#tix input[type="submit"]:hover {
+	color: #fff !important;
+	background-color: #3f0056 !important;
+}
+
+html #tix thead {
+	border-bottom: 1px solid #3f0056 !important;
+}
+
+div#contact-form-204 {
+	margin-top: 30px;
+}
+
+body:not(.home) .entry-content div#contact-form-204 button {
+	color: #fff !important;
+}
+
+body:not(.home) .entry-content .contact-submit button {
+	color: #fff !important;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	
+	50% {
+		transform: translatey(-20px);
+	}
+	
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+
+
+html .home .entry-content section:nth-of-type(4) img {
+	border-radius: 0;
+}
+
+/* NAVIGATION */
+.menu-principal-container ul li a,
+.menu-principal-container ul li a:after,
+.menu-principal-container ul li a:before {
+	transition: all .5s;
+}
+
+.menu-principal-container ul li a:hover {
+	color: #555;
+}
+
+/* stroke */
+.menu-principal-container ul li a,
+.menu-principal-container ul li a {
+	position: relative;
+}
+
+.menu-principal-container ul li a:after,
+.menu-principal-container ul li a:after {
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 0;
+	content: '.';
+	color: transparent;
+	background: #fff;
+	height: 3px;
+}
+
+.menu-principal-container ul li a:hover:after {
+	width: 100%;
+}
+
+.menu-principal-container ul li a {
+	transition: all 2s;
+}
+
+.menu-principal-container ul li a:after {
+	text-align: left;
+	content: '.';
+	margin: 0;
+	opacity: 0;
+}
+
+.menu-principal-container ul li a:hover {
+	color: #fff;
+	z-index: 1;
+}
+
+.menu-principal-container ul li a:hover:after {
+	z-index: -10;
+	animation: fill 1s forwards;
+	-webkit-animation: fill 1s forwards;
+	-moz-animation: fill 1s forwards;
+	opacity: 1;
+}
+
+li#menu-item-1056 a:after, li#menu-item-1467 a:after {
+	display: none !important;
+}
+
+table {
+	width: 100%;
+	table-layout: fixed;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.tbl-header {
+	background-color: rgba(255,255,255,0.3);
+}
+
+.tbl-content {
+	height: 300px;
+	overflow-x: auto;
+	margin-top: 0;
+	border: 1px solid rgba(255,255,255,0.3);
+}
+
+th {
+	padding: 20px 15px;
+	text-align: left;
+	font-weight: normal;
+	font-size: 16px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+td {
+	padding: 15px;
+	text-align: left;
+	vertical-align: middle;
+	font-weight: normal;
+	font-size: 16px;
+	color: #fff;
+	border-bottom: solid 1px rgba(255,255,255,0.1);
+	letter-spacing: 1px;
+}
+
+tbody tr td:first-child {
+	width: 10%;
+}
+
+tbody tr td:nth-child(2) {
+	width: 70%;
+}
+
+tbody tr td:last-child {
+	width: 20%;
+}
+
+tr.head td {
+	font-weight: 900;
+	font-size: 16px;
+}
+
+@media(max-width: 767px) {
+	tbody tr td:first-child {
+		width: 10%;
+		width: 50px;
+	}
+	
+	tbody tr td:last-child {
+		width: 10%;
+		width: 120px;
+	}
+	
+	.widget.widget_eu_cookie_law_widget {
+		max-width: 300px;
+	}
+	
+	html.js.svg.background-fixed * {
+		overflow-x: hidden;
+	}
+}
+
+html #post-194 .entry-content {
+	max-width: 1200px;
+}
+
+html #post-194 .entry-content td {
+	border-bottom: solid 1px rgba(0,0,0,0.1);
+	letter-spacing: 1px;
+}
+.wcorg-sponsor h3 {
+    display: none;
+}
+
+.wcorg-sponsor-description p {
+    display: none;
+}
+.wcorg-sponsor-description ul,
+.wcorg-sponsor-description p {
+	display: none;
+}
+
+@media(min-width: 768px) {
+	.featured-home-imgs div:first-child img.logo-wordcamp-2019 {
+		animation: float 6s ease-in-out infinite;
+	}
+	[class^=wcorg-sponsor-level-] {
+		display: grid;
+		grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+		align-items: center;
+		justify-content: center;
+	}
+	[class^=wcorg-sponsor-level-] h2 {
+		grid-column-start: 1;
+		grid-column-end: 12;
+	}
+}
+[class^=wcorg-sponsor-level-] h2 {
+	font-size: 22px;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .wcorg-organizer, .wcorg-speaker {
+		-webkit-flex: 0 0 47%;
+    -ms-flex: 0 0 47%;
+    flex: 0 0 47%;
+    align-items: center;
+    text-align: center;
+	}
+}
