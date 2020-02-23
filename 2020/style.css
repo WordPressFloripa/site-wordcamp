@@ -130,7 +130,7 @@ separador de titulo
 .home header.entry-header {
 	display: none;
 }
-li#menu-item-1467 a {
+li#menu-item-1065 a {
 	background: url(https://2019.floripa.wordcamp.org/files/2019/03/logo-wordcamp-floripa.png);
 	width: 162px;
 	height: 84px;
@@ -211,7 +211,7 @@ ul#primary-menu {
 
 /*primeira secao da home*/
 .home .entry-content section:nth-of-type(1) {
-	background: url(https://2019.floripa.wordcamp.org/files/2019/03/fundo-header-home.jpg);
+	background: url("https://2020.floripa.wordcamp.org/files/2020/02/bg-home-wc-2020.jpg");
 	background-size: cover;
 	height: 100vh;
 	display: flex;
@@ -250,11 +250,12 @@ ul#primary-menu {
 }
 
 .featured-home-city {
+  text-transform: uppercase;
 	margin-top: 40px;
-    color: #FFFFFF;
-    font-size: 32px;
-    line-height: 1.1;
-    font-weight: 700;
+  color: #FFFFFF;
+  font-size: 32px;
+  line-height: 1.1;
+  font-weight: 700;
 }
 
 .featured-home-button, 
@@ -264,9 +265,9 @@ ul#primary-menu {
 	margin-top: 25px !important;
 	border: 2px solid #FFFFFF;
 	color: #FFFFFF;
-	padding: 8px 16px;
-	font-weight: 700;
-	font-size: 22px;
+	padding: 12px 18px;
+	font-weight: 900;
+	font-size: 23px;
 	text-decoration: none;
 }
 
@@ -1835,7 +1836,6 @@ html a.featured-home-button {
 	border-color: #fefefe !important;
 	color: #600283 !important;
 	transition: 1s ease all;
-	opacity: .85;
 }
 
 footer section#pages-2 {
