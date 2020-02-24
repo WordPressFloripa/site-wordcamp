@@ -382,24 +382,25 @@ ul#primary-menu {
 }
 
 .which-is-wordcamp-left {
-	width: 50%;
+	width: 55%;
 }
 
 .which-is-wordcamp-right {
-	width: 50%;
+	width: 45%;
 	text-align: right;
 }
 
 .which-is-wordcamp-title {
 	font-size: 35px;
-	font-weight: 900;
+	font-weight: 700;
 	color: #600283 !important;
 	margin-bottom: 50px;
 }
 
 .which-is-wordcamp p, .which-is-wordcamp-text {
 	color: #2a0340;
-	font-size: 18px;
+	font-size: 18px !important;
+  font-weight: 700;
 	line-height: 35px;
 }
 
@@ -442,7 +443,7 @@ ul#primary-menu {
 
 /*home se05 */
 .date-event {
-	background: url(https://2019.floripa.wordcamp.org/files/2019/03/background-ingressos.png);
+	background: url("https://2020.floripa.wordcamp.org/files/2020/02/bg-vem-wc.jpg");
 	background-size: cover;
 	padding-top: 100px;
 	padding-bottom: 150px;
@@ -1482,7 +1483,7 @@ div#tix input[type="submit"] {
   max-width: 562px;
   display: block;
   line-height: 40px;
-  margin: 0 auto 114px auto;
+  margin: 0 auto 74px auto;
 }
 
 /* paginas internas novas */
@@ -1501,7 +1502,7 @@ div#tix input[type="submit"] {
 	font-size: 35px;
 	color: #FFFFFF;
 	font-weight: 700;
-	margin-bottom: 157px;
+	margin-bottom: 137px;
 }
 
 .programacao-sec h3 {
