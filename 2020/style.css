@@ -12,15 +12,15 @@ html {font-size: 16px; }
 
 p {	font-size: 1rem; }
 h2 {
-	color: #2a0340;
-	font-size: 32px;
-	font-weight: 900;
+	color: #600283;
+	font-size: 35px;
+	font-weight: 700;
 	margin: 0;
 	margin: 10px 0 20px;
 }
 h3 {
-	font-size: 24px;
-	font-weight: 900;
+	font-size: 18px;
+	font-weight: 700;
 	color: #2a0340;
 	line-height: 1;
 	margin: 10px 20px;
@@ -223,11 +223,9 @@ ul#primary-menu {
 	max-width: 929px;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
+	text-align: center;
 	flex-direction: column;
 	margin: 0 auto;
-	padding-top: 80px;
 }
 
 .featured-home-imgs {
@@ -251,7 +249,7 @@ ul#primary-menu {
 
 .featured-home-city {
   text-transform: uppercase;
-	margin-top: 40px;
+	margin-top: 100px;
   color: #FFFFFF;
   font-size: 32px;
   line-height: 1.1;
@@ -262,7 +260,7 @@ ul#primary-menu {
 .featured-home-button:hover, 
 .featured-home-button:focus, .featured-home-button:visited {
 	display: inline-block;
-	margin-top: 25px !important;
+	margin-top: 40px !important;
 	border: 2px solid #FFFFFF;
 	color: #FFFFFF;
 	padding: 12px 18px;
@@ -306,7 +304,8 @@ ul#primary-menu {
 	background-color: #FFFFFF;
 	max-width: 1210px;
 	margin: 0 auto;
-	padding: 50px 0;
+  padding: 50px 0;
+  text-align: center;
 }
 
 .about-home-title {
