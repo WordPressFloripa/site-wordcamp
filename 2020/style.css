@@ -1472,7 +1472,7 @@ div#tix input[type="submit"] {
   max-width: 562px;
   display: block;
   line-height: 40px;
-  margin-bottom: 45px;
+  margin: 0 auto 45px auto;
 }
 
 .prog-text2 {
@@ -1482,7 +1482,7 @@ div#tix input[type="submit"] {
   max-width: 562px;
   display: block;
   line-height: 40px;
-  margin-bottom: 114px;
+  margin: 0 auto 114px auto;
 }
 
 /* paginas internas novas */
@@ -1498,7 +1498,7 @@ div#tix input[type="submit"] {
 }
 
 .programacao-sec h2 {
-	font-size: 25px;
+	font-size: 35px;
 	color: #FFFFFF;
 	font-weight: 700;
 	margin-bottom: 157px;
