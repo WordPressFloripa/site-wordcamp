@@ -254,6 +254,7 @@ ul#primary-menu {
   font-size: 32px;
   line-height: 1.1;
   font-weight: 700;
+  letter-spacing: 1.4px;
 }
 
 .featured-home-button, 
@@ -367,8 +368,8 @@ ul#primary-menu {
 }*/
 
 .home .entry-content section:nth-of-type(3) {
-	background-color: #FFFFFF;
-	padding: 50px 0;
+	background: transparent linear-gradient(276deg, #7852F3 0%, #600283 100%) 0% 0% no-repeat padding-box;
+  padding: 50px 0;
 }
 
 .which-is-wordcamp {
@@ -1446,10 +1447,6 @@ a.featured-home-button:hover {
     padding: 30px 0;
 }
 
-.home h2 {
-	font-weight: 900;
-}
-
 div#tix thead {
     border-bottom: 1px solid #fff;
 }
@@ -1466,6 +1463,18 @@ div#tix input[type="submit"] {
     width: 100%;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+.prog-text1 {
+  font-size: 30px;
+  color: #28DFEC;
+  font-weight: 700;
+}
+
+.prog-text2 {
+  font-size: 30px;
+  color: #FFFFFF;
+  font-weight: 700;
 }
 
 /* paginas internas novas */
