@@ -1469,12 +1469,20 @@ div#tix input[type="submit"] {
   font-size: 30px;
   color: #28DFEC;
   font-weight: 700;
+  max-width: 562px;
+  display: block;
+  line-height: 40px;
+  margin-bottom: 45px;
 }
 
 .prog-text2 {
   font-size: 30px;
   color: #FFFFFF;
   font-weight: 700;
+  max-width: 562px;
+  display: block;
+  line-height: 40px;
+  margin-bottom: 114px;
 }
 
 /* paginas internas novas */
@@ -1485,11 +1493,15 @@ div#tix input[type="submit"] {
 	padding: 60px 16px !important;
 }
 
+.programacao-sec p {
+  text-align: center;
+}
+
 .programacao-sec h2 {
-	font-size: 42px;
+	font-size: 25px;
 	color: #FFFFFF;
-	font-weight: 900;
-	margin-bottom: 50px;
+	font-weight: 700;
+	margin-bottom: 157px;
 }
 
 .programacao-sec h3 {
