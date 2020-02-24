@@ -211,7 +211,7 @@ ul#primary-menu {
 
 /*primeira secao da home*/
 .home .entry-content section:nth-of-type(1) {
-	background: url("https://2020.floripa.wordcamp.org/files/2020/02/bg-home-wc-2020.jpg");
+	background: url("https://2020.floripa.wordcamp.org/files/2020/02/bg-home-wc-2020.jpg") center;
 	background-size: cover;
 	height: 100vh;
 	display: flex;
@@ -444,7 +444,7 @@ ul#primary-menu {
 /*home se05 */
 .date-event {
   height: 644px;
-	background: url("https://2020.floripa.wordcamp.org/files/2020/02/bg-vem-wc.jpg");
+	background: url("https://2020.floripa.wordcamp.org/files/2020/02/bg-vem-wc.jpg") center;
 	background-size: cover;
 	padding-top: 100px;
   padding-bottom: 150px;
