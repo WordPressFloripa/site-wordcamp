@@ -443,28 +443,36 @@ ul#primary-menu {
 
 /*home se05 */
 .date-event {
+  height: 644px;
 	background: url("https://2020.floripa.wordcamp.org/files/2020/02/bg-vem-wc.jpg");
 	background-size: cover;
 	padding-top: 100px;
-	padding-bottom: 150px;
+  padding-bottom: 150px;
+  display: flex;
 }
 
 .date-event-container {
 	width: 100%;
 	max-width: 1100px;
-	margin: 0 auto;
+	margin: auto;
 	display: flex;
-	justify-content: space-between;
+  justify-content: flex-end;
 }
 
-.date-event-container div {
-	flex: 1 50%;
+.date-event-left {
+  width: 100%;
+  max-width: 407px;
+}
+
+.date-event-right {
+  width: 100%;
+  max-width: 314px;
 }
 
 .date-event-title {
 	font-size: 75px;
 	color: #FFFFFF;
-	font-weight: 700;
+	font-weight: 900;
 	text-align: left;
 	margin-bottom: 36px;
 	line-height: 75px;
@@ -473,24 +481,23 @@ ul#primary-menu {
 .date-event-subtitle {
 	font-size: 45px;
 	color: #FFFFFF;
-	font-weight: 700;
+	font-weight: 900;
 	text-align: left;
 	line-height: 50px;
 	margin: 0;
 }
 
 .date-event-day {
-	font-size: 80px;
+	font-size: 84px;
 	color: #FFFFFF;
 	font-weight: 700;
 	text-align: right;
-	margin-bottom: 27px;
-	line-height: 90px;
+	line-height: 95px;
 }
 
 .date-event-hour {
-	font-size: 39px;
-	line-height: 40px;
+	font-size: 53px;
+	line-height: 95px;
 	color: #FFFFFF;
 	font-weight: 700;
 	margin: 0;
@@ -498,17 +505,30 @@ ul#primary-menu {
 }
 
 .date-event-h4 {
-	font-size: 30px;
+  font-size: 29px;
+  line-height: 87px;
 	color: #FFFFFF;
 	text-align: right;
 	margin: 0;
 }
 
 .date-event-h5 {
-	font-size: 25px;
+	font-size: 29px;
+  line-height: 87px;
 	color: #FFFFFF;
 	text-align: right;
 	margin: 0;
+}
+
+.date-event-btn {
+  display: inline-block;
+  margin-top: 40px !important;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  padding: 12px 18px;
+  font-weight: 900;
+  font-size: 23px;
+  text-decoration: none;
 }
 
 .date-event div p {
