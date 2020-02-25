@@ -382,7 +382,6 @@ ul#primary-menu {
 
 .which-is-wordcamp-left {
   width: 59%;
-  margin-right: 65px;
 }
 
 .which-is-wordcamp-right {
@@ -462,11 +461,12 @@ ul#primary-menu {
 .date-event-left {
   width: 100%;
   max-width: 407px;
+  margin-right: 65px;
 }
 
 .date-event-right {
   width: 100%;
-  max-width: 314px;
+  max-width: 317px;
 }
 
 .date-event-title {
