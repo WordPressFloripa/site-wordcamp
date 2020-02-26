@@ -473,7 +473,8 @@ ul#primary-menu {
 	font-size: 75px;
 	color: #FFFFFF;
 	font-weight: 900;
-	text-align: left;
+  text-align: left;
+  margin-top: 0;
 	margin-bottom: 36px;
 	line-height: 75px;
 }
@@ -1543,15 +1544,15 @@ div#tix input[type="submit"] {
 
 /* interna palestre */
 body.page-id-424 {
-	background: url(https://2019.floripa.wordcamp.org/files/2019/03/banner-palestre.png) !important;
-    background-repeat: no-repeat !important;
+	background: url("https://2020.floripa.wordcamp.org/files/2020/02/bg-palestre.jpg") center !important;
+  background-repeat: no-repeat !important;
 	background-color: #FFFFFF !important;
 }
 
 /* interna patrocine */
 body.page-id-433 {
-	background: url(https://2019.floripa.wordcamp.org/files/2019/03/banner-patrocine.png) !important;
-    background-repeat: no-repeat !important;
+	background: url("https://2020.floripa.wordcamp.org/files/2020/02/bg-patrocine.jpg") center !important;
+  background-repeat: no-repeat !important;
 	background-color: #FFFFFF !important;
 }
 
@@ -1573,8 +1574,8 @@ body.page-id-433 .entry-content .card {
 
 /* interna organizadores e palestrantes */
 body.page-id-199 {
-	background: url(https://2019.floripa.wordcamp.org/files/2019/03/banner-organizadores.png) !important;
-    background-repeat: no-repeat !important;
+	background: url("https://2020.floripa.wordcamp.org/files/2020/02/bg-organizadores.jpg") center !important;
+  background-repeat: no-repeat !important;
 	background-color: #FFFFFF !important;
 }
 body.page-id-199 .entry-content .wcorg-organizer, body.page-id-195 .entry-content .wcorg-speaker {
@@ -1588,8 +1589,8 @@ body.page-id-199 .entry-content .wcorg-organizer, body.page-id-195 .entry-conten
 
 /* interna contato */
 body.page-id-204 {
-	background: url(https://2019.floripa.wordcamp.org/files/2019/03/banner-contato.png) !important;
-    background-repeat: no-repeat !important;
+	background: url("https://2020.floripa.wordcamp.org/files/2020/02/bg-contato.jpg") center !important;
+  background-repeat: no-repeat !important;
 	background-color: #FFFFFF !important;
 }
 
