@@ -1544,14 +1544,14 @@ div#tix input[type="submit"] {
 
 /* interna palestre */
 body.page-id-424 {
-	background: url("https://2020.floripa.wordcamp.org/files/2020/02/bg-palestre.jpg") center !important;
+	background: url("https://2020.floripa.wordcamp.org/files/2020/02/bg-palestre.jpg") !important;
   background-repeat: no-repeat !important;
 	background-color: #FFFFFF !important;
 }
 
 /* interna patrocine */
 body.page-id-433 {
-	background: url("https://2020.floripa.wordcamp.org/files/2020/02/bg-patrocine.jpg") center !important;
+	background: url("https://2020.floripa.wordcamp.org/files/2020/02/bg-patrocine.jpg") !important;
   background-repeat: no-repeat !important;
 	background-color: #FFFFFF !important;
 }
@@ -1574,7 +1574,7 @@ body.page-id-433 .entry-content .card {
 
 /* interna organizadores e palestrantes */
 body.page-id-199 {
-	background: url("https://2020.floripa.wordcamp.org/files/2020/02/bg-organizadores.jpg") center !important;
+	background: url("https://2020.floripa.wordcamp.org/files/2020/02/bg-organizadores.jpg") !important;
   background-repeat: no-repeat !important;
 	background-color: #FFFFFF !important;
 }
@@ -1589,7 +1589,7 @@ body.page-id-199 .entry-content .wcorg-organizer, body.page-id-195 .entry-conten
 
 /* interna contato */
 body.page-id-204 {
-	background: url("https://2020.floripa.wordcamp.org/files/2020/02/bg-contato.jpg") center !important;
+	background: url("https://2020.floripa.wordcamp.org/files/2020/02/bg-contato.jpg") !important;
   background-repeat: no-repeat !important;
 	background-color: #FFFFFF !important;
 }
