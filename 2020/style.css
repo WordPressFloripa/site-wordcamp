@@ -164,7 +164,7 @@ nav#site-navigation {
 	color: #FFFFFF;
 }
 
-.home nav#site-navigation ul li#menu-item-1467 a {
+.home nav#site-navigation ul li#menu-item-1065 a {
 	color: transparent;
 }
 @media (min-width: 768px) {
@@ -894,13 +894,14 @@ article.post-13 table.tix_tickets_table.tix-attendee-form tr .tix-right input[ty
 
 /*footer*/
 footer {
-	background-color: #530580;
+  background: #7852F3 0% 0% no-repeat padding-box;
 }
 
 div#footer-widgets {
 	display: flex;
 	flex-wrap: wrap;
-	padding: 50px 5vw;
+  padding: 50px 5vw;
+  background: transparent linear-gradient(273deg, #7852F3 0%, #600283 100%) 0% 0% no-repeat padding-box;
 }
 div#footer-widgets > div {
 	max-width: 33%;
@@ -972,7 +973,7 @@ footer .site-info a, footer .site-info a:hover {
 	.page-navigation-container ul li { 
 		display: none;
 	}
-	.page-navigation-container ul li#menu-item-1467 { 
+	.page-navigation-container ul li#menu-item-1065 { 
 		display: block !important;
 		margin-right: 0;
 		background: transparent !important;
@@ -1805,7 +1806,7 @@ body.page-slug-blog .entry-content {
 }
 h2.sep.center {
 	font-size: 35px;
-	font-weight: 900;
+	font-weight: 700;
 	color: #600283 !important;
 	margin-bottom: 50px;
 }
@@ -1999,7 +2000,7 @@ html .home .entry-content section:nth-of-type(4) img {
 	opacity: 1;
 }
 
-li#menu-item-1056 a:after, li#menu-item-1467 a:after {
+li#menu-item-1056 a:after, li#menu-item-1065 a:after {
 	display: none !important;
 }
 
