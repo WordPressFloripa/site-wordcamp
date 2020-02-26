@@ -42,7 +42,7 @@ h4 {
 secoes
 */
 .page .entry-content > section {
-	padding: 50px 5vw;
+	padding: 100px 5vw;
 }
 /*
 grind
@@ -150,8 +150,8 @@ li#menu-item-1056 a {
 	padding: 8px 16px;
 	text-transform: uppercase;
 }
-.home li#menu-item-1131 a {
-  color: #600283;
+li#menu-item-1131 a {
+  color: #600283 !important;
   font-size: 14px;
   font-weight: 900;
   text-transform: uppercase;
@@ -312,7 +312,7 @@ ul#primary-menu {
 	background-color: #FFFFFF;
 	max-width: 1210px;
 	margin: 0 auto;
-  padding: 60px 0;
+  padding: 100px 0;
   text-align: center;
 }
 
