@@ -304,7 +304,7 @@ ul#primary-menu {
 	background-color: #FFFFFF;
 	max-width: 1210px;
 	margin: 0 auto;
-  padding: 50px 0;
+  padding: 60px 0;
   text-align: center;
 }
 
@@ -1512,7 +1512,7 @@ div#tix input[type="submit"] {
 .programacao-sec {
 	background-image: linear-gradient(276deg, #28dfec, #600283);
 	text-align: center;
-	padding: 60px 16px !important;
+	padding: 100px 16px !important;
 }
 
 .programacao-sec p {
@@ -1859,11 +1859,11 @@ html body:not(.home) article.page.type-page * {
 }
 
 html body:not(.home) {
-	background-size: 100% 300px !important;
+	background-size: 100% 523px !important;
 }
 
 html body:not(.home) .entry-header {
-	height: 190px !important;
+	height: 370px !important;
 }
 
 html li#menu-item-1056 a:hover {
