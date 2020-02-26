@@ -150,6 +150,14 @@ li#menu-item-1056 a {
 	padding: 8px 16px;
 	text-transform: uppercase;
 }
+.home li#menu-item-1131 a {
+  color: #600283;
+  font-size: 14px;
+  font-weight: 900;
+  text-transform: uppercase;
+  background: #FFFFFF;
+  padding: 16px;  
+}
 
 nav#site-navigation {
 	background: #FFFFFF;
@@ -2001,7 +2009,7 @@ html .home .entry-content section:nth-of-type(4) img {
 	opacity: 1;
 }
 
-li#menu-item-1056 a:after, li#menu-item-1065 a:after {
+li#menu-item-1131 a:after, li#menu-item-1065 a:after {
 	display: none !important;
 }
 
