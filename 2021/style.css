@@ -1,0 +1,598 @@
+/*
+tipografia
+*/
+body, p, h1, h2, h3, h4, a, span, strong, b, li {
+	font-family: 'Montserrat', sans-serif;
+}
+
+html {
+	font-size: 16px;
+}
+
+@media (max-width: 767px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+p {
+	font-size: 1rem;
+}
+
+h2 {
+	color: #600283;
+	font-size: 35px;
+	font-weight: 700;
+	margin: 0;
+	margin: 10px 0 20px;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: 700;
+	color: #2a0340;
+	line-height: 1;
+	margin: 10px 20px;
+}
+
+h4 {
+	font-size: 20px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+
+.page section p {
+	font-size: 20px;
+}
+
+.center {
+	text-align: center;
+}
+
+/*
+secoes
+*/
+.page .entry-content>section {
+	padding: 100px 5vw;
+}
+
+
+/*
+removendo margin do conteudo em relacao ao header
+*/
+body .entry-content {
+	margin: 0 auto;
+}
+
+footer.entry-footer {
+	display: none;
+}
+
+/*
+botao
+*/
+a.btn {
+	background-color: #ffd215;
+	color: #461701;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 900;
+	padding: 16px 30px;
+	border-radius: 5px;
+	border-bottom: 4px solid #c6a002;
+	font-size: 16px;
+	display: inline-block;
+	margin: 20px 0;
+}
+
+/*botao default todo site*/
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+	background: #ffd215;
+	padding: 18px 20px;
+	border-radius: 5px;
+	color: #444;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 15px;
+}
+
+/*botao default todo site*/
+/*
+separador de titulo
+*/
+.sep {
+	margin-bottom: 0;
+}
+
+.sep+hr {
+	margin: 10px 0 30px;
+	width: 50px;
+	height: 4px;
+	background: #883db3;
+}
+
+.sep.center+hr {
+	margin: 0 auto 30px;
+}
+
+/*header*/
+.home header.entry-header {
+	display: none;
+}
+
+li#menu-item-138 a {
+	background: url('https://2019.floripa.wordcamp.org/files/2019/03/logo-wordcamp-floripa.png');
+	width: 162px;
+	height: 84px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: transparent;
+}
+
+li#menu-item-1056 a {
+	border: 1px solid #600283;
+	font-weight: 700;
+	padding: 8px 16px;
+	text-transform: uppercase;
+}
+
+.home li#menu-item-1056 a {
+	border: 1px solid #FFFFFF;
+	font-weight: 700;
+	padding: 8px 16px;
+	text-transform: uppercase;
+}
+
+li#menu-item-168 a {
+	color: #600283 !important;
+	font-size: 14px;
+	font-weight: 900;
+	text-transform: uppercase;
+	background: #FFFFFF;
+	padding: 16px;
+}
+
+nav#site-navigation {
+	background: #FFFFFF;
+	padding: 16px;
+}
+
+.home nav#site-navigation {
+	position: absolute;
+	background-color: transparent;
+}
+
+.home nav#site-navigation ul li a {
+	color: #FFFFFF;
+}
+
+.home nav#site-navigation ul li#menu-item-138 a {
+	color: transparent;
+}
+
+@media (min-width: 768px) {
+	body .page-navigation-container ul {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	
+	li#menu-item-662 a {
+		background: #ffd215;
+		padding: 18px 20px;
+		border-radius: 5px;
+		color: #444;
+		text-transform: uppercase;
+		font-weight: bolder;
+		margin-left: 20px;
+		font-size: 15px;
+	}
+}
+
+.page-navigation-container a {
+	color: #600283;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+li#menu-item-203 {
+	margin-right: 80px;
+}
+
+li#menu-item-204 a {
+	background: #ffd215;
+	padding: 18px 20px;
+	border-radius: 5px;
+	color: #444;
+	text-transform: uppercase;
+	font-weight: bolder;
+	margin-left: 20px;
+	font-size: 15px;
+}
+
+ul#primary-menu {
+	max-width: 90vw;
+	margin: 0 auto;
+}
+
+/*primeira secao da home*/
+
+.featured-home {
+	width: 100%;
+	max-width: 929px;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+.featured-home-imgs {
+	display: flex;
+	align-items: flex-end;
+	max-width: 600px;
+}
+
+.featured-home p {
+	margin: 0;
+}
+
+.featured-home-slogan {
+	margin-top: 20px;
+	color: #FFFFFF;
+	font-size: 21px;
+	line-height: 43.8px;
+	line-height: 10px;
+	font-weight: 500;
+}
+
+.featured-home-city {
+	text-transform: uppercase;
+	margin-top: 100px;
+	color: #FFFFFF;
+	font-size: 32px;
+	line-height: 1.1;
+	font-weight: 700;
+	letter-spacing: 1.4px;
+}
+
+.featured-home-button, .featured-home-button:hover, .featured-home-button:focus, .featured-home-button:visited {
+	display: inline-block;
+	margin-top: 40px !important;
+	border: 2px solid #FFFFFF;
+	color: #FFFFFF;
+	padding: 12px 18px;
+	font-weight: 900;
+	font-size: 23px;
+	text-decoration: none;
+}
+
+@media (max-width: 767px) {
+	.home .entry-content section:nth-of-type(1) {
+		height: auto;
+	}
+	
+	.featured-home-slogan {
+		text-align: center;
+		margin-left: 0;
+		line-height: 1;
+		font-size: 24px;
+		margin-bottom: 10px;
+	}
+	
+	.featured-home-city {
+		margin-top: 20px;
+		font-size: 30px;
+		line-height: 35px;
+		text-align: center;
+	}
+	
+	.featured-home-button, .featured-home-button:hover, .featured-home-button:focus, .featured-home-button:visited {
+		font-size: 18px;
+	}
+}
+
+
+/*footer*/
+footer {
+	background: #7852F3 0 0 no-repeat padding-box;
+}
+
+div#footer-widgets {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 50px 5vw;
+	background: transparent linear-gradient(273deg,#7852F3 0%,#600283 100%) 0 0 no-repeat padding-box;
+}
+
+div#footer-widgets>div {
+	max-width: 33%;
+	width: 100%;
+}
+
+footer ul, footer li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+footer li.menu-item a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	padding: 3px 0;
+	display: block;
+}
+
+footer #menu-footer-1 li a {
+	font-weight: bold;
+}
+
+footer #menu-footer-1 .sub-menu li a {
+	font-weight: normal;
+}
+
+footer #menu-footer-2 li a {
+	font-weight: bold;
+}
+
+footer #menu-footer-2 .sub-menu li a {
+	font-weight: normal;
+}
+
+footer .site-info {
+	background-color: #2a0340;
+	text-align: center;
+	padding: 15px 0;
+}
+
+footer .site-info a, footer .site-info a:hover {
+	color: white;
+	text-decoration: none;
+	margin: 0;
+}
+
+.widget_wpcom_social_media_icons_widget ul li {
+	width: 37px;
+	border-radius: 50%;
+	height: 37px;
+	background-color: #ffd215;
+	text-align: center;
+	display: inline-block !important;
+}
+
+.widget_wpcom_social_media_icons_widget ul li a {
+	vertical-align: -webkit-baseline-middle;
+	vertical-align: -moz-middle-with-baseline;
+	color: #461701;
+}
+
+@media (max-width: 767px) {
+	/* menu */
+	.page-navigation-container ul {
+		display: block;
+	}
+	
+	.page-navigation-container ul li {
+		display: none;
+	}
+	
+	.page-navigation-container ul li#menu-item-138 {
+		display: block !important;
+		margin-right: 0;
+		background: transparent !important;
+		margin-bottom: 20px;
+		padding: 0 !important;
+	}
+	
+	.page-navigation-container.toggled-on ul li {
+		display: block !important;
+		float: none;
+		background-color: rgba(0,0,0,.7);
+		padding: 10px;
+	}
+	
+	.menu-toggle {
+		position: absolute;
+		right: 20px;
+		top: 40px;
+		z-index: 999;
+		width: 70px;
+		height: 50px;
+		color: transparent;
+		outline: none;
+	}
+	
+	button.menu-toggle::after {
+		content: '\f0c9';
+		font-family: FontAwesome;
+		color: #FFFFFF;
+		position: absolute;
+		left: 0;
+		text-align: center;
+		width: 100%;
+		top: 18px;
+	}
+	
+	.page-navigation-container a {
+		padding-bottom: 6px;
+		font-size: 17px;
+		padding-left: 20px;
+	}
+	
+	/* page organizadores e palestrantes */
+	.wcorg-organizer, .wcorg-speaker {
+		-webkit-flex: 0 0 94%;
+		-ms-flex: 0 0 94%;
+		flex: 0 0 94%;
+		align-items: center;
+		text-align: center;
+	}
+	
+	.wcorg-speaker h2 {
+		font-size: 2.2rem !important;
+	}
+	
+	/* page organizadores */
+	/* page patrocinadores */
+	.wcorg-sponsor-description img {
+		max-width: 70%;
+	}
+	
+	/* page patrocinadores */
+	/* footer */
+	div#footer-widgets>div {
+		max-width: 100%;
+		width: 100%;
+	}
+	
+	footer .site-info a, footer .site-info a:hover {
+		color: white;
+		text-decoration: none;
+		margin: 10px 0;
+		display: block;
+	}/* footer */
+	
+}
+
+/*css que estava no tema*/
+body ul#primary-menu {
+	max-width: 1210px !important;
+}
+
+.wcorg-organizer {
+	padding: 0 40px;
+}
+
+div#contact-form-433 input {
+	width: 100%;
+	max-width: 100%;
+}
+
+.contact-form select {
+	width: 100%;
+	height: 45px;
+	border-radius: 5px;
+}
+
+body hr {
+	margin: 50px auto;
+}
+
+
+@media(min-width: 768px) {
+
+}
+
+
+/* NAVIGATION */
+.menu-principal-container ul li a, .menu-principal-container ul li a:after, .menu-principal-container ul li a:before {
+	transition: all .5s;
+}
+
+.menu-principal-container ul li a:hover {
+	color: #555;
+}
+
+/* stroke */
+.menu-principal-container ul li a, .menu-principal-container ul li a {
+	position: relative;
+}
+
+.menu-principal-container ul li a:after, .menu-principal-container ul li a:after {
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 0;
+	content: '.';
+	color: transparent;
+	background: #fff;
+	height: 3px;
+}
+
+.menu-principal-container ul li a:hover:after {
+	width: 100%;
+}
+
+.menu-principal-container ul li a {
+	transition: all 2s;
+}
+
+.menu-principal-container ul li a:after {
+	text-align: left;
+	content: '.';
+	margin: 0;
+	opacity: 0;
+}
+
+.menu-principal-container ul li a:hover {
+	color: #fff;
+	z-index: 1;
+}
+
+.menu-principal-container ul li a:hover:after {
+	z-index: -10;
+	animation: fill 1s forwards;
+	-webkit-animation: fill 1s forwards;
+	-moz-animation: fill 1s forwards;
+	opacity: 1;
+}
+
+li#menu-item-138 a:after, li#menu-item-138 a:after {
+	display: none !important;
+}
+
+table {
+	width: 100%;
+	table-layout: fixed;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+
+.wcorg-sponsor h3 {
+	display: none;
+}
+
+.wcorg-sponsor-description p {
+	display: none;
+}
+
+.wcorg-sponsor-description ul, .wcorg-sponsor-description p {
+	display: none;
+}
+
+@media(min-width: 768px) {
+	.featured-home-imgs div:first-child img.logo-wordcamp-2019 {
+		animation: float 6s ease-in-out infinite;
+	}
+	
+	[class^=wcorg-sponsor-level-] {
+		display: grid;
+		grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+		align-items: center;
+		justify-content: center;
+	}
+	
+	[class^=wcorg-sponsor-level-] h2 {
+		grid-column-start: 1;
+		grid-column-end: 12;
+	}
+}
+
+[class^=wcorg-sponsor-level-] h2 {
+	font-size: 22px;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+	.wcorg-organizer, .wcorg-speaker {
+		-webkit-flex: 0 0 47%;
+		-ms-flex: 0 0 47%;
+		flex: 0 0 47%;
+		align-items: center;
+		text-align: center;
+	}
+}
