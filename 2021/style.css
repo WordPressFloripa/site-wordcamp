@@ -10,9 +10,11 @@ html {
 }
 
 h2 {
+	color: #2D013F;
 	font-size: 80px;
 	font-weight: 700;
 	line-height: 92px;
+	margin: 20px 0;
 }
 
 @media (max-width: 767px) {
@@ -22,7 +24,14 @@ h2 {
 }
 
 /* 
- * Header/Menu 
+Oculta Títulos 
+*/
+.home header.entry-header {
+	display: none;
+}
+
+/* 
+Header/Menu 
 */
 header#masthead {
 	display: flex;
@@ -55,9 +64,243 @@ ul#primary-menu li a {
 }
 
 /* 
-Página Inicial  
+Página Inicial - Hero
 */
 
-.home header.entry-header {
-	display: none;
+.home #hero {
+	min-height: calc(100vh - 143px);
+}
+
+.home #hero p {
+	font-size: 36px;
+	margin: 20px 0;
+}
+
+/* 
+Página Inicial - O que vai ter
+*/
+
+#vai-ter {
+	background: #F9F9F9;
+	padding: 90px 0;
+}
+
+#vai-ter .vai-ter-grupo {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+#vai-ter .vai-ter-icon figure {
+	background: #fff;
+	border-radius: 30px;
+	width: 230px;
+	height: 230px;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+#vai-ter .vai-ter-icon figure img {
+	border-radius: 0;
+}
+
+#vai-ter h3 {
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 42px;
+}
+
+/* 
+Página Inicial - Submeter
+*/
+
+#submeter {
+	padding: 120px 20px 90px 20px;	
+}
+
+#submeter .submeter-grupo {
+	background-color: #2D013F;
+	max-width: 1140px;
+	margin: 0 auto;
+	border-radius: 20px;
+}
+
+#submeter h2 {
+	color: #fff;
+	font-size: 64px;
+	line-height: 70px;
+	margin: 20px 0;
+}
+
+#submeter p {
+	color: #fff;
+	font-size: 28px;
+	margin: 20px 0;
+}
+
+#submeter .submeter-img {
+	margin-top: -70px;
+	margin-bottom: 0;
+}
+
+/* 
+Página Inicial - Programação
+*/
+
+#programacao {
+	padding: 90px 0;
+	background: #F9F9F9;
+}
+
+#programacao > p {
+	color: #88868A;
+	font-size: 36px;
+}
+
+/* 
+Página Inicial - Programação 
+*/
+
+#programacao .wordcamp-session {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 0;
+}
+
+#programacao .wordcamp-sessions {
+	padding: 0;
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+#programacao li.wordcamp-post-list__post {
+	background: #fff;
+	border-radius: 20px;
+	padding: 10px 20px;
+}
+
+#programacao .wordcamp-image__featured-image-container {
+	order: 1;
+	width: 206px;
+	height: 206px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+#programacao img.wordcamp-image__featured-image {
+    max-width: 100%;
+    height: 100%;
+}
+
+#programacao .wordcamp-sessions__time-location {
+	color: #88868A;
+	order: 2
+	background: rgba(196, 196, 196, 0.2);
+	padding: 10px 20px;
+	border-radius: 20px;
+}
+
+#programacao .wordcamp-sessions__title {
+	order: 3;
+}
+
+#programacao h3 {
+	font-size: 28px;
+	line-height: 30px;
+}
+
+#programacao h3 a {
+	color: #2D013F;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#programacao .wordcamp-sessions__speakers {
+	order: 4;
+	text-align: center;
+}
+
+#programacao .wordcamp-sessions__speakers a {
+	font-size: 24px;
+	display: block;
+	color: #FF8800;
+	text-decoration: none;
+}
+
+/* 
+Página Inicial - O que é
+*/
+#o-que-e {
+	background: #2D013F;
+	color: #fff;
+	padding: 90px 0;
+}
+
+#o-que-e .coluna-oque-e {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+#o-que-e h2 {
+	color: #fff;
+}
+
+#o-que-e p {
+	font-size: 24px;
+}
+
+/* 
+Página Inicial - Patrocinadores
+*/
+#patrocinadores {
+	padding: 90px 0;
+}
+
+#patrocinadores .patrocinadores-list {
+	display: flex;
+	margin: 60px auto 0;
+	padding: 0;
+	max-width: 1140px;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/* 
+Footer
+*/
+
+footer.site-footer {
+	background: #F9F9F9;
+	padding: 90px 0;
+}
+
+footer #footer-widgets {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-content: center;
+	justify-content: space-evenly;
+	align-items: center;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+footer .site-info {
+    text-align: center;
+}
+
+footer .site-info a {
+	color: #88868A;
+	text-decoration: none;
+	font-size: 12px;
 }
