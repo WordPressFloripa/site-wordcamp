@@ -67,11 +67,10 @@ h2 {
 /* 
 Layout
 */
-
 .error404 #main, 
 .search #main,
 .single-wcb_speaker #main,
-.page #main {
+.page-slug-codigo-de-conduta #main {
 	max-width: 1140px;
 	margin: 0 auto;
 	padding: 20px;
@@ -167,7 +166,6 @@ input[type=submit] {
 /* 
 Sessões
 */
-
 #content section:not(#hero) {
 	padding: 90px 20px;
 }
@@ -185,7 +183,6 @@ Sessões
 /* 
 Header/Menu 
 */
-
 header#masthead {
 	display: flex;
 	flex-direction: row;
@@ -227,6 +224,13 @@ nav#site-navigation {
 	}
 }
 
+@media (min-width: 769px) {
+	.page-navigation-container ul {
+		display: flex;
+		align-items: center;
+	}
+}
+
 nav#site-navigation ul#primary-menu li {
 	margin: 0 20px;
 }
@@ -239,6 +243,13 @@ nav#site-navigation ul#primary-menu li a {
 
 nav#site-navigation ul#primary-menu li.current-menu-item a {
 	color: #ff8800 !important;
+}
+
+ul#primary-menu li:last-child a {
+	background: #ff8800;
+	border-radius: 10px;
+	color: #fff !important;
+	padding: 10px 20px;
 }
 
 @media (max-width: 767px) {
@@ -284,7 +295,7 @@ nav#site-navigation ul#primary-menu li.current-menu-item a {
 		width: 100%;
 		top: 5px;
 	}
-
+	
 	.page-navigation-container a {
 		padding-bottom: 6px;
 		font-size: 17px;
@@ -577,13 +588,12 @@ Página Inicial - Patrocinadores
 /* 
 Página Sobre
 */
-
 @media (max-width: 767px) {
 	.page-slug-sobre #hero {
 		padding: 0 20px;
 	}
 	
-	.page-slug-sobre #hero img{
+	.page-slug-sobre #hero img {
 		max-width: 180px;
 		margin: 0 auto;
 		display: block;
@@ -635,7 +645,7 @@ Página Patrocine
 		margin: 25px 0;
 		padding: 2.3em;
 	}
-
+	
 	.page-slug-patrocine .card-patrocine h2 {
 		font-size: 36px;
 		line-height: 40px;
@@ -647,12 +657,12 @@ Página Patrocine
 	}
 	
 	.page-slug-patrocine .card-patrocine ul {
-   		margin: 20px 0 0 15px;
-    	padding: 0;
+		margin: 20px 0 0 15px;
+		padding: 0;
 	}
 	
 	.page-slug-patrocine .card-patrocine ul li {
-    	font-size: 16px;
+		font-size: 16px;
 	}
 }
 
@@ -701,29 +711,28 @@ Página -Organizadores
 }
 
 @media (max-width: 767px) {
-	.page-slug-organizadores #hero img{
+	.page-slug-organizadores #hero img {
 		max-width: 217px;
 		margin: 0 auto;
 		display: block;
 	}
-
+	
 	.page-slug-organizadores h3.wordcamp-block__item-title.wordcamp-organizers__title {
 		font-size: 20px;
-    	line-height: 23px;
+		line-height: 23px;
 	}
-
+	
 	.page-slug-organizadores .wordcamp-organizers__content p {
-    	font-size: 18px;
-    	line-height: 25px;
+		font-size: 18px;
+		line-height: 25px;
 	}
 }
 
 /* 
 Página Contato
 */
-
 @media (max-width: 767px) {
-	.page-slug-contato #hero img{
+	.page-slug-contato #hero img {
 		max-width: 200px;
 		margin: 0 auto;
 		display: block;
@@ -733,7 +742,6 @@ Página Contato
 /* 
 Página Speaker
 */
-
 .single-wcb_speaker #main .speaker-avatar {
 	width: 80px;
 	height: 80px;
@@ -754,7 +762,7 @@ Página Speaker
 	padding: 0;
 }
 
-.single-wcb_speaker #main  #speaker-session-names li a{
+.single-wcb_speaker #main  #speaker-session-names li a {
 	color: #FF8800;
 	font-size: 22px;
 	line-height: 32px;
@@ -764,8 +772,7 @@ Página Speaker
 /* 
 Páginas de Sessão
 */
-
-.single-wcb_session #main{
+.single-wcb_session #main {
 	max-width: 1140px;
 	margin: 0 auto;
 	padding: 20px;
@@ -774,7 +781,7 @@ Páginas de Sessão
 .single-wcb_session #main h2 {
 	font-size: 39px;
 	font-weight: 700;
-  line-height: 45px;
+	line-height: 45px;
 }
 
 .single-wcb_session #main p {
@@ -786,18 +793,16 @@ Páginas de Sessão
 	padding: 0;
 }
 
-.single-wcb_session #session-speaker-names li a, .single-wcb_session #speaker-session-names li a{
+.single-wcb_session #session-speaker-names li a, .single-wcb_session #speaker-session-names li a {
 	color: #FF8800;
 	font-size: 33px;
 	line-height: 42px;
 	text-decoration: none;
 }
 
-
 /* 
 Footer
 */
-
 footer.site-footer {
 	background: #F9F9F9;
 	padding: 90px 0;
