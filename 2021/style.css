@@ -65,6 +65,19 @@ h2 {
 }
 
 /* 
+Layout
+*/
+
+.error404 #main, 
+.search #main,
+.single-wcb_speaker #main,
+.page #main {
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+/* 
 Helpers
 */
 .max-730px {
@@ -721,12 +734,6 @@ Página Contato
 Página Speaker
 */
 
-.single-wcb_speaker #main{
-	max-width: 1140px;
-	margin: 0 auto;
-	padding: 20px;
-}
-
 .single-wcb_speaker #main .speaker-avatar {
 	width: 80px;
 	height: 80px;
@@ -786,19 +793,11 @@ Páginas de Sessão
 	text-decoration: none;
 }
 
-/* 
-404/Busca
-*/
-
-.error404 #main, .search #main {
-	max-width: 1140px;
-	margin: 0 auto;
-	padding: 20px;
-}
 
 /* 
 Footer
 */
+
 footer.site-footer {
 	background: #F9F9F9;
 	padding: 90px 0;
