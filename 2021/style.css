@@ -800,6 +800,46 @@ Páginas de Sessão
 	text-decoration: none;
 }
 
+
+/* 
+Inscriçoes
+*/
+
+#tix {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+table.tix_tickets_table.tix-order-summary {
+	text-align: left;
+	background: #f5f5f5;
+}
+
+h2#tix-registration-information {
+    text-align: center;
+}
+
+input#tix_attendee_info-1-first_name, #tix_attendee_info-1-last_name, #tix_attendee_info-1-email {
+    width: 100%;
+    border-radius: 10px;
+    min-height: 45px;
+}
+
+table.tix_tickets_table.tix-attendee-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+table.tix_tickets_table.tix-order-summary tr th, table.tix_tickets_table.tix-order-summary tr td {
+    padding: 10px;
+}
+
+table.tix_tickets_table.tix-attendee-form td {
+  display: block;
+  margin: 10px 0;
+	width: 100%;
+}
+
 /* 
 Footer
 */
